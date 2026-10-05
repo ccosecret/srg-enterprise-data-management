@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1640" height="880" viewBox="0 0 1640 880" font-family="DejaVu Sans, Liberation Sans, Arial, sans-serif">
+<rect width="1640" height="880" fill="#ffffff"/>
+<defs><marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0,0 L12,6 L0,12 z" fill="#1f2933"/></marker></defs>
+<line x1="40" y1="430" x2="1400" y2="430" stroke="#1f2933" stroke-width="5" marker-end="url(#arrow)"/>
+<g><rect x="1412" y="352" width="216" height="156" rx="14" fill="#fdecea" stroke="#b3261e" stroke-width="4"/>
+<text x="1520" y="390" text-anchor="middle" font-size="26" font-weight="bold" fill="#b3261e">PROBLEM</text>
+<text x="1520" y="426" text-anchor="middle" font-size="23" fill="#1f2933">8.4% book-vs-</text>
+<text x="1520" y="456" text-anchor="middle" font-size="23" fill="#1f2933">physical stock</text>
+<text x="1520" y="486" text-anchor="middle" font-size="23" fill="#1f2933">variance</text>
+<text x="1520" y="516" text-anchor="middle" font-size="23" fill="#1f2933">(unexplained)</text>
+</g>
+<line x1="330" y1="430" x2="200" y2="170" stroke="#4b5563" stroke-width="3.5"/>
+<rect x="82" y="124" width="236" height="40" rx="8" fill="#eef2f7" stroke="#4b5563" stroke-width="2"/>
+<text x="200" y="176" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2933">PEOPLE</text>
+<line x1="298" y1="365" x2="344" y2="417" stroke="#1a56a8" stroke-width="2.5"/>
+<text x="349.5" y="422.0" font-size="17.5" fill="#1f2933">Cashiers edit stock counts by hand</text>
+<line x1="265" y1="300" x2="311" y2="352" stroke="#b3261e" stroke-width="2.5"/>
+<text x="317.0" y="357.0" font-size="17.5" fill="#1f2933">No adjustment approval authority</text>
+<line x1="232" y1="235" x2="278" y2="287" stroke="#1a56a8" stroke-width="2.5"/>
+<text x="284.5" y="292.0" font-size="17.5" fill="#1f2933">Transfers not posted by store teams</text>
+<line x1="700" y1="430" x2="570" y2="170" stroke="#4b5563" stroke-width="3.5"/>
+<rect x="452" y="124" width="236" height="40" rx="8" fill="#eef2f7" stroke="#4b5563" stroke-width="2"/>
+<text x="570" y="176" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2933">METHOD</text>
+<line x1="668" y1="365" x2="714" y2="417" stroke="#b3261e" stroke-width="2.5"/>
+<text x="719.5" y="422.0" font-size="17.5" fill="#1f2933">No cycle-count calendar</text>
+<line x1="635" y1="300" x2="681" y2="352" stroke="#b3261e" stroke-width="2.5"/>
+<text x="687.0" y="357.0" font-size="17.5" fill="#1f2933">Returns processed offline, keyed later</text>
+<line x1="602" y1="235" x2="648" y2="287" stroke="#b3261e" stroke-width="2.5"/>
+<text x="654.5" y="292.0" font-size="17.5" fill="#1f2933">Shrink never audited (theft unlogged)</text>
+<line x1="1070" y1="430" x2="940" y2="170" stroke="#4b5563" stroke-width="3.5"/>
+<rect x="822" y="124" width="236" height="40" rx="8" fill="#eef2f7" stroke="#4b5563" stroke-width="2"/>
+<text x="940" y="176" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2933">MEASUREMENT</text>
+<line x1="1038" y1="365" x2="1084" y2="417" stroke="#b3261e" stroke-width="2.5"/>
+<text x="1089.5" y="422.0" font-size="17.5" fill="#1f2933">5 competing product identifiers</text>
+<line x1="1005" y1="300" x2="1051" y2="352" stroke="#1a56a8" stroke-width="2.5"/>
+<text x="1057.0" y="357.0" font-size="17.5" fill="#1f2933">UOM kg / KGS / Kilograms (15.33% non-conformance)</text>
+<line x1="972" y1="235" x2="1018" y2="287" stroke="#1a56a8" stroke-width="2.5"/>
+<text x="1024.5" y="292.0" font-size="17.5" fill="#1f2933">Hand-written count sheets</text>
+<line x1="330" y1="430" x2="200" y2="690" stroke="#4b5563" stroke-width="3.5"/>
+<rect x="82" y="684" width="236" height="40" rx="8" fill="#eef2f7" stroke="#4b5563" stroke-width="2"/>
+<text x="200" y="711" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2933">SYSTEMS</text>
+<line x1="298" y1="495" x2="344" y2="443" stroke="#b3261e" stroke-width="2.5"/>
+<text x="349.5" y="448.0" font-size="17.5" fill="#1f2933">23 MySQL silos, no stock ledger</text>
+<line x1="265" y1="560" x2="311" y2="508" stroke="#b3261e" stroke-width="2.5"/>
+<text x="317.0" y="513.0" font-size="17.5" fill="#1f2933">Offline POS sales sync when connectivity returns</text>
+<line x1="232" y1="625" x2="278" y2="573" stroke="#b3261e" stroke-width="2.5"/>
+<text x="284.5" y="578.0" font-size="17.5" fill="#1f2933">No audit trail on quantity changes</text>
+<line x1="700" y1="430" x2="570" y2="690" stroke="#4b5563" stroke-width="3.5"/>
+<rect x="452" y="684" width="236" height="40" rx="8" fill="#eef2f7" stroke="#4b5563" stroke-width="2"/>
+<text x="570" y="711" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2933">DATA</text>
+<line x1="668" y1="495" x2="714" y2="443" stroke="#b3261e" stroke-width="2.5"/>
+<text x="719.5" y="448.0" font-size="17.5" fill="#1f2933">Duplicate SKUs across POS / e-comm / supplier files</text>
+<line x1="635" y1="560" x2="681" y2="508" stroke="#1a56a8" stroke-width="2.5"/>
+<text x="687.0" y="513.0" font-size="17.5" fill="#1f2933">Category typos break like-for-like counts</text>
+<line x1="602" y1="625" x2="648" y2="573" stroke="#b3261e" stroke-width="2.5"/>
+<text x="654.5" y="578.0" font-size="17.5" fill="#1f2933">Supplier Excel variants of same product</text>
+<line x1="1070" y1="430" x2="940" y2="690" stroke="#4b5563" stroke-width="3.5"/>
+<rect x="822" y="684" width="236" height="40" rx="8" fill="#eef2f7" stroke="#4b5563" stroke-width="2"/>
+<text x="940" y="711" text-anchor="middle" font-size="21" font-weight="bold" fill="#1f2933">ENVIRONMENT</text>
+<line x1="1038" y1="495" x2="1084" y2="443" stroke="#b3261e" stroke-width="2.5"/>
+<text x="1089.5" y="448.0" font-size="17.5" fill="#1f2933">Connectivity loss hours daily</text>
+<line x1="1005" y1="560" x2="1051" y2="508" stroke="#b3261e" stroke-width="2.5"/>
+<text x="1057.0" y="513.0" font-size="17.5" fill="#1f2933">Power outages — UPS-only tills</text>
+<line x1="972" y1="625" x2="1018" y2="573" stroke="#1a56a8" stroke-width="2.5"/>
+<text x="1024.5" y="578.0" font-size="17.5" fill="#1f2933">Shop-floor piloting at busy stores</text>
+<rect x="380" y="814" width="900" height="44" rx="8" fill="#f7f9fb" stroke="#cbd5e1"/>
+<line x1="404" y1="836" x2="452" y2="836" stroke="#b3261e" stroke-width="4"/>
+<text x="462" y="842" font-size="19" fill="#1f2933">SYSTEMIC — recurring by design (fix the process)</text>
+<line x1="852" y1="836" x2="900" y2="836" stroke="#1a56a8" stroke-width="4"/>
+<text x="910" y="842" font-size="19" fill="#1f2933">POINT-OF-ENTRY — introduced at capture (validate input)</text>
+</svg>

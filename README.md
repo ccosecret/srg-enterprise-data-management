@@ -10,7 +10,17 @@ privacy, analytics, roadmap, reflection).
 (self-contained `module6_dashboard/dashboard.html` served via GitHub Pages —
 filters, drill-down, KPI recompute; substituted for a Power BI/Tableau licence
 because no per-user licence fits inside the UGX 480M envelope — rationale in
-`docs/D2_decision_log.md` D-08)
+`docs/D2_decision_log.md` D-13)
+
+**Written portfolio (submitted PDF):** `portfolio/SRG_EDM_Written_Portfolio.pdf` —
+cover page, table of contents, executive summary and Parts A–D in consultancy
+format (**39 pages of body**, within the 40-page limit), followed by
+**Appendices A–AA**: the full registers, executed evidence and source documents.
+Rebuild with `python3 portfolio/build_portfolio.py` — the script assembles
+`portfolio/body/*.md` with the appendices, compiles via pandoc + LuaLaTeX (three
+passes) and audits the page count. Diagram sources are the mermaid blocks inside
+`docs/` and `portfolio/body/`; the renderer (`portfolio/render_figures.js`) and
+every rendered PNG (`portfolio/figures/`) are committed next to them.
 
 ## Repository layout
 
@@ -23,7 +33,7 @@ because no per-user licence fits inside the UGX 480M envelope — rationale in
 | `module5_warehouse/` | **B4/C1** | `star_schema_ddl.sql` (fact_sales + 5 dims, SCD2 customer/product), `data_dictionary.md` (25 attributes with classification + source) |
 | `module6_dashboard/` | **C3** | `build_dashboard.py` (reads `module3_etl/etl_demo.db` only; control-total guard), `dashboard_template.html`, `vendor/chart.umd.min.js` (inlined, no CDN), `dashboard.html` (self-contained output) |
 | `module7_realtime/` | **B4** | `footfall_stream_sample.json` — representative sensor stream sample (instructor file unavailable in this build environment; schema documented in `docs/B4_realtime_architecture.md`) |
-| `docs/` | **A1–D2 (written portfolio)** | 31 consultancy documents — see coverage map below |
+| `docs/` | **A1–D2 (written portfolio)** | 33 consultancy documents — see coverage map below |
 
 ## Written portfolio coverage map
 
@@ -32,7 +42,7 @@ because no per-user licence fits inside the UGX 480M envelope — rationale in
 | **A1** EDM diagnostic memo + lifecycle map + DAMA mapping | `A1_edm_diagnostic_memo.md`, `A1_data_lifecycle_map.md` |
 | **A2** Governance charter, RACI, policies, compliance register, CFO rebuttal | `A2_governance_charter.md`, `A2_policies.md`, `A2_compliance_register.md`, `A2_cfo_memo.md` |
 | **B1** Architecture trade-off, ER model, normalization, denormalization | `B1_architecture_decision.md`, `B1_er_model.md`, `B1_normalization.md` |
-| **B2** Data-quality assessment & cleansing (executed) | `module2_data_quality/output/` (before/after metrics, 12 rules, monitoring spec) |
+| **B2** Data-quality assessment & cleansing (executed) | `module2_data_quality/output/` (before/after metrics, 12 rules, monitoring spec), `B2_stock_variance_root_cause.md` (Ishikawa fishbone: 11 systemic / 7 point-of-entry causes) |
 | **B3** MDM design (golden record, survivorship, matching, hierarchies) | `B3_mdm_design.md` |
 | **B4** ETL: diagnosis, pipeline (executed), workflow doc, ETL vs ELT, real-time | `module3_etl/`, `B4_etl_workflow.md`, `B4_etl_vs_elt.md`, `B4_realtime_architecture.md`, `module7_realtime/` |
 | **C1** KPI lineage, impact analysis, catalog tool comparison, metadata governance | `C1_lineage_kpi.md`, `C1_impact_analysis.md`, `C1_catalog_tools.md` |
@@ -40,6 +50,7 @@ because no per-user licence fits inside the UGX 480M envelope — rationale in
 | **C3** Business questions, dashboard (published), executive insight brief, cloud/AI verdicts, maturity assessment | `C3_business_questions.md`, `C3_dashboard.md`, `C3_executive_insight_brief.md`, `C3_emerging_tech.md`, `C3_analytics_maturity.md`, `module6_dashboard/` |
 | **D1** 18-month roadmap, budget within UGX 480M, coherence narrative | `D1_roadmap_18months.md` |
 | **D2** Decision log (26 entries), red-team critique, reflective essay, viva prep | `D2_decision_log.md`, `D2_red_team.md`, `D2_reflective_essay.md`, `D2_viva_prep.md` |
+| **Submission templates** (shipped as PDF appendices) | Assumptions Register → `A0_assumptions_register.md` (App. A) · Decision Log → `D2_decision_log.md` (Z) · Risk Matrix → `C2_threat_model_risk_register.md` (Q) · DPIA → `C2_dpia_loyalty_app.md` (S) · RACI → `A2_governance_charter.md` (D) |
 
 Every task's "Think deeper" prompt is answered under an explicit
 `### Think-deeper answer` heading in the relevant document.
