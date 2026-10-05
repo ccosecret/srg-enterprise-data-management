@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SRG Executive Dashboard — Enterprise Data Management</title>
+<style>
+/* Tufte/Few discipline: flat, no gradients/shadows, zero-baseline axes,
+   gridlines on the line chart only, <=5 semantic colours (see docs/C3_dashboard.md) */
+:root{
+  --ink:#1b1b1b; --mut:#5c5c5c; --line:#dcdcdc; --accent:#14343f;
+  --blue:#1f77b4; --green:#2ca02c; --bg:#f6f6f4; --panel:#ffffff;
+}
+*{box-sizing:border-box}
+body{margin:0;font:14px/1.45 system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;color:var(--ink);background:var(--bg)}
+header{background:var(--accent);color:#fff;padding:16px 24px}
+header h1{font-size:20px;margin:0 0 4px;font-weight:650}
+header .sub{font-size:12.5px;opacity:.9}
+a{color:#0b5f7a}
+.filters{display:flex;flex-wrap:wrap;gap:16px;align-items:flex-end;padding:12px 24px;background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:10}
+.fgroup .flabel{display:block;font-size:10.5px;text-transform:uppercase;letter-spacing:.5px;color:var(--mut);margin-bottom:4px;font-weight:600}
+.boxes label{display:inline-flex;gap:4px;align-items:center;margin:0 8px 2px 0;font-size:13px;cursor:pointer;white-space:nowrap}
+select,button{font:inherit;padding:5px 9px;border:1px solid var(--line);background:#fff;border-radius:4px;color:var(--ink)}
+#reset{background:var(--blue);color:#fff;border-color:var(--blue);cursor:pointer;font-weight:600}
+#reset:hover{background:#185f92}
+.fsummary{font-size:12px;color:var(--mut);margin-left:auto;align-self:center}
+.kpis{display:grid;grid-template-columns:repeat(auto-fit,minmax(175px,1fr));gap:12px;padding:16px 24px 0}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:10px 13px}
+.card .lab{font-size:10.5px;color:var(--mut);text-transform:uppercase;letter-spacing:.5px;font-weight:600}
+.card .val{font-size:21px;font-weight:650;margin-top:3px;white-space:nowrap}
+.card .sub2{font-size:11.5px;color:var(--mut);margin-top:3px}
+.charts{display:grid;grid-template-columns:1fr 1fr;gap:12px;padding:16px 24px}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:12px 14px;min-width:0}
+.panel.wide{grid-column:1 / -1}
+h2{font-size:14px;margin:0 0 4px;font-weight:650}
+.hint{font-weight:400;color:var(--mut);font-size:12px}
+.cap{font-size:11.5px;color:var(--mut);margin:0 0 8px}
+.cwrap{position:relative;height:300px}
+.panel.wide .cwrap{height:270px}
+.tablesec{padding:0 24px 8px}
+table.dt{width:100%;border-collapse:collapse;font-size:13px}
+table.dt th,table.dt td{padding:7px 9px;border-bottom:1px solid #ececec;text-align:right;white-space:nowrap}
+table.dt th:first-child,table.dt td:first-child,
+table.dt th:nth-child(2),table.dt td:nth-child(2){text-align:left}
+table.dt thead th{cursor:pointer;user-select:none;font-size:11.5px;text-transform:uppercase;letter-spacing:.4px;color:var(--mut);background:#fafafa;position:relative}
+table.dt thead th:hover{color:var(--ink)}
+table.dt thead th.sorted{color:var(--accent);font-weight:700}
+table.dt tbody tr{cursor:pointer}
+table.dt tbody tr:hover{background:#f2f7fa}
+table.dt tbody tr.sel{background:#e4eff5;outline:1px solid #b9d3e0}
+.drillbar{display:flex;gap:12px;align-items:center;margin:10px 0 6px;font-size:13px}
+.drillbar button{cursor:pointer}
+.notes{padding:8px 24px 4px}
+.notes h2{font-size:13px}
+.notes ul{margin:4px 0 0;padding-left:20px}
+.notes li{font-size:12.5px;color:#333;margin-bottom:3px}
+footer{padding:10px 24px 22px;font-size:11.5px;color:var(--mut)}
+footer .cls{display:inline-block;border:1px solid var(--line);border-radius:3px;padding:1px 7px;background:#fff}
+@media (max-width:920px){
+  .charts{grid-template-columns:1fr}
+  .filters{position:static}
+  .fsummary{margin-left:0}
+}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Savanna Retail Group — Executive Dashboard</h1>
+  <div class="sub">Net of returns, UGX &middot; trading window Jul–Dec 2024 &middot; <span id="runline">built from the executed ETL run</span></div>
+</header>
+
+<section class="filters" aria-label="Dashboard filters">
+  <div class="fgroup">
+    <span class="flabel">Month range</span>
+    <select id="m0" aria-label="Start month"></select> <span aria-hidden="true">→</span> <select id="m1" aria-label="End month"></select>
+  </div>
+  <div class="fgroup">
+    <span class="flabel">City</span>
+    <div id="cityBoxes" class="boxes"></div>
+  </div>
+  <div class="fgroup">
+    <span class="flabel">Category</span>
+    <div id="catBoxes" class="boxes"></div>
+  </div>
+  <div class="fgroup">
+    <span class="flabel">Payment</span>
+    <div id="payBoxes" class="boxes"></div>
+  </div>
+  <div class="fgroup">
+    <span class="flabel">Line series</span>
+    <select id="series" aria-label="Line chart series"></select>
+  </div>
+  <button id="reset" type="button">Reset filters</button>
+  <div class="fsummary" id="fsummary"></div>
+</section>
+
+<section class="kpis" aria-label="Key performance indicators">
+  <div class="card"><div class="lab">Net revenue</div><div class="val" id="kRev">—</div><div class="sub2" id="kRevSub"></div></div>
+  <div class="card"><div class="lab">Transactions</div><div class="val" id="kTx">—</div><div class="sub2" id="kTxSub"></div></div>
+  <div class="card"><div class="lab">Active customers</div><div class="val" id="kCust">—</div><div class="sub2">distinct known members (walk-ins excluded)</div></div>
+  <div class="card"><div class="lab">Average basket</div><div class="val" id="kBasket">—</div><div class="sub2">net revenue ÷ lines</div></div>
+  <div class="card"><div class="lab">MoMo share</div><div class="val" id="kMomo">—</div><div class="sub2">MTN + Airtel, share of net revenue</div></div>
+  <div class="card"><div class="lab">Returns</div><div class="val" id="kRet">—</div><div class="sub2">return value as % of gross</div></div>
+</section>
+
+<section class="charts">
+  <div class="panel wide">
+    <h2>Monthly revenue</h2>
+    <p class="cap">Zero baseline; switch the series control between all-city detail and a single city.</p>
+    <div class="cwrap"><canvas id="cLine"></canvas></div>
+  </div>
+  <div class="panel">
+    <h2>Revenue by category</h2>
+    <p class="cap">Sorted descending — length on a common baseline.</p>
+    <div class="cwrap"><canvas id="cCat"></canvas></div>
+  </div>
+  <div class="panel">
+    <h2>Payment-method mix</h2>
+    <p class="cap">Share of net revenue printed in-slice where ≥5%.</p>
+    <div class="cwrap"><canvas id="cPay"></canvas></div>
+  </div>
+  <div class="panel wide">
+    <h2>New vs returning customers per month</h2>
+    <p class="cap">“New” = the customer’s first-ever purchase month in the dataset; “returning” = purchased before that month.</p>
+    <div class="cwrap"><canvas id="cNewRet"></canvas></div>
+  </div>
+</section>
+
+<section class="tablesec panel" style="margin:0 24px 16px">
+  <h2>Store / city table <span class="hint">— click a row to drill up to its per-category breakdown; click it again to return</span></h2>
+  <div id="tableHost"></div>
+  <div id="drill" hidden></div>
+</section>
+
+<section class="notes">
+  <h2>Reading this dashboard (limitations, stated)</h2>
+  <ul>
+    <li><strong>Sample: 6 months only</strong> (Jul–Dec 2024, 10,000 lines) — the Dec −13.6% dip is a single observation; seasonality claims need M12 history.</li>
+    <li><strong>Provenance:</strong> course-provided SRG extract (5,000 customers / 1,200 products / 10,000 sales lines), cleansed by the committed pipeline — figures are pipeline-faithful, not production-certified, until live POS/e-commerce/loyalty feeds replace them.</li>
+    <li><strong>Walk-in caveat:</strong> 8.7% of revenue (8.0% of lines) sits on <code>customer_sk = 0</code> — district and “active customer” figures are floors until the loyalty phone-capture fix lands.</li>
+    <li><strong>No margin or inventory feeds yet:</strong> revenue ranking ≠ profit ranking; stock questions need the Odoo feed (M8). Returns % is the only cost-side proxy present.</li>
+  </ul>
+</section>
+
+<footer>
+  <span class="cls">Aggregated, non-PII — Public/Confidential measures only</span>
+  No name, phone, email or payment reference appears on this page; Restricted fields stay behind
+  <code>module4_security</code> masked views. Source: <code>module3_etl/etl_demo.db</code> →
+  <code>module6_dashboard/build_dashboard.py</code> → this file. Rebuild steps:
+  <code>docs/C3_dashboard.md</code>.
+</footer>
+
+<script>
+/* Chart.js v4.4.1 (MIT) inlined from module6_dashboard/vendor/chart.umd.min.js
+   so the page is fully self-contained — no CDN, no server. */
+__CHARTJS__
+</script>
+<script>
+'use strict';
+/* ------------------------------------------------------------------ *
+ * Data embedded by build_dashboard.py — dictionary-encoded rows:
+ * [monthIdx, storeIdx, catIdx, payIdx, net_amount_ugx, customer_sk,
+ *  is_new_first_month, is_return]
+ * ------------------------------------------------------------------ */
+const META = __META_JSON__;
+const ROWS = __ROWS_JSON__;
+
+const N_M = META.months.length, N_C = META.cities.length,
+      N_P = META.cats.length,   N_Y = META.pays.length, N_S = META.stores.length;
+
+const CITY_COLORS = ['#1f77b4', '#ff7f0e', '#2ca02c', '#9467bd', '#17becf'];
+const PAY_COLORS  = ['#1f77b4', '#7fc4e8', '#2ca02c', '#8c8c8c'];
+const nf0 = new Intl.NumberFormat('en-US', {maximumFractionDigits: 0});
+const ux  = v => 'UGX ' + nf0.format(Math.round(v));
+const pc  = (v, d) => isFinite(v) ? v.toFixed(d === undefined ? 1 : d) + '%' : '0.0%';
+
+function initialState(){
+  return {
+    m0: 0, m1: N_M - 1,
+    cities: new Set(META.cities.map((_, i) => i)),
+    cats:   new Set(META.cats.map((_, i) => i)),
+    pays:   new Set(META.pays.map((_, i) => i)),
+    series: 'all', sortKey: 'rev', sortDir: -1, drill: null
+  };
+}
+let state = initialState();
+
+/* ---------------- filtering & aggregation ---------------- */
+function filtered(){
+  const out = [], m0 = state.m0, m1 = state.m1,
+        cities = state.cities, cats = state.cats, pays = state.pays,
+        storeCity = META.storeCity;
+  for (let i = 0; i < ROWS.length; i++){
+    const r = ROWS[i];
+    if (r[0] < m0 || r[0] > m1) continue;
+    if (!cities.has(storeCity[r[1]])) continue;
+    if (!cats.has(r[2]) || !pays.has(r[3])) continue;
+    out.push(r);
+  }
+  return out;
+}
+
+function buildAgg(rows){
+  const a = {
+    rev: 0, pos: 0, neg: 0, momo: 0, cust: new Set(),
+    mRev:  new Array(N_M).fill(0),
+    cmRev: Array.from({length: N_C}, () => new Array(N_M).fill(0)),
+    catRev: new Array(N_P).fill(0), catLines: new Array(N_P).fill(0),
+    payRev: new Array(N_Y).fill(0),
+    newC: Array.from({length: N_M}, () => new Set()),
+    retC: Array.from({length: N_M}, () => new Set()),
+    sRev: new Array(N_S).fill(0), sLines: new Array(N_S).fill(0), sRet: new Array(N_S).fill(0)
+  };
+  for (let i = 0; i < rows.length; i++){
+    const r = rows[i], m = r[0], s = r[1], c = r[2], p = r[3], amt = r[4], csk = r[5];
+    a.rev += amt;
+    if (amt > 0) a.pos += amt; else a.neg += amt;
+    if (META.momoIdx.indexOf(p) !== -1) a.momo += amt;
+    if (csk > 0){
+      a.cust.add(csk);
+      (r[6] ? a.newC[m] : a.retC[m]).add(csk);
+    }
+    a.mRev[m] += amt;
+    a.cmRev[META.storeCity[s]][m] += amt;
+    a.catRev[c] += amt; a.catLines[c] += 1;
+    a.payRev[p] += amt;
+    a.sRev[s] += amt; a.sLines[s] += 1;
+    if (r[7]) a.sRet[s] += 1;
+  }
+  return a;
+}
+
+/* ---------------- charts ---------------- */
+Chart.defaults.font.family = 'system-ui, -apple-system, "Segoe UI", Roboto, sans-serif';
+Chart.defaults.color = '#333';
+const tickM = v => (v >= 1e6 ? (v / 1e6) + 'M' : nf0.format(v));
+const tipUx = c => ' ' + c.dataset.label + ': ' + ux(c.parsed.y !== undefined ? c.parsed.y : c.parsed.x);
+
+const lineChart = new Chart(document.getElementById('cLine'), {
+  type: 'line',
+  data: {labels: [], datasets: []},
+  options: {
+    responsive: true, maintainAspectRatio: false, animation: false,
+    interaction: {mode: 'index', intersect: false},
+    plugins: {
+      legend: {position: 'bottom', labels: {boxWidth: 14, boxHeight: 8}},
+      tooltip: {callbacks: {label: tipUx}}
+    },
+    scales: {
+      y: {beginAtZero: true, grid: {color: '#ececec', drawTicks: false}, ticks: {callback: tickM, maxTicksLimit: 6}},
+      x: {grid: {display: false}}
+    },
+    elements: {line: {tension: 0.25, borderWidth: 2}, point: {radius: 2, hoverRadius: 4}}
+  }
+});
+
+const catChart = new Chart(document.getElementById('cCat'), {
+  type: 'bar',
+  data: {labels: [], datasets: [{label: 'Net revenue', data: [], backgroundColor: '#1f77b4'}]},
+  options: {
+    indexAxis: 'y', responsive: true, maintainAspectRatio: false, animation: false,
+    plugins: {legend: {display: false}, tooltip: {callbacks: {label: c => ' ' + ux(c.parsed.x)}}},
+    scales: {
+      x: {beginAtZero: true, grid: {display: false}, ticks: {callback: tickM, maxTicksLimit: 6}},
+      y: {grid: {display: false}, ticks: {autoSkip: false, font: {size: 12}}}
+    }
+  }
+});
+
+const pctInSlice = {
+  id: 'pctInSlice',
+  afterDatasetsDraw(chart){
+    const ds = chart.data.datasets[0];
+    if (!ds || !ds.data.length) return;
+    const total = ds.data.reduce((s, v) => s + v, 0);
+    if (total <= 0) return;
+    const ctx = chart.ctx;
+    ctx.save();
+    ctx.fillStyle = '#fff';
+    ctx.font = '600 11.5px system-ui, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+    chart.getDatasetMeta(0).data.forEach((arc, i) => {
+      const share = ds.data[i] / total * 100;
+      if (share < 5) return;
+      const pos = arc.tooltipPosition();
+      ctx.fillText(share.toFixed(1) + '%', pos.x, pos.y);
+    });
+    ctx.restore();
+  }
+};
+
+const payChart = new Chart(document.getElementById('cPay'), {
+  type: 'doughnut',
+  data: {labels: [], datasets: [{label: 'Net revenue', data: [], backgroundColor: []}]},
+  options: {
+    responsive: true, maintainAspectRatio: false, animation: false, cutout: '55%',
+    plugins: {
+      legend: {position: 'bottom', labels: {boxWidth: 12, font: {size: 12}}},
+      tooltip: {callbacks: {label(c){
+        const tot = c.dataset.data.reduce((s, v) => s + v, 0);
+        return ' ' + c.label + ': ' + ux(c.parsed) + (tot ? ' (' + (c.parsed / tot * 100).toFixed(1) + '%)' : '');
+      }}}
+    }
+  },
+  plugins: [pctInSlice]
+});
+
+const newRetChart = new Chart(document.getElementById('cNewRet'), {
+  type: 'bar',
+  data: {labels: [], datasets: [
+    {label: 'New customers', data: [], backgroundColor: '#2ca02c'},
+    {label: 'Returning customers', data: [], backgroundColor: '#1f77b4'}
+  ]},
+  options: {
+    responsive: true, maintainAspectRatio: false, animation: false,
+    plugins: {
+      legend: {position: 'bottom', labels: {boxWidth: 12}},
+      tooltip: {callbacks: {label: c => ' ' + c.dataset.label + ': ' + nf0.format(c.parsed.y)}}
+    },
+    scales: {
+      y: {beginAtZero: true, grid: {display: false}, ticks: {precision: 0, maxTicksLimit: 6}},
+      x: {grid: {display: false}}
+    }
+  }
+});
+
+/* ---------------- render ---------------- */
+function renderKpis(a){
+  document.getElementById('kRev').textContent = ux(a.rev);
+  document.getElementById('kRevSub').textContent = ux(a.pos) + ' gross − ' + ux(Math.abs(a.neg)) + ' returns';
+  document.getElementById('kCust').textContent = nf0.format(a.cust.size);
+  const basket = a.lines ? a.rev / a.lines : 0;
+  document.getElementById('kBasket').textContent = a.lines ? ux(basket) : '—';
+  document.getElementById('kMomo').textContent = a.rev ? pc(a.momo / a.rev * 100) : '0.0%';
+  document.getElementById('kRet').textContent = a.pos ? pc(Math.abs(a.neg) / a.pos * 100) : '0.0%';
+}
+
+function renderLine(a){
+  const labels = [];
+  for (let m = state.m0; m <= state.m1; m++) labels.push(META.months[m]);
+  const datasets = [];
+  if (state.series === 'all'){
+    for (let c = 0; c < N_C; c++){
+      if (!state.cities.has(c)) continue;
+      const data = [];
+      for (let m = state.m0; m <= state.m1; m++) data.push(a.cmRev[c][m]);
+      datasets.push({label: META.cities[c], data, borderColor: CITY_COLORS[c % CITY_COLORS.length],
+                     backgroundColor: CITY_COLORS[c % CITY_COLORS.length], fill: false});
+    }
+    if (!datasets.length){
+      datasets.push({label: 'No cities selected', data: labels.map(() => 0), borderColor: '#aaa', backgroundColor: '#aaa', fill: false});
+    }
+  } else {
+    const c = state.series;
+    const data = [];
+    for (let m = state.m0; m <= state.m1; m++) data.push(a.cmRev[c][m]);
+    datasets.push({label: META.cities[c], data, borderColor: CITY_COLORS[c % CITY_COLORS.length],
+                   backgroundColor: CITY_COLORS[c % CITY_COLORS.length], fill: false});
+  }
+  lineChart.data.labels = labels;
+  lineChart.data.datasets = datasets;
+  lineChart.update();
+}
+
+function renderCat(a){
+  const items = [];
+  for (let c = 0; c < N_P; c++){
+    if (!state.cats.has(c)) continue;
+    items.push({c, rev: a.catRev[c]});
+  }
+  items.sort((x, y) => y.rev - x.rev);
+  catChart.data.labels = items.map(it => META.cats[it.c]);
+  catChart.data.datasets[0].data = items.map(it => it.rev);
+  catChart.update();
+}
+
+function renderPay(a){
+  const labels = [], data = [], colors = [];
+  for (let p = 0; p < N_Y; p++){
+    if (!state.pays.has(p)) continue;
+    labels.push(META.pays[p]);
+    data.push(a.payRev[p]);
+    colors.push(PAY_COLORS[p % PAY_COLORS.length]);
+  }
+  payChart.data.labels = labels;
+  payChart.data.datasets[0].data = data;
+  payChart.data.datasets[0].backgroundColor = colors;
+  payChart.update();
+}
+
+function renderNewRet(a){
+  const labels = [], neu = [], ret = [];
+  for (let m = state.m0; m <= state.m1; m++){
+    labels.push(META.months[m]);
+    neu.push(a.newC[m].size);
+    ret.push(a.retC[m].size);
+  }
+  newRetChart.data.labels = labels;
+  newRetChart.data.datasets[0].data = neu;
+  newRetChart.data.datasets[1].data = ret;
+  newRetChart.update();
+}
+
+function renderTable(a, lineCount){
+  const total = a.rev || 1;
+  const list = [];
+  for (let s = 0; s < N_S; s++){
+    if (!state.cities.has(META.storeCity[s]) || a.sLines[s] === 0) continue;
+    list.push({s, name: META.stores[s], city: META.cities[META.storeCity[s]],
+               rev: a.sRev[s], share: a.sRev[s] / total * 100,
+               lines: a.sLines[s], ret: a.sRet[s]});
+  }
+  const k = state.sortKey, d = state.sortDir;
+  list.sort((x, y) => {
+    const xa = x[k], ya = y[k];
+    if (xa === ya) return x.s - y.s;
+    return (xa < ya ? -1 : 1) * d;
+  });
+  const arrow = key => state.sortKey === key ? (state.sortDir === -1 ? ' ▼' : ' ▲') : '';
+  const cls = key => state.sortKey === key ? ' class="sorted"' : '';
+  let html = '<table class="dt"><thead><tr>' +
+    '<th' + cls('name') + ' data-k="name">Store' + arrow('name') + '</th>' +
+    '<th>City</th>' +
+    '<th' + cls('rev') + ' data-k="rev">Net revenue (UGX)' + arrow('rev') + '</th>' +
+    '<th' + cls('share') + ' data-k="share">Share of filtered revenue' + arrow('share') + '</th>' +
+    '<th' + cls('lines') + ' data-k="lines">Lines' + arrow('lines') + '</th>' +
+    '<th' + cls('ret') + ' data-k="ret">Return lines' + arrow('ret') + '</th>' +
+    '</tr></thead><tbody>';
+  for (const r of list){
+    html += '<tr data-s="' + r.s + '"' + (state.drill === r.s ? ' class="sel"' : '') + '>' +
+      '<td><strong>' + r.name + '</strong></td>' +
+      '<td>' + r.city + '</td>' +
+      '<td>' + nf0.format(Math.round(r.rev)) + '</td>' +
+      '<td>' + pc(r.share) + '</td>' +
+      '<td>' + nf0.format(r.lines) + '</td>' +
+      '<td>' + nf0.format(r.ret) + '</td>' +
+      '</tr>';
+  }
+  if (!list.length) html += '<tr><td colspan="6" style="text-align:left;color:#777">No rows for the current filter state.</td></tr>';
+  html += '</tbody></table>';
+  document.getElementById('tableHost').innerHTML = html;
+  document.getElementById('fsummary').textContent =
+    nf0.format(lineCount) + ' of ' + nf0.format(ROWS.length) + ' lines · ' +
+    list.length + ' store node' + (list.length === 1 ? '' : 's');
+}
+
+function renderDrill(){
+  const host = document.getElementById('drill');
+  if (state.drill === null){ host.hidden = true; host.innerHTML = ''; return; }
+  const s = state.drill;
+  const rows = filtered().filter(r => r[1] === s);
+  const byCat = new Map();
+  let tot = 0, lines = 0;
+  for (const r of rows){
+    const cur = byCat.get(r[2]) || {v: 0, n: 0};
+    cur.v += r[4]; cur.n += 1;
+    byCat.set(r[2], cur);
+    tot += r[4]; lines += 1;
+  }
+  const items = Array.from(byCat.entries()).map(([c, v]) => ({c, v: v.v, n: v.n}))
+                     .sort((a, b) => b.v - a.v);
+  let html = '<div class="drillbar"><button type="button" id="drillBack">← Back to estate view</button>' +
+    '<strong>' + META.stores[s] + ' — ' + META.cities[META.storeCity[s]] + '</strong>' +
+    '<span>' + ux(tot) + ' across ' + nf0.format(lines) + ' lines (current filters applied)</span></div>' +
+    '<table class="dt"><thead><tr><th>Category</th><th>Net revenue (UGX)</th><th>Share of row</th><th>Lines</th></tr></thead><tbody>';
+  for (const it of items){
+    html += '<tr style="cursor:default"><td>' + META.cats[it.c] + '</td>' +
+      '<td>' + nf0.format(Math.round(it.v)) + '</td>' +
+      '<td>' + pc(tot ? it.v / tot * 100 : 0) + '</td>' +
+      '<td>' + nf0.format(it.n) + '</td></tr>';
+  }
+  if (!items.length) html += '<tr><td colspan="4" style="text-align:left;color:#777">No rows for this store under the current filters.</td></tr>';
+  html += '</tbody></table>';
+  host.innerHTML = html;
+  host.hidden = false;
+  document.getElementById('drillBack').addEventListener('click', () => {
+    state.drill = null;
+    renderAll();
+  });
+}
+
+function renderAll(){
+  const rows = filtered();
+  const a = buildAgg(rows);
+  a.lines = rows.length;
+  document.getElementById('kTx').textContent = nf0.format(rows.length);
+  document.getElementById('kTxSub').textContent = META.months[state.m0] + ' → ' + META.months[state.m1];
+  renderKpis(a);
+  renderLine(a);
+  renderCat(a);
+  renderPay(a);
+  renderNewRet(a);
+  renderTable(a, rows.length);
+  renderDrill();
+}
+
+/* ---------------- controls ---------------- */
+function buildBoxes(hostId, names, setRef, onChange){
+  const host = document.getElementById(hostId);
+  host.innerHTML = names.map((n, i) =>
+    '<label><input type="checkbox" checked data-i="' + i + '">' + n + '</label>').join('');
+  host.addEventListener('change', e => {
+    const i = Number(e.target.dataset.i);
+    if (e.target.checked) setRef().add(i); else setRef().delete(i);
+    if (onChange) onChange();
+    renderAll();
+  });
+}
+
+function buildMonthSelects(){
+  const opts = META.months.map((m, i) => '<option value="' + i + '">' + m + '</option>').join('');
+  const m0 = document.getElementById('m0'), m1 = document.getElementById('m1');
+  m0.innerHTML = opts; m1.innerHTML = opts;
+  m0.value = state.m0; m1.value = state.m1;
+  const on = () => {
+    let a = Number(m0.value), b = Number(m1.value);
+    if (a > b){ const t = a; a = b; b = t; m0.value = a; m1.value = b; }
+    state.m0 = a; state.m1 = b;
+    renderAll();
+  };
+  m0.addEventListener('change', on);
+  m1.addEventListener('change', on);
+}
+
+function buildSeriesSelect(){
+  const sel = document.getElementById('series');
+  const cur = state.series;
+  let html = '<option value="all">All cities (one line each)</option>';
+  for (let c = 0; c < N_C; c++){
+    if (!state.cities.has(c)) continue;
+    html += '<option value="' + c + '">' + META.cities[c] + '</option>';
+  }
+  sel.innerHTML = html;
+  if (cur !== 'all' && state.cities.has(Number(cur))) sel.value = cur;
+  else { state.series = 'all'; sel.value = 'all'; }
+}
+
+document.getElementById('series').addEventListener('change', e => {
+  state.series = e.target.value === 'all' ? 'all' : Number(e.target.value);
+  renderAll();
+});
+
+document.getElementById('tableHost').addEventListener('click', e => {
+  const th = e.target.closest('th[data-k]');
+  if (th){
+    const k = th.dataset.k;
+    if (state.sortKey === k) state.sortDir = -state.sortDir;
+    else { state.sortKey = k; state.sortDir = (k === 'name') ? 1 : -1; }
+    renderAll();
+    return;
+  }
+  const tr = e.target.closest('tr[data-s]');
+  if (tr){
+    const s = Number(tr.dataset.s);
+    state.drill = (state.drill === s) ? null : s;
+    renderAll();
+  }
+});
+
+document.getElementById('reset').addEventListener('click', () => {
+  state = initialState();
+  document.querySelectorAll('.boxes input[type=checkbox]').forEach(cb => { cb.checked = true; });
+  document.getElementById('m0').value = state.m0;
+  document.getElementById('m1').value = state.m1;
+  buildSeriesSelect();
+  renderAll();
+});
+
+/* ---------------- boot ---------------- */
+document.getElementById('runline').textContent =
+  'ETL run ' + META.run.id + ' · loaded ' + META.run.finished +
+  ' · ' + nf0.format(META.run.rowsLoaded) + ' rows · control total UGX ' +
+  nf0.format(Math.round(META.run.controlTotal)) + ' · built ' + META.builtAt;
+
+buildMonthSelects();
+buildBoxes('cityBoxes', META.cities, () => state.cities, buildSeriesSelect);
+buildBoxes('catBoxes',   META.cats,   () => state.cats);
+buildBoxes('payBoxes',   META.pays,   () => state.pays);
+buildSeriesSelect();
+renderAll();
+</script>
+</body>
+</html>
