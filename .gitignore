@@ -1,0 +1,10 @@
+# python
+__pycache__/
+*.pyc
+.venv/
+
+# generated database (recreate with: python module3_etl/srg_etl_pipeline.py --self-test)
+module3_etl/etl_demo.db
+
+# OS
+.DS_Store

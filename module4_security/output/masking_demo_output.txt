@@ -1,0 +1,33 @@
+==============================================================================
+MODULE 4 - DYNAMIC DATA MASKING ON LIVE SRG DATA (evidence)
+==============================================================================
+
+CUSTOMERS - Restricted fields masked (analytics copy):
+customer_id      full_name (RAW) -> masked   phone (RAW)       -> masked                      email (RAW)        -> masked
+ CUST100001     Ssempebwa Wasswa  S*** W** +256723699332 +256-XXX-XX9332       ssempebwa.wasswa@srg.co.ug   s***@srg.co.ug
+ CUST100002      Robert Kyebambe  R*** K**        (null)            NULL       robertkyebambe18@yahoo.com   r***@yahoo.com
+ CUST100003    Nabirye Katusiime  N*** K** +256786681581 +256-XXX-XX1581    nabirye.katusiime@outlook.com n***@outlook.com
+ CUST100004      Samuel Munezero  S*** M** +256797638652 +256-XXX-XX8652         samuel.munezero@mail.com    s***@mail.com
+ CUST100005      Okello Kibirige  O*** K** +256720075953 +256-XXX-XX5953      okello.kibirige@outlook.com o***@outlook.com
+ CUST100006     Patrick Namubiru  P*** N** +256772187379 +256-XXX-XX7379        patricknamubiru@yahoo.com   p***@yahoo.com
+ CUST100007 Kyomuhendo Ssempebwa  K*** S** +256720326876 +256-XXX-XX6876 kyomuhendo.ssempebwa@outlook.com k***@outlook.com
+ CUST100008          Ronald Atim  R*** A** +256721191430 +256-XXX-XX1430            ronald.atim@srg.co.ug   r***@srg.co.ug
+
+SALES - mobile money payment references masked:
+transaction_id payment_method payment_ref (RAW)   -> masked
+   TXN90000001    AirtelMoney         AUTH83951   AU*****51
+   TXN90000005   Airtel Money         AUTH63362   AU*****62
+   TXN90000008           momo       AM900047995 AM*******95
+   TXN90000011       MTN MoMo         CASH-5129   CA*****29
+   TXN90000013       MTN MoMo       AM793595532 AM*******32
+   TXN90000014    AirtelMoney       MP995542053 MP*******53
+
+VALIDATION:
+  [PASS] phone mask form ^\+256-XXX-XX\d{4}$
+  [PASS] name mask never leaks >1 char of a token
+  [PASS] email mask keeps only first char + domain
+  [PASS] payment_ref mask preserves prefix + last 2
+
+NOTE: this masked frame is what leaves the warehouse to BI tools.
+      Raw values remain table-side for compliance_officer (audit)
+      and cdm_admin (steward) only - see rbac_postgresql.sql.

@@ -1,0 +1,4 @@
+pandas>=2.0
+numpy>=1.26
+sqlalchemy>=2.0
+rapidfuzz>=3.0

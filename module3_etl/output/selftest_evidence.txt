@@ -1,0 +1,40 @@
+======================================================================
+SELF-TEST: quarantine + idempotency evidence
+======================================================================
+[RUN] etl_selftest starting  db=sqlite:///etl_demo.db
+[SOURCE] customers=/home/cc_osecret/Documents/repo_clone/module2_data_quality/output/SRG_Customers_clean.csv  products=/home/cc_osecret/Documents/repo_clone/module2_data_quality/output/SRG_Products_clean.csv
+[EXTRACT] customers=3858 products=1164 sales=10000
+[LOCK] single-writer lock acquired via etl_lock_row
+[DIM] dim_customer upserted=3858  dim_product upserted=1164
+[TRANSFORM] valid=10000 quarantined_so_far=0 pending_momo_refs=849 returns=500
+[POST-LOAD CHECKS] fact_orphan_product_fks=0 OK, fact_orphan_customer_fks=0 OK, control_total_net_amount_ugx=252382814.16 OK
+[RUN] etl_selftest SUCCESS  read=10000 loaded=10000 quarantined=0 pending_momo_refs=849
+[RUN] etl_selftest starting  db=sqlite:///etl_demo.db
+[SOURCE] customers=/home/cc_osecret/Documents/repo_clone/module2_data_quality/output/SRG_Customers_clean.csv  products=/home/cc_osecret/Documents/repo_clone/module2_data_quality/output/SRG_Products_clean.csv
+[EXTRACT] customers=3858 products=1164 sales=10000
+[LOCK] single-writer lock acquired via etl_lock_row
+[DIM] dim_customer upserted=3858  dim_product upserted=1164
+[TRANSFORM] valid=10000 quarantined_so_far=0 pending_momo_refs=849 returns=500
+[POST-LOAD CHECKS] fact_orphan_product_fks=0 OK, fact_orphan_customer_fks=0 OK, control_total_net_amount_ugx=252382814.16 OK
+[RUN] etl_selftest SUCCESS  read=10000 loaded=10000 quarantined=0 pending_momo_refs=849
+
+[TEST 1] idempotency: rows before=10000 after re-run=10000 -> PASS
+[TEST 2] bad rows quarantined: 6/6 (rows in etl_quarantine=6) -> PASS
+[TEST 3] mobile-money missing ref handled gracefully (PENDING_RECON) -> PASS
+
+Quarantined rows now visible to ops (evidence for the reviewer):
+  VR-008           missing product_id (cannot fact without product)
+  SCHEMA_TYPE      quantity not integer: 'N/A'
+  VR-004           transaction_id not in TXN<digits> form: 'TX-77'
+  SCHEMA_TYPE      unit_price not numeric after currency strip: 'UGX cheap'
+  VR-005           unparseable transaction_timestamp: '31/02/2024 14:08'
+  VR-012           unknown payment_method: 'Bitcoin'
+
+ALL TESTS PASS
+QUARANTINE SUMMARY (unreplayed)
+entity  error_rule  rows          first_seen           last_seen
+ SALES SCHEMA_TYPE     2 2026-10-05T05:53:24 2026-10-05T05:53:24
+ SALES      VR-004     1 2026-10-05T05:53:24 2026-10-05T05:53:24
+ SALES      VR-005     1 2026-10-05T05:53:24 2026-10-05T05:53:24
+ SALES      VR-008     1 2026-10-05T05:53:24 2026-10-05T05:53:24
+ SALES      VR-012     1 2026-10-05T05:53:24 2026-10-05T05:53:24

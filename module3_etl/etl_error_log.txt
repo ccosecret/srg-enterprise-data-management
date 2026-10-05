@@ -1,0 +1,36 @@
+2025-03-11 02:00:00,104 INFO  [srg-nightly-etl] ======================================================
+2025-03-11 02:00:00,105 INFO  [srg-nightly-etl] SRG NIGHTLY ETL - RUN START  run_id=etl_20250311_020000
+2025-03-11 02:00:00,106 INFO  [srg-nightly-etl] Sources: 23x MySQL POS, PostgreSQL e-comm, loyalty cloud CSV, Odoo ERP
+2025-03-11 02:00:01,812 INFO  [extract.pos]        Extracted 18,442 rows from store POS replicas (all 23 stores)
+2025-03-11 02:00:04,331 INFO  [extract.ecom]       Extracted 3,120 rows from e-commerce PostgreSQL (SavannaShop)
+2025-03-11 02:00:09,556 INFO  [extract.loyalty]    Extracted 1,908 rows from loyalty CSV export (delta file loyalty_20250310.csv)
+2025-03-11 02:00:12,077 INFO  [staging.load]       Truncating staging.stg_sales ... done (0 rows)
+2025-03-11 02:00:12,991 INFO  [staging.load]       Loading batch etl_20250311_020000 -> staging.stg_sales
+2025-03-11 02:00:13,402 ERROR [staging.load]       psycopg2.errors.InvalidTextRepresentation: invalid input syntax for type integer: "N/A"
+2025-03-11 02:00:13,402 ERROR [staging.load]       DETAIL:  parameters: $1 = 'TXN90004471', $2 = 'ST07', $3 = 'N/A', $4 = 3
+2025-03-11 02:00:13,403 ERROR [staging.load]       CONTEXT: COPY staging.stg_sales, LINE 12044: "TXN90004471\tST07\tN/A\t..."
+2025-03-11 02:00:13,404 ERROR [staging.load]       Batch etl_20250311_020000 ABORTED at row 12044 of 21562 - 0 rows committed
+2025-03-11 02:00:13,405 WARN  [staging.load]       Falling back: continuing with 23 stores in 'partial mode' (staging retains previous batch etl_20250310_020000)
+2025-03-11 02:00:14,118 INFO  [transform.sku]      Resolving product SKUs against dim_product ...
+2025-03-11 02:00:15,602 WARN  [transform.sku]      412 fact rows reference SKU not found in dim_product (orphans) - warehouse_load will fail if orphans > 0
+2025-03-11 02:00:15,603 WARN  [transform.sku]      Top unmatched SKUs: PRD200913(37), PRD200664(29), PRD200771(22), PRD200318(18)
+2025-03-11 02:00:16,077 WARN  [transform.cust]     NULL customer_id in staging rows: 63 (walk-in / offline-capture rows) - inserting NULLs into fact_sales.customer_sk (FK)
+2025-03-11 02:00:16,077 WARN  [transform.cust]     NOTE: dim_customer contains 114 golden records still flagged 'REVIEW - suspected duplicate' from MDM queue
+2025-03-11 02:52:41,990 ERROR [warehouse.load]      psycopg2.errors.ForeignKeyViolation: null value in column "customer_sk" violates not-null constraint
+2025-03-11 02:52:41,991 ERROR [warehouse.load]      TABLE: warehouse.fact_sales, COLUMN: customer_sk  CONSTRAINT: fact_sales_customer_sk_nn
+2025-03-11 02:52:41,992 ERROR [warehouse.load]      SQL: INSERT INTO warehouse.fact_sales (sale_sk, store_sk, customer_sk, product_sk, date_sk, payment_sk, qty, net_amount_ugx) SELECT ... LEFT JOIN dim_customer c ON s.customer_id = c.customer_bk WHERE c.customer_bk IS NULL;
+2025-03-11 02:52:41,993 ERROR [warehouse.load]      REASON: 63 staging rows have customer_id NULL (offline POS capture during connectivity outage); LEFT JOIN produced NULL surrogate key; fact table declares NOT NULL on customer_sk.
+2025-03-11 02:52:41,994 ERROR [warehouse.load]      EXPECTED: rows with unknown customer must map to dim_customer.unknown_member surrogate key (customer_sk = 0, 'Unknown / Walk-in Customer')
+2025-03-11 02:52:41,995 ERROR [warehouse.load]      ROWS REJECTED: 63 of 21,562 (0.29%)
+2025-03-11 02:52:41,996 ERROR [warehouse.load]      load_sales_partial: 63 rows failed; transaction aborted; warehouse.fact_sales unchanged (previous day's 21,190 rows still in place)
+2025-03-11 02:52:42,010 ERROR [warehouse.load]      psycopg2.errors.DeadlockDetected: deadlock detected
+2025-03-11 02:52:42,011 ERROR [warehouse.load]      DETAIL:  Process 18442 waits for ShareLock on transaction 90117; Process 18501 waits for ShareLock on transaction 90118;
+2025-03-11 02:52:42,012 ERROR [warehouse.load]      DETAIL:  Process 18442: UPDATE dim_store SET store_name='Gulu City - Accrued Sales', accrued_sales_mtd = accrued_sales_mtd + 184200 WHERE store_sk=17;
+2025-03-11 02:52:42,013 ERROR [warehouse.load]      DETAIL:  Process 18501: UPDATE dim_store SET store_name='Gulu City - Accrued Sales', accrued_sales_mtd = accrued_sales_mtd + 185050 WHERE store_sk=17;
+2025-03-11 02:52:42,014 ERROR [warehouse.load]      DETAIL:  Process 18501 was opened by sync_worker_3 (offline POS sync replay, store ST17 Gulu), begun 01:58:12
+2025-03-11 02:52:42,015 ERROR [warehouse.load]      DETAIL:  Process 18442 was opened by nightly_etl (this run), begun 02:52:41
+2025-03-11 02:52:42,016 ERROR [warehouse.load]      HINT:  Consider an application-level lock or lock dim_store rows in a consistent (store_sk) order.
+2025-03-11 02:52:42,018 ERROR [orchestrator]      Run etl_20250311_020000 FAILED after 52m41s. exit_code=1
+2025-03-11 02:52:42,019 ERROR [orchestrator]      No rows loaded into warehouse.fact_sales for business_date=2025-03-10. Reporting will show stale D-1 data (2 days behind) for the 4th consecutive day.
+2025-03-11 02:52:42,020 WARN  [orchestrator]      Alert emailed to it-ops@srg.co.ug (unmonitored mailbox; last human open: 2025-03-04)
+

@@ -1,0 +1,10 @@
+{
+  "R1_phone_deterministic": 953,
+  "R2_fuzzy_auto": 189,
+  "R2_rejected_email_conflict": 365,
+  "pairs_scored": 661,
+  "merged_rows": 1142,
+  "clusters": 964,
+  "open_review_pairs": 107,
+  "rows_flagged_for_review": 111
+}

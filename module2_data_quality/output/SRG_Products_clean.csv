@@ -1,0 +1,1165 @@
+product_id,sku,product_name,category,unit_of_measure,cost_ugx,selling_price_ugx,unit_raw,unit_std,unit_status,category_raw,category_std,category_status,cost_ugx_raw,selling_price_ugx_raw,cost_ugx_std,selling_price_ugx_std,price_status,margin_anomaly_flag,duplicate_sku_flag
+PRD200001,BAK5695,Baking Soda 500g,Household,pcs,50000.0,60000.0,Pieces,pcs,mapped,HOUSEHOLD,Household,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200002,VAS9927,Vaseline Petroleum Jelly,Personal Care,kg,35000.0,63000.0,kg,kg,mapped,Personal Care,Personal Care,mapped,35000,63000.0,35000.0,63000.0,valid,False,True
+PRD200003,VAS8564,Vaseline Petroleum Jelly,Grains & Cereals,kg,7500.0,9375.0,kg,kg,mapped,Grains,Grains & Cereals,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200004,KRE4475,Krest Bitter Lemon,Beverages,kg,1000.0,1150.0,KGS,kg,mapped,Bevages,Beverages,mapped,1000,1150.0,1000.0,1150.0,valid,False,False
+PRD200005,KRE2031,Krest Bitter Lemon,Beverages,pcs,1000.0,1200.0,Pieces,pcs,mapped,Bevages,Beverages,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200006,KRE9125,Krest Bitter Lemon,Grains & Cereals,kg,500.0,750.0,kilogram,kg,mapped,Grains,Grains & Cereals,mapped,500,750.0,500.0,750.0,valid,False,False
+PRD200007,COC9128,Coca-Cola 500ml,Beverages,kg,35000.0,63000.0,KGS,kg,mapped,Beverage,Beverages,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200008,MUR9693,Muruchu Cooking Oil 3L,Household,pcs,15000.0,27000.0,pc,pcs,mapped,Household,Household,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200009,MUR3525,Muruchu Cooking Oil 3L,Snacks,liters,5000.0,5500.0,L,liters,mapped,Snacks,Snacks,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200010,KRE8917,Krest Bitter Lemon,Beverages,kg,2000.0,2300.0,Kilograms,kg,mapped,Beverages,Beverages,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200011,ARR2859,Array Juice 250ml,Beverages,pcs,4500.0,5175.0,piece,pcs,mapped,Beverage,Beverages,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200012,MOU2223,Mountain Gorilla Water 1L,Beverages,kg,3000.0,4500.0,kg,kg,mapped,Bevages,Beverages,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200013,BAK8734,Baking Soda 500g,Household,kg,7500.0,8250.0,g,kg,converted,Houshold,Household,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200014,TRO2226,Tropical Heat Nuts,Snacks,pcs,3000.0,3750.0,boxes,pcs,mapped,SNACKS,Snacks,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200015,TWI7808,Twins Tea 250g,Beverages,pcs,750.0,862.5,bottles,pcs,mapped,BEVERAGES,Beverages,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD200016,COL7631,Colgate Toothpaste 100ml,Personal Care,liters,20000.0,24000.0,Litres,liters,mapped,Personal care ,Personal Care,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200017,NIL8912,Nile Beer 500ml,Beverages,liters,500.0,326.93,Litres,liters,mapped,Bevages,Beverages,mapped,500,326.93,500.0,326.93,valid,True,False
+PRD200018,MAR3587,Marlboro Biscuits,Snacks,liters,2000.0,2200.0,Litres,liters,mapped,Snacks,Snacks,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200019,FAN8519,Fanta Orange 500ml,Beverages,kg,5000.0,6500.0,kilogram,kg,mapped,BEVERAGES,Beverages,mapped,5000,6500.0,5000.0,6500.0,valid,False,False
+PRD200020,IMP2109,Imperial Leather Soap,Personal Care,pcs,35000.0,40250.0,boxes,pcs,mapped,Personal care ,Personal Care,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200021,MOU4481,Mountain Gorilla Water 1L,Beverages,pcs,3000.0,5400.0,boxes,pcs,mapped,Beverages,Beverages,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200022,BEA9732,Beans 1kg,Grains & Cereals,pcs,3000.0,3900.0,Pieces,pcs,mapped,Grains,Grains & Cereals,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200023,MAR7921,Marlboro Biscuits,Snacks,liters,2000.0,3600.0,liters,liters,mapped,Sncks,Snacks,mapped,2000,3600.0,2000.0,3600.0,valid,False,False
+PRD200024,BEL3643,Bell Lager,Beverages,pcs,2000.0,2600.0,Pieces,pcs,mapped,Beverage,Beverages,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200025,TWI5330,Twins Tea 250g,Personal Care,pcs,1500.0,1875.0,Pieces,pcs,mapped,Percare,Personal Care,mapped,1500,1875.0,1500.0,1875.0,valid,False,False
+PRD200026,TWI2816,Twins Tea 250g,Household,pcs,10000.0,12500.0,PCE,pcs,mapped,Household,Household,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200027,STA1713,Stabilo Highlighter,Stationery,pcs,1500.0,2250.0,pcs,pcs,mapped,Stationery,Stationery,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200028,IMP8181,Imperial Leather Soap,Personal Care,kg,15000.0,27000.0,kg,kg,mapped,Personal care ,Personal Care,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200029,VAS2899,Vaseline Petroleum Jelly,Beverages,pcs,3000.0,3300.0,Pieces,pcs,mapped,Beverage,Beverages,mapped,3000,3300.0,3000.0,3300.0,valid,False,False
+PRD200030,COL3142,Colgate Toothpaste 100ml,Personal Care,pcs,2000.0,2600.0,boxes,pcs,mapped,Personal care ,Personal Care,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200031,IMP8106,Imperial Leather Soap,Stationery,pcs,1000.0,1300.0,PCE,pcs,mapped,Stationary,Stationery,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD200032,KAB1458,Kabwe Detergent 1kg,Household,kg,5000.0,4060.52,kg,kg,mapped,HOUSEHOLD,Household,mapped,5000,4060.52,5000.0,4060.52,valid,True,False
+PRD200033,STA4637,Stabilo Highlighter,Stationery,kg,2000.0,2300.0,kilogram,kg,mapped,Stationery,Stationery,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200034,KAK2751,Kakira Sugar 1kg,Grains & Cereals,kg,10000.0,12500.0,Kilograms,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,10000,12500.0,10000.0,12500.0,valid,False,True
+PRD200035,BAK5652,Baking Soda 500g,Household,pcs,10000.0,11500.0,boxes,pcs,mapped,Household,Household,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200036,VAS1104,Vaseline Petroleum Jelly,Personal Care,kg,20000.0,22000.0,kilogram,kg,mapped,PERSONAL CARE,Personal Care,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200037,KRE9078,Krest Bitter Lemon,Snacks,pcs,15000.0,27000.0,piece,pcs,mapped,Snacks,Snacks,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200038,BIC2246,Bic Pen Blue,Stationery,kg,2500.0,4500.0,g,kg,converted,Stationery,Stationery,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200039,ALW5815,Always Sanitary Pads,Personal Care,pcs,2500.0,4500.0,pc,pcs,mapped,Personal Care,Personal Care,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200040,RUL2999,Ruler 30cm,Stationery,kg,35000.0,52500.0,kg,kg,mapped,Statio nery,Stationery,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200041,MAI2318,Maize Flour 2kg,Grains & Cereals,pcs,10000.0,11500.0,PCE,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200042,SPR6832,Sprite 300ml,Beverages,pcs,50000.0,75000.0,pc,pcs,mapped,Bevages,Beverages,mapped,50000,75000.0,50000.0,75000.0,valid,False,True
+PRD200043,KAK9881,Kakira Sugar 1kg,Grains & Cereals,kg,10000.0,12500.0,kg,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200044,KIM8734,Kimbo Fat 500g,Household,pcs,7500.0,8625.0,piece,pcs,mapped,Houshold,Household,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200045,MAI6225,Maize Grains 1kg,Grains & Cereals,kg,10000.0,15000.0,kgs,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200046,IMP9468,Imperial Leather Soap,Personal Care,kg,500.0,367.06,kgs,kg,mapped,PersonalCare,Personal Care,mapped,500,367.06,500.0,367.06,valid,True,False
+PRD200047,NES9500,Nescafe 100g,Beverages,pcs,500.0,750.0,pcs,pcs,mapped,Beverages,Beverages,mapped,500,750.0,500.0,750.0,valid,False,False
+PRD200048,MUR2198,Muruchu Cooking Oil 3L,Personal Care,kg,500.0,650.0,g,kg,converted,Percare,Personal Care,mapped,500,650.0,500.0,650.0,valid,False,False
+PRD200049,NES2909,Nescafe 100g,Beverages,liters,2500.0,2875.0,ml,liters,converted,Bevages,Beverages,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD200050,WHE4170,Wheat Flour 2kg,Grains & Cereals,pcs,500.0,900.0,bottles,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200051,PEP6560,Pepsi 500ml,Beverages,liters,35000.0,42000.0,L,liters,mapped,Bevages,Beverages,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200052,SPR3574,Sprite 300ml,Beverages,kg,2000.0,2400.0,Kilograms,kg,mapped,Beverages,Beverages,mapped,2000,2400.0,2000.0,2400.0,valid,False,False
+PRD200053,KAB9443,Kabala Groundnuts 200g,Snacks,pcs,7500.0,9000.0,boxes,pcs,mapped,Snacks,Snacks,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200054,BIC8190,Bic Pen Blue,Stationery,kg,750.0,1125.0,kg,kg,mapped,Statio nery,Stationery,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200055,ALW2006,Always Sanitary Pads,Household,pcs,5000.0,6500.0,Pieces,pcs,mapped,House hold,Household,mapped,5000,6500.0,5000.0,6500.0,valid,False,False
+PRD200056,COL9795,Colgate Toothpaste 100ml,Personal Care,pcs,35000.0,40250.0,Pieces,pcs,mapped,PersonalCare,Personal Care,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200057,KIM1879,Kimbo Fat 500g,Household,liters,2500.0,3125.0,Litres,liters,mapped,Household Items,Household,mapped,2500,3125.0,2500.0,3125.0,valid,False,False
+PRD200058,SOR3965,Sorghum 1kg,Grains & Cereals,pcs,7500.0,9375.0,piece,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200059,CAN4080,Candles 6 Pack,Household,kg,35000.0,40250.0,kgs,kg,mapped,Houshold,Household,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200060,SOR4805,Sorghum 1kg,Grains & Cereals,liters,2500.0,2875.0,Litres,liters,mapped,Grains,Grains & Cereals,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD200061,NIC7322,Nice Biscuits 100g,Snacks,kg,15000.0,18750.0,kgs,kg,mapped,Snack,Snacks,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD200062,BRO7113,Brookside Fresh Milk 500ml,Beverages,pcs,5000.0,6250.0,bottles,pcs,mapped,Beverage,Beverages,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200063,MAT2163,Mathematical Set,Stationery,kg,1000.0,708.61,g,kg,converted,Stationery,Stationery,mapped,1000,708.61,1000.0,708.61,valid,True,False
+PRD200064,MIN3846,Minute Maid 400ml,Beverages,liters,20000.0,23000.0,ml,liters,converted,Bevages,Beverages,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200065,COL3584,Colgate Toothpaste 100ml,Personal Care,liters,20000.0,36000.0,liters,liters,mapped,Percare,Personal Care,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200066,SUN7698,Sunlight Soap 800g,Household,liters,1000.0,1250.0,L,liters,mapped,Houshold,Household,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD200067,BIC2543,Bic Pen Blue,Household,kg,4500.0,8100.0,Kilograms,kg,mapped,HOUSEHOLD,Household,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200068,TWI4448,Twins Tea 250g,Personal Care,kg,1000.0,1200.0,kg,kg,mapped,Personal care ,Personal Care,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200069,BIC2363,Bic Pen Blue,Stationery,kg,5000.0,9000.0,KGS,kg,mapped,Stationery,Stationery,mapped,5000,9000.0,5000.0,9000.0,valid,False,False
+PRD200070,RUL7393,Ruler 30cm,Stationery,pcs,1000.0,1100.0,Pieces,pcs,mapped,Statio nery,Stationery,mapped,1000,1100.0,1000.0,1100.0,valid,False,False
+PRD200071,ARR8092,Array Juice 250ml,Personal Care,pcs,20000.0,26000.0,bottles,pcs,mapped,PERSONAL CARE,Personal Care,mapped,20000,26000.0,20000.0,26000.0,valid,False,False
+PRD200072,JIK9965,Jik 1L,Household,liters,4500.0,5850.0,Litres,liters,mapped,HOUSEHOLD,Household,mapped,4500,5850.0,4500.0,5850.0,valid,False,False
+PRD200073,BAK2739,Baking Soda 500g,Household,pcs,35000.0,38500.0,pcs,pcs,mapped,House hold,Household,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200074,VAS2962,Vaseline Petroleum Jelly,Personal Care,liters,5000.0,6000.0,ml,liters,converted,Personal Care,Personal Care,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200075,DET2284,Dettol Antiseptic 250ml,Personal Care,liters,10000.0,15000.0,ml,liters,converted,PERSONAL CARE,Personal Care,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200076,SOR9884,Sorghum 1kg,Grains & Cereals,pcs,1000.0,1300.0,piece,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD200077,BEL4752,Bell Lager,Beverages,kg,1500.0,2250.0,Kilograms,kg,mapped,Beverages,Beverages,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200078,COL8819,Colgate Toothpaste 100ml,Personal Care,pcs,1000.0,893.67,pc,pcs,mapped,PersonalCare,Personal Care,mapped,1000,893.67,1000.0,893.67,valid,True,False
+PRD200079,MAR1519,Marlboro Biscuits,Snacks,pcs,4500.0,5850.0,bottles,pcs,mapped,Snack,Snacks,mapped,4500,5850.0,4500.0,5850.0,valid,False,False
+PRD200080,CAN9267,Candles 6 Pack,Household,kg,5000.0,7500.0,g,kg,converted,House hold,Household,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200081,COL1853,Colgate Toothpaste 100ml,Personal Care,pcs,2500.0,4500.0,pcs,pcs,mapped,PERSONAL CARE,Personal Care,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200082,HEA6951,Head & Shoulders 400ml,Personal Care,kg,7500.0,9000.0,kgs,kg,mapped,Percare,Personal Care,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200083,RIC1616,Rice 1kg,Grains & Cereals,pcs,35000.0,40250.0,PCE,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200084,ALW3839,Always Sanitary Pads,Personal Care,kg,1500.0,1725.0,Kilograms,kg,mapped,Personal care ,Personal Care,mapped,1500,1725.0,1500.0,1725.0,valid,False,False
+PRD200085,CAN3903,Candles 6 Pack,Household,kg,2500.0,3750.0,kgs,kg,mapped,Household Items,Household,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200086,BIC4785,Bic Pen Blue,Grains & Cereals,kg,500.0,900.0,kg,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200087,NIL4019,Nile Beer 500ml,Personal Care,pcs,5000.0,7500.0,PCE,pcs,mapped,PersonalCare,Personal Care,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200088,WHE5631,Wheat Flour 2kg,Beverages,liters,2000.0,2500.0,ml,liters,converted,Bevages,Beverages,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200089,NIC3960,Nice Biscuits 100g,Snacks,liters,2500.0,3125.0,Litres,liters,mapped,SNACKS,Snacks,mapped,2500,3125.0,2500.0,3125.0,valid,False,False
+PRD200090,MAR9616,Marlboro Biscuits,Snacks,pcs,2000.0,1897.03,boxes,pcs,mapped,SNACKS,Snacks,mapped,2000,1897.03,2000.0,1897.03,valid,True,False
+PRD200091,ARR3634,Array Juice 250ml,Beverages,pcs,50000.0,62500.0,boxes,pcs,mapped,Beverage,Beverages,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200092,IMP6382,Imperial Leather Soap,Personal Care,liters,1000.0,1500.0,ml,liters,converted,Personal care ,Personal Care,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200093,COL8114,Colgate Toothpaste 100ml,Personal Care,liters,15000.0,19500.0,ml,liters,converted,Percare,Personal Care,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200094,COL3902,Colgate Toothpaste 100ml,Personal Care,kg,35000.0,43750.0,kg,kg,mapped,PersonalCare,Personal Care,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200095,KAK8115,Kakira Sugar 1kg,Grains & Cereals,kg,4500.0,5400.0,kg,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200096,HEA1137,Head & Shoulders 400ml,Personal Care,pcs,15000.0,18000.0,pcs,pcs,mapped,PersonalCare,Personal Care,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD200097,BAK8803,Baking Soda 500g,Household,liters,15000.0,19500.0,L,liters,mapped,Household Items,Household,mapped,15000,19500.0,15000.0,19500.0,valid,False,True
+PRD200098,SUN3589,Sunlight Soap 800g,Household,kg,35000.0,42000.0,KGS,kg,mapped,HOUSEHOLD,Household,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200099,HEA4813,Head & Shoulders 400ml,Personal Care,liters,5000.0,7500.0,liters,liters,mapped,PersonalCare,Personal Care,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200100,KRE2243,Krest Bitter Lemon,Personal Care,pcs,1500.0,1875.0,pcs,pcs,mapped,PERSONAL CARE,Personal Care,mapped,1500,1875.0,1500.0,1875.0,valid,False,False
+PRD200101,ALW7921,Always Sanitary Pads,Grains & Cereals,kg,2500.0,3750.0,kilogram,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200102,VAS7627,Vaseline Petroleum Jelly,Personal Care,pcs,1000.0,1200.0,bottles,pcs,mapped,PERSONAL CARE,Personal Care,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200103,MAI4406,Maize Flour 2kg,Personal Care,pcs,15000.0,12474.0,boxes,pcs,mapped,Personal care ,Personal Care,mapped,15000,"UGX 12,474",15000.0,12474.0,valid,True,False
+PRD200104,SUN9648,Sunlight Soap 800g,Household,pcs,20000.0,36000.0,pc,pcs,mapped,House hold,Household,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200105,MAI3097,Maize Flour 2kg,Grains & Cereals,liters,20000.0,25000.0,L,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,20000,25000.0,20000.0,25000.0,valid,False,True
+PRD200106,MOU1844,Mountain Gorilla Water 1L,Snacks,pcs,2500.0,2875.0,pcs,pcs,mapped,Sncks,Snacks,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD200107,SPR9293,Sprite 300ml,Beverages,liters,1000.0,1800.0,Litres,liters,mapped,Bvages,Beverages,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200108,NIC1127,Nice & Lovely Lotion 200ml,Personal Care,kg,1000.0,1200.0,Kilograms,kg,mapped,Personal Care,Personal Care,mapped,1000,1200.0,1000.0,1200.0,valid,False,True
+PRD200109,COL3325,Colgate Toothpaste 100ml,Personal Care,pcs,750.0,975.0,PCE,pcs,mapped,Percare,Personal Care,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200110,TOI1667,Toilet Paper 4 Pack,Household,pcs,10000.0,13000.0,Pieces,pcs,mapped,Household Items,Household,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200111,BEA4392,Beans 1kg,Snacks,kg,35000.0,63000.0,kilogram,kg,mapped,Snack,Snacks,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200112,MAI7438,Maize Flour 2kg,Grains & Cereals,kg,4500.0,3313.64,kgs,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,4500,3313.64,4500.0,3313.64,valid,True,False
+PRD200113,BRI6322,Britania Cream Cracker,Snacks,pcs,50000.0,65000.0,pcs,pcs,mapped,Sncks,Snacks,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD200114,NIL8234,Nile Beer 500ml,Beverages,pcs,7500.0,13500.0,Pieces,pcs,mapped,Beverage,Beverages,mapped,7500,13500.0,7500.0,13500.0,valid,False,False
+PRD200115,MAI7456,Maize Grains 1kg,Grains & Cereals,liters,50000.0,60000.0,ml,liters,converted,Grains&Cereals,Grains & Cereals,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200116,BRI7532,Britania Cream Cracker,Snacks,kg,2000.0,1201.24,Kilograms,kg,mapped,Snacks,Snacks,mapped,2000,1201.24,2000.0,1201.24,valid,True,False
+PRD200117,MAT9185,Mathematical Set,Stationery,pcs,3000.0,3600.0,piece,pcs,mapped,Statio nery,Stationery,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200118,NIC6033,Nice Biscuits 100g,Snacks,kg,5000.0,7500.0,KGS,kg,mapped,SNACKS,Snacks,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200119,BEA5139,Beans 1kg,Grains & Cereals,kg,15000.0,18000.0,Kilograms,kg,mapped,Grains & cereal,Grains & Cereals,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD200120,KAB6678,Kabwe Detergent 1kg,Household,kg,500.0,625.0,kg,kg,mapped,House hold,Household,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200121,KAK7397,Kakira Sugar 1kg,Grains & Cereals,kg,2000.0,3600.0,KGS,kg,mapped,Grains & cereal,Grains & Cereals,mapped,2000,3600.0,2000.0,3600.0,valid,False,False
+PRD200122,MAR1100,Marlboro Biscuits,Snacks,kg,10000.0,18000.0,kg,kg,mapped,Snacks,Snacks,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200123,STA6811,Stabilo Highlighter,Grains & Cereals,pcs,3000.0,3750.0,PCE,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200124,IMP7105,Imperial Leather Soap,Personal Care,kg,2500.0,2875.0,g,kg,converted,Percare,Personal Care,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD200125,SIM6085,Sims Chips 150g,Snacks,pcs,1000.0,1800.0,bottles,pcs,mapped,Snack,Snacks,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200126,MIN5006,Minute Maid 400ml,Beverages,liters,500.0,750.0,Litres,liters,mapped,Bevages,Beverages,mapped,500,750.0,500.0,750.0,valid,False,False
+PRD200127,TWI6393,Twins Tea 250g,Beverages,pcs,10000.0,12500.0,piece,pcs,mapped,BEVERAGES,Beverages,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200128,HEA6819,Head & Shoulders 400ml,Personal Care,pcs,3000.0,5400.0,pc,pcs,mapped,Personal care ,Personal Care,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200129,NIC8521,Nice & Lovely Lotion 200ml,Personal Care,kg,750.0,1350.0,Kilograms,kg,mapped,Percare,Personal Care,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200130,IMP4860,Imperial Leather Soap,Personal Care,kg,20000.0,14276.88,kilogram,kg,mapped,Personal Care,Personal Care,mapped,20000,14276.88,20000.0,14276.88,valid,True,False
+PRD200131,JIK2838,Jik 1L,Household,kg,2500.0,3000.0,KGS,kg,mapped,House hold,Household,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200132,BRI3247,Britania Cream Cracker,Snacks,pcs,4500.0,6750.0,pc,pcs,mapped,Snack,Snacks,mapped,4500,6750.0,4500.0,6750.0,valid,False,True
+PRD200133,KAB9018,Kabala Groundnuts 200g,Snacks,pcs,10000.0,13000.0,pcs,pcs,mapped,Sncks,Snacks,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200134,MAI6905,Maize Flour 2kg,Grains & Cereals,liters,3000.0,3600.0,L,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,3000,"3,600",3000.0,3600.0,valid,False,False
+PRD200135,KAB1940,Kabwe Detergent 1kg,Household,pcs,5000.0,6500.0,piece,pcs,mapped,Houshold,Household,mapped,5000,6500.0,5000.0,6500.0,valid,False,False
+PRD200136,RUL7700,Ruler 30cm,Stationery,kg,50000.0,90000.0,kg,kg,mapped,STATIONERY,Stationery,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200137,NIC4748,Nice Biscuits 100g,Beverages,pcs,500.0,900.0,PCE,pcs,mapped,BEVERAGES,Beverages,mapped,500,900.0,500.0,900.0,valid,False,True
+PRD200138,SIM9591,Sims Chips 150g,Snacks,pcs,2500.0,4500.0,bottles,pcs,mapped,SNACKS,Snacks,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200139,KIM3485,Kimbo Fat 500g,Household,kg,2500.0,3750.0,Kilograms,kg,mapped,Houshold,Household,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200140,TWI3747,Twins Tea 250g,Beverages,pcs,20000.0,23000.0,pc,pcs,mapped,Beverage,Beverages,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200141,JIK9192,Jik 1L,Household,liters,4500.0,5175.0,L,liters,mapped,HOUSEHOLD,Household,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200142,MAI3047,Maize Flour 2kg,Grains & Cereals,kg,4500.0,4197.32,kilogram,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,4500,4197.32,4500.0,4197.32,valid,True,False
+PRD200143,ALW9534,Always Sanitary Pads,Personal Care,pcs,50000.0,47254.46,Pieces,pcs,mapped,Personal care ,Personal Care,mapped,50000,47254.46,50000.0,47254.46,valid,True,False
+PRD200144,BAK1937,Baking Soda 500g,Household,liters,3000.0,3900.0,liters,liters,mapped,House hold,Household,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200145,SUP9576,Supermatch Crisps,Snacks,liters,1500.0,2250.0,liters,liters,mapped,Snack,Snacks,mapped,1500,2250.0,1500.0,2250.0,valid,False,True
+PRD200146,FAN7949,Fanta Orange 500ml,Beverages,pcs,2000.0,1803.16,bottles,pcs,mapped,Bevages,Beverages,mapped,2000,1803.16,2000.0,1803.16,valid,True,False
+PRD200147,NIC3428,Nice & Lovely Lotion 200ml,Personal Care,kg,35000.0,52500.0,kgs,kg,mapped,PERSONAL CARE,Personal Care,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200148,A46951,A4 Paper 500sh,Stationery,liters,20000.0,23000.0,ml,liters,converted,Stationery,Stationery,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200149,MAI4991,Maize Grains 1kg,Grains & Cereals,pcs,500.0,900.0,Pieces,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200150,DET4322,Dettol Antiseptic 250ml,Personal Care,liters,20000.0,25000.0,Litres,liters,mapped,Personal Care,Personal Care,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200151,RIC5117,Rice 1kg,Grains & Cereals,liters,10000.0,11000.0,liters,liters,mapped,Grains & cereal,Grains & Cereals,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200152,DET6338,Dettol Antiseptic 250ml,Personal Care,liters,20000.0,30000.0,liters,liters,mapped,Personal care ,Personal Care,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200153,KAB2057,Kabwe Detergent 1kg,Grains & Cereals,liters,500.0,900.0,ml,liters,converted,Grains&Cereals,Grains & Cereals,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200154,SOR3678,Sorghum 1kg,Grains & Cereals,pcs,500.0,900.0,boxes,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200155,TWI6011,Twins Tea 250g,Beverages,pcs,500.0,625.0,Pieces,pcs,mapped,Bevages,Beverages,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200156,COC3649,Coca-Cola 500ml,Beverages,pcs,20000.0,26000.0,Pieces,pcs,mapped,BEVERAGES,Beverages,mapped,20000,26000.0,20000.0,26000.0,valid,False,False
+PRD200157,EXE4307,Exercise Book 200pg,Stationery,liters,20000.0,30000.0,ml,liters,converted,Stationary,Stationery,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200158,SPR4540,Sprite 300ml,Beverages,pcs,750.0,672.1,pc,pcs,mapped,Beverages,Beverages,mapped,750,672.1,750.0,672.1,valid,True,False
+PRD200159,STA5595,Stabilo Highlighter,Stationery,kg,1000.0,1150.0,kilogram,kg,mapped,STATIONERY,Stationery,mapped,1000,UGX1150,1000.0,1150.0,valid,False,False
+PRD200160,ARR7549,Array Juice 250ml,Beverages,liters,2500.0,2750.0,liters,liters,mapped,Beverage,Beverages,mapped,2500,2750.0,2500.0,2750.0,valid,False,False
+PRD200161,BEA1470,Beans 1kg,Beverages,kg,2500.0,4500.0,kg,kg,mapped,Beverage,Beverages,mapped,2500,"UGX 4,500",2500.0,4500.0,valid,False,False
+PRD200162,BEA2265,Beans 1kg,Grains & Cereals,kg,35000.0,40250.0,g,kg,converted,Grains and Cereals,Grains & Cereals,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200163,A43167,A4 Paper 500sh,Stationery,liters,5000.0,7500.0,liters,liters,mapped,STATIONERY,Stationery,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200164,MAI7552,Maize Flour 2kg,Grains & Cereals,pcs,4500.0,5400.0,piece,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200165,COL9970,Colgate Toothpaste 100ml,Stationery,pcs,750.0,1350.0,pc,pcs,mapped,Stationery,Stationery,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200166,IMP5883,Imperial Leather Soap,Household,kg,10000.0,11000.0,kgs,kg,mapped,Household,Household,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200167,SOR3487,Sorghum 1kg,Grains & Cereals,liters,20000.0,24000.0,liters,liters,mapped,Grains & Cereals,Grains & Cereals,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200168,EXE2134,Exercise Book 200pg,Stationery,liters,20000.0,30000.0,L,liters,mapped,STATIONERY,Stationery,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200169,POR6756,Porridge Flour 500g,Grains & Cereals,liters,1500.0,1950.0,liters,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD200170,KRE5001,Krest Bitter Lemon,Snacks,kg,2500.0,4500.0,KGS,kg,mapped,Sncks,Snacks,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200171,COL3643,Colgate Toothpaste 100ml,Stationery,kg,20000.0,24000.0,kgs,kg,mapped,Stationery,Stationery,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200172,BAK5972,Baking Soda 500g,Household,pcs,20000.0,25000.0,piece,pcs,mapped,House hold,Household,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200173,NIC4475,Nice & Lovely Lotion 200ml,Personal Care,pcs,50000.0,62500.0,piece,pcs,mapped,PERSONAL CARE,Personal Care,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200174,WHE2668,Wheat Flour 2kg,Snacks,pcs,1000.0,1500.0,pc,pcs,mapped,Snacks,Snacks,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200175,A42986,A4 Paper 500sh,Stationery,liters,10000.0,18000.0,ml,liters,converted,Stationary,Stationery,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200176,TRO7951,Tropical Heat Nuts,Snacks,kg,5000.0,5750.0,Kilograms,kg,mapped,Snack,Snacks,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200177,HEA6656,Head & Shoulders 400ml,Grains & Cereals,pcs,35000.0,63000.0,bottles,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200178,HEA5868,Head & Shoulders 400ml,Personal Care,kg,7500.0,9375.0,kilogram,kg,mapped,Percare,Personal Care,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200179,COL6534,Colgate Toothpaste 100ml,Stationery,liters,4500.0,6750.0,Litres,liters,mapped,STATIONERY,Stationery,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200180,CAN5227,Candles 6 Pack,Personal Care,pcs,3000.0,5400.0,pc,pcs,mapped,Percare,Personal Care,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200181,NIC6622,Nice Biscuits 100g,Beverages,kg,7500.0,9750.0,KGS,kg,mapped,Beverages,Beverages,mapped,7500,9750.0,7500.0,9750.0,valid,False,False
+PRD200182,MAR5165,Marlboro Biscuits,Grains & Cereals,kg,2000.0,1883.72,kgs,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,2000,1883.72,2000.0,1883.72,valid,True,False
+PRD200183,MAI2052,Maize Grains 1kg,Grains & Cereals,pcs,3000.0,4500.0,pc,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200184,VAS8934,Vaseline Petroleum Jelly,Personal Care,kg,3000.0,3600.0,kgs,kg,mapped,Personal care ,Personal Care,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200185,IMP1795,Imperial Leather Soap,Personal Care,pcs,500.0,600.0,pcs,pcs,mapped,Personal Care,Personal Care,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200186,WHE5305,Wheat Flour 2kg,Grains & Cereals,kg,10000.0,15000.0,kilogram,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200187,COL7815,Colgate Toothpaste 100ml,Personal Care,pcs,750.0,937.5,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200188,BEA1199,Beans 1kg,Household,kg,35000.0,38500.0,kilogram,kg,mapped,Household,Household,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200189,BEA9846,Beans 1kg,Personal Care,kg,2500.0,3000.0,kilogram,kg,mapped,Personal care ,Personal Care,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200190,NIC5784,Nice & Lovely Lotion 200ml,Personal Care,kg,50000.0,60000.0,kg,kg,mapped,Personal Care,Personal Care,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200191,MAT6913,Mathematical Set,Stationery,liters,15000.0,19500.0,Litres,liters,mapped,STATIONERY,Stationery,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200192,MAT1267,Mathematical Set,Stationery,liters,750.0,975.0,Litres,liters,mapped,STATIONERY,Stationery,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200193,NIC7745,Nice Biscuits 100g,Snacks,kg,20000.0,36000.0,g,kg,converted,SNACKS,Snacks,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200194,NIC8234,Nice Biscuits 100g,Snacks,kg,20000.0,25000.0,kgs,kg,mapped,Snack,Snacks,mapped,20000,UGX25000,20000.0,25000.0,valid,False,False
+PRD200195,MAR6267,Marlboro Biscuits,Household,pcs,7500.0,9000.0,PCE,pcs,mapped,House hold,Household,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200196,MAR1297,Marlboro Biscuits,Snacks,liters,7500.0,5536.64,L,liters,mapped,Snacks,Snacks,mapped,7500,5536.64,7500.0,5536.64,valid,True,False
+PRD200197,SIM7061,Sims Chips 150g,Snacks,liters,7500.0,13500.0,liters,liters,mapped,Sncks,Snacks,mapped,7500,13500.0,7500.0,13500.0,valid,False,False
+PRD200198,MAT3969,Mathematical Set,Stationery,pcs,2500.0,3000.0,boxes,pcs,mapped,Stationary,Stationery,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200199,BIC6023,Bic Pen Blue,Beverages,kg,4500.0,4163.37,g,kg,converted,Beverages,Beverages,mapped,4500,4163.37,4500.0,4163.37,valid,True,False
+PRD200200,BIC3224,Bic Pen Blue,Stationery,kg,50000.0,62500.0,kilogram,kg,mapped,Stationary,Stationery,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200201,COL2966,Colgate Toothpaste 100ml,Personal Care,pcs,20000.0,22000.0,PCE,pcs,mapped,PersonalCare,Personal Care,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200202,COL7945,Colgate Toothpaste 100ml,Personal Care,liters,35000.0,42000.0,liters,liters,mapped,PersonalCare,Personal Care,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200203,KIM5065,Kimbo Fat 500g,Grains & Cereals,pcs,2000.0,2300.0,bottles,pcs,mapped,Grains,Grains & Cereals,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200204,A42899,A4 Paper 500sh,Stationery,liters,35000.0,40250.0,Litres,liters,mapped,Stationary,Stationery,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200205,JIK6506,Jik 1L,Stationery,kg,5000.0,6250.0,Kilograms,kg,mapped,STATIONERY,Stationery,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200206,DET9199,Dettol Antiseptic 250ml,Snacks,pcs,15000.0,18000.0,pcs,pcs,mapped,Snack,Snacks,mapped,15000,18000.0,15000.0,18000.0,valid,False,False
+PRD200207,SIM6174,Sims Chips 150g,Stationery,liters,20000.0,25000.0,ml,liters,converted,Statio nery,Stationery,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200208,WHE8353,Wheat Flour 2kg,Household,pcs,500.0,900.0,piece,pcs,mapped,HOUSEHOLD,Household,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200209,TOI1504,Toilet Paper 4 Pack,Household,pcs,5000.0,5500.0,Pieces,pcs,mapped,HOUSEHOLD,Household,mapped,5000,UGX5500,5000.0,5500.0,valid,False,False
+PRD200210,BAK1655,Baking Soda 500g,Household,pcs,5000.0,5500.0,boxes,pcs,mapped,HOUSEHOLD,Household,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200211,TWI2312,Twins Tea 250g,Beverages,kg,1500.0,1875.0,kilogram,kg,mapped,Beverages,Beverages,mapped,1500,1875.0,1500.0,1875.0,valid,False,False
+PRD200212,RUL9856,Ruler 30cm,Stationery,liters,20000.0,22000.0,ml,liters,converted,Stationery,Stationery,mapped,20000,UGX22000,20000.0,22000.0,valid,False,False
+PRD200213,A45290,A4 Paper 500sh,Snacks,pcs,10000.0,11000.0,pc,pcs,mapped,Snack,Snacks,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200214,STA9152,Stabilo Highlighter,Stationery,pcs,50000.0,65000.0,PCE,pcs,mapped,Statio nery,Stationery,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD200215,FAN3056,Fanta Orange 500ml,Beverages,liters,50000.0,36165.21,liters,liters,mapped,Beverage,Beverages,mapped,50000,36165.21,50000.0,36165.21,valid,True,False
+PRD200216,NIC2151,Nice & Lovely Lotion 200ml,Personal Care,liters,15000.0,16500.0,liters,liters,mapped,Personal care ,Personal Care,mapped,15000,16500.0,15000.0,16500.0,valid,False,False
+PRD200217,STA4050,Stabilo Highlighter,Stationery,liters,5000.0,5750.0,L,liters,mapped,Stationary,Stationery,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200218,RUL5814,Ruler 30cm,Stationery,kg,500.0,650.0,kilogram,kg,mapped,STATIONERY,Stationery,mapped,500,650.0,500.0,650.0,valid,False,False
+PRD200219,TWI5363,Twins Tea 250g,Beverages,kg,3000.0,4500.0,g,kg,converted,Beverage,Beverages,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200220,COL5791,Colgate Toothpaste 100ml,Personal Care,kg,4500.0,5400.0,kilogram,kg,mapped,Personal Care,Personal Care,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200221,SUP1790,Supermatch Crisps,Snacks,liters,5000.0,7500.0,Litres,liters,mapped,Snack,Snacks,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200222,SUP5379,Supermatch Crisps,Snacks,kg,35000.0,43750.0,g,kg,converted,Snack,Snacks,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200223,COL2344,Colgate Toothpaste 100ml,Beverages,kg,15000.0,17250.0,kg,kg,mapped,Bvages,Beverages,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200224,ROB9200,Roberts Milk 1L,Beverages,kg,4500.0,5850.0,KGS,kg,mapped,Beverages,Beverages,mapped,4500,5850.0,4500.0,5850.0,valid,False,False
+PRD200225,ARR3802,Array Juice 250ml,Beverages,pcs,3000.0,3600.0,piece,pcs,mapped,Beverage,Beverages,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200226,MAR5300,Marlboro Biscuits,Snacks,kg,50000.0,32225.43,kg,kg,mapped,Snack,Snacks,mapped,50000,32225.43,50000.0,32225.43,valid,True,False
+PRD200227,KAB4580,Kabala Groundnuts 200g,Snacks,liters,500.0,550.0,ml,liters,converted,SNACKS,Snacks,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200228,DET5558,Dettol Antiseptic 250ml,Personal Care,liters,10000.0,12500.0,ml,liters,converted,Personal care ,Personal Care,mapped,10000,12500.0,10000.0,12500.0,valid,False,True
+PRD200229,POR6624,Porridge Flour 500g,Grains & Cereals,pcs,15000.0,16500.0,bottles,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,15000,16500.0,15000.0,16500.0,valid,False,True
+PRD200230,JIK2140,Jik 1L,Household,kg,2000.0,2200.0,g,kg,converted,HOUSEHOLD,Household,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200231,KAK7785,Kakira Sugar 1kg,Grains & Cereals,kg,15000.0,22500.0,kg,kg,mapped,Grains & cereal,Grains & Cereals,mapped,15000,22500.0,15000.0,22500.0,valid,False,False
+PRD200232,ARR5078,Array Juice 250ml,Beverages,pcs,7500.0,9375.0,boxes,pcs,mapped,Beverages,Beverages,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200233,STA4013,Stabilo Highlighter,Grains & Cereals,pcs,750.0,937.5,pc,pcs,mapped,Grains,Grains & Cereals,mapped,750,937.5,750.0,937.5,valid,False,True
+PRD200234,IMP5945,Imperial Leather Soap,Personal Care,kg,35000.0,63000.0,kgs,kg,mapped,PersonalCare,Personal Care,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200235,SUN7367,Sunlight Soap 800g,Beverages,pcs,750.0,825.0,boxes,pcs,mapped,BEVERAGES,Beverages,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200236,RIC4402,Rice 1kg,Grains & Cereals,pcs,15000.0,22500.0,PCE,pcs,mapped,Grains,Grains & Cereals,mapped,15000,22500.0,15000.0,22500.0,valid,False,False
+PRD200237,SIM2955,Sims Chips 150g,Snacks,pcs,35000.0,52500.0,piece,pcs,mapped,SNACKS,Snacks,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200238,BIC5587,Bic Pen Blue,Stationery,pcs,35000.0,43750.0,PCE,pcs,mapped,Statio nery,Stationery,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200239,WHE3935,Wheat Flour 2kg,Grains & Cereals,liters,750.0,1350.0,L,liters,mapped,Grains and Cereals,Grains & Cereals,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200240,NIC4560,Nice Biscuits 100g,Snacks,liters,4500.0,8100.0,L,liters,mapped,Snacks,Snacks,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200241,STA7844,Stabilo Highlighter,Stationery,pcs,4500.0,6750.0,boxes,pcs,mapped,Statio nery,Stationery,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200242,IMP5269,Imperial Leather Soap,Personal Care,kg,35000.0,52500.0,kg,kg,mapped,Percare,Personal Care,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200243,MAT6272,Mathematical Set,Stationery,pcs,500.0,600.0,pcs,pcs,mapped,Stationary,Stationery,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200244,HEA6182,Head & Shoulders 400ml,Personal Care,pcs,15000.0,17250.0,PCE,pcs,mapped,PersonalCare,Personal Care,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200245,SUN3437,Sunlight Soap 800g,Household,liters,3000.0,4500.0,Litres,liters,mapped,Household,Household,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200246,MOU9870,Mountain Gorilla Water 1L,Snacks,pcs,15000.0,22500.0,pc,pcs,mapped,Snacks,Snacks,mapped,15000,22500.0,15000.0,22500.0,valid,False,False
+PRD200247,WHE2058,Wheat Flour 2kg,Grains & Cereals,liters,1500.0,1800.0,ml,liters,converted,Grains and Cereals,Grains & Cereals,mapped,1500,1800.0,1500.0,1800.0,valid,False,False
+PRD200248,BEA7888,Beans 1kg,Personal Care,pcs,4500.0,8100.0,Pieces,pcs,mapped,Personal care ,Personal Care,mapped,4500,8100.0,4500.0,8100.0,valid,False,True
+PRD200249,KAB9690,Kabwe Detergent 1kg,Stationery,pcs,500.0,650.0,bottles,pcs,mapped,STATIONERY,Stationery,mapped,500,650.0,500.0,650.0,valid,False,True
+PRD200250,STA6324,Stabilo Highlighter,Stationery,pcs,4500.0,8100.0,piece,pcs,mapped,Stationery,Stationery,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200251,KAB2642,Kabala Groundnuts 200g,Snacks,kg,2500.0,3250.0,g,kg,converted,Sncks,Snacks,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD200252,MAI6608,Maize Grains 1kg,Grains & Cereals,liters,750.0,937.5,ml,liters,converted,Grains & Cereals,Grains & Cereals,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200253,ARR2827,Array Juice 250ml,Beverages,pcs,7500.0,9750.0,bottles,pcs,mapped,Bvages,Beverages,mapped,7500,9750.0,7500.0,9750.0,valid,False,False
+PRD200254,MAT9082,Mathematical Set,Stationery,kg,4500.0,2837.78,kilogram,kg,mapped,Statio nery,Stationery,mapped,4500,2837.78,4500.0,2837.78,valid,True,False
+PRD200255,SIM5422,Sims Chips 150g,Snacks,pcs,20000.0,24000.0,pcs,pcs,mapped,Snack,Snacks,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200256,MUR8480,Muruchu Cooking Oil 3L,Household,liters,750.0,975.0,Litres,liters,mapped,Household,Household,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200257,SOR6158,Sorghum 1kg,Grains & Cereals,kg,2500.0,1867.74,g,kg,converted,Grains & cereal,Grains & Cereals,mapped,2500,1867.74,2500.0,1867.74,valid,True,False
+PRD200258,IMP9595,Imperial Leather Soap,Personal Care,pcs,15000.0,18000.0,PCE,pcs,mapped,PersonalCare,Personal Care,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD200259,NES8432,Nescafe 100g,Beverages,pcs,3000.0,3300.0,pc,pcs,mapped,BEVERAGES,Beverages,mapped,3000,3300.0,3000.0,3300.0,valid,False,False
+PRD200260,STA7866,Stabilo Highlighter,Personal Care,pcs,3000.0,3900.0,boxes,pcs,mapped,PersonalCare,Personal Care,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200261,KAB4141,Kabala Groundnuts 200g,Household,liters,35000.0,52500.0,ml,liters,converted,HOUSEHOLD,Household,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200262,BAK1062,Baking Soda 500g,Household,pcs,500.0,600.0,PCE,pcs,mapped,Household,Household,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200263,SUN2177,Sunlight Soap 800g,Household,kg,4500.0,4950.0,kgs,kg,mapped,Houshold,Household,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200264,MAI4939,Maize Grains 1kg,Beverages,kg,1000.0,1800.0,kgs,kg,mapped,BEVERAGES,Beverages,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200265,SUP6087,Supermatch Crisps,Snacks,pcs,15000.0,27000.0,bottles,pcs,mapped,Sncks,Snacks,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200266,PEP2257,Pepsi 500ml,Beverages,liters,2000.0,2500.0,Litres,liters,mapped,Bevages,Beverages,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200267,MOU5883,Mountain Gorilla Water 1L,Beverages,kg,750.0,900.0,kilogram,kg,mapped,Bevages,Beverages,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200268,KAB4274,Kabwe Detergent 1kg,Household,liters,20000.0,25000.0,liters,liters,mapped,HOUSEHOLD,Household,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200269,RIC2029,Rice 1kg,Grains & Cereals,pcs,50000.0,60000.0,piece,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200270,BAK6463,Baking Soda 500g,Grains & Cereals,pcs,500.0,650.0,pc,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,500,650.0,500.0,650.0,valid,False,True
+PRD200271,MAT1563,Mathematical Set,Stationery,liters,4500.0,5625.0,L,liters,mapped,Stationery,Stationery,mapped,4500,5625.0,4500.0,5625.0,valid,False,False
+PRD200272,MAI7143,Maize Grains 1kg,Grains & Cereals,kg,35000.0,42000.0,g,kg,converted,Grains & Cereals,Grains & Cereals,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200273,SUN5756,Sunlight Soap 800g,Household,liters,1500.0,2700.0,Litres,liters,mapped,HOUSEHOLD,Household,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200274,MAI3128,Maize Grains 1kg,Grains & Cereals,liters,10000.0,11500.0,L,liters,mapped,Grains & Cereals,Grains & Cereals,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200275,COL8326,Colgate Toothpaste 100ml,Personal Care,liters,7500.0,8625.0,Litres,liters,mapped,Percare,Personal Care,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200276,A41664,A4 Paper 500sh,Stationery,kg,500.0,575.0,kilogram,kg,mapped,STATIONERY,Stationery,mapped,500,575.0,500.0,575.0,valid,False,False
+PRD200277,BRO7916,Brookside Fresh Milk 500ml,Beverages,kg,20000.0,22000.0,kgs,kg,mapped,Bevages,Beverages,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200278,MAR6265,Marlboro Biscuits,Personal Care,pcs,750.0,1350.0,pcs,pcs,mapped,Personal Care,Personal Care,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200279,JIK9850,Jik 1L,Household,pcs,35000.0,40250.0,piece,pcs,mapped,Household Items,Household,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200280,HEA9870,Head & Shoulders 400ml,Personal Care,liters,4500.0,3630.88,ml,liters,converted,PERSONAL CARE,Personal Care,mapped,4500,3630.88,4500.0,3630.88,valid,True,False
+PRD200281,RUL7366,Ruler 30cm,Grains & Cereals,pcs,20000.0,25000.0,PCE,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200282,BAK5452,Baking Soda 500g,Household,pcs,4500.0,5175.0,bottles,pcs,mapped,Household Items,Household,mapped,4500,5175.0,4500.0,5175.0,valid,False,True
+PRD200283,CAN4709,Candles 6 Pack,Household,liters,2500.0,3750.0,ml,liters,converted,House hold,Household,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200284,SUP5662,Supermatch Crisps,Snacks,kg,15000.0,16500.0,KGS,kg,mapped,Snacks,Snacks,mapped,15000,16500.0,15000.0,16500.0,valid,False,False
+PRD200285,WHE5717,Wheat Flour 2kg,Grains & Cereals,kg,500.0,625.0,kilogram,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200286,VAS3072,Vaseline Petroleum Jelly,Personal Care,kg,15000.0,19500.0,kgs,kg,mapped,Personal Care,Personal Care,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200287,SUN2102,Sunlight Soap 800g,Household,kg,2500.0,4500.0,Kilograms,kg,mapped,House hold,Household,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200288,SPR7807,Sprite 300ml,Beverages,pcs,5000.0,5750.0,piece,pcs,mapped,Beverage,Beverages,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200289,PEP2328,Pepsi 500ml,Beverages,liters,4500.0,5175.0,L,liters,mapped,Beverages,Beverages,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200290,MAI9575,Maize Grains 1kg,Personal Care,kg,10000.0,12000.0,kg,kg,mapped,PERSONAL CARE,Personal Care,mapped,10000,12000.0,10000.0,12000.0,valid,False,False
+PRD200291,MAI8570,Maize Flour 2kg,Grains & Cereals,kg,35000.0,42000.0,kgs,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200292,BIC1012,Bic Pen Blue,Stationery,pcs,20000.0,14504.57,boxes,pcs,mapped,STATIONERY,Stationery,mapped,20000,14504.57,20000.0,14504.57,valid,True,False
+PRD200293,KAB2820,Kabala Groundnuts 200g,Snacks,pcs,3000.0,3450.0,boxes,pcs,mapped,Sncks,Snacks,mapped,3000,3450.0,3000.0,3450.0,valid,False,False
+PRD200294,KAB6430,Kabwe Detergent 1kg,Household,liters,20000.0,24000.0,ml,liters,converted,House hold,Household,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200295,RUL4199,Ruler 30cm,Stationery,pcs,2500.0,2875.0,PCE,pcs,mapped,Stationary,Stationery,mapped,2500,"UGX 2,875",2500.0,2875.0,valid,False,True
+PRD200296,RUL4507,Ruler 30cm,Grains & Cereals,kg,2500.0,3750.0,kgs,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200297,COL6362,Colgate Toothpaste 100ml,Household,pcs,2500.0,3750.0,Pieces,pcs,mapped,Household Items,Household,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200298,VAS9814,Vaseline Petroleum Jelly,Personal Care,pcs,35000.0,40250.0,pc,pcs,mapped,Personal Care,Personal Care,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200299,NES8157,Nescafe 100g,Beverages,kg,7500.0,13500.0,KGS,kg,mapped,Bevages,Beverages,mapped,7500,13500.0,7500.0,13500.0,valid,False,False
+PRD200300,COC5019,Coca-Cola 500ml,Beverages,pcs,3000.0,5400.0,Pieces,pcs,mapped,BEVERAGES,Beverages,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200301,MAI2036,Maize Flour 2kg,Grains & Cereals,kg,1000.0,1250.0,g,kg,converted,Grains&Cereals,Grains & Cereals,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD200302,WHE8344,Wheat Flour 2kg,Grains & Cereals,pcs,7500.0,8625.0,PCE,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200303,NIC8077,Nice Biscuits 100g,Beverages,pcs,35000.0,43750.0,PCE,pcs,mapped,BEVERAGES,Beverages,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200304,PEP1752,Pepsi 500ml,Beverages,pcs,1500.0,1950.0,pc,pcs,mapped,BEVERAGES,Beverages,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD200305,BAK3995,Baking Soda 500g,Household,pcs,2500.0,3750.0,boxes,pcs,mapped,House hold,Household,mapped,2500,UGX3750,2500.0,3750.0,valid,False,False
+PRD200306,NIC2429,Nice & Lovely Lotion 200ml,Personal Care,liters,7500.0,8250.0,Litres,liters,mapped,Personal Care,Personal Care,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200307,NES8787,Nescafe 100g,Beverages,liters,50000.0,65000.0,liters,liters,mapped,Bvages,Beverages,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD200308,NIL7231,Nile Beer 500ml,Beverages,pcs,2500.0,3000.0,Pieces,pcs,mapped,Bvages,Beverages,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200309,NES5065,Nescafe 100g,Beverages,kg,10000.0,7637.88,g,kg,converted,Beverage,Beverages,mapped,10000,7637.88,10000.0,7637.88,valid,True,False
+PRD200310,STA1413,Stabilo Highlighter,Stationery,liters,35000.0,38500.0,L,liters,mapped,Stationary,Stationery,mapped,35000,UGX38500,35000.0,38500.0,valid,False,False
+PRD200311,NIC9510,Nice Biscuits 100g,Grains & Cereals,pcs,1500.0,930.53,PCE,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,1500,930.53,1500.0,930.53,valid,True,False
+PRD200312,NIL2376,Nile Beer 500ml,Beverages,kg,750.0,1350.0,kgs,kg,mapped,Beverage,Beverages,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200313,A49036,A4 Paper 500sh,Stationery,kg,750.0,900.0,Kilograms,kg,mapped,STATIONERY,Stationery,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200314,BEA3901,Beans 1kg,Stationery,kg,3000.0,3600.0,kgs,kg,mapped,Statio nery,Stationery,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200315,BIC5543,Bic Pen Blue,Stationery,liters,5000.0,6250.0,Litres,liters,mapped,STATIONERY,Stationery,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200316,NES9168,Nescafe 100g,Personal Care,liters,1000.0,1800.0,L,liters,mapped,PersonalCare,Personal Care,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200317,JIK9638,Jik 1L,Household,pcs,35000.0,45500.0,boxes,pcs,mapped,Household Items,Household,mapped,35000,"45,500",35000.0,45500.0,valid,False,False
+PRD200318,BEA6314,Beans 1kg,Grains & Cereals,kg,4500.0,5175.0,kg,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200319,JIK4371,Jik 1L,Household,liters,2000.0,2400.0,L,liters,mapped,Houshold,Household,mapped,2000,2400.0,2000.0,2400.0,valid,False,False
+PRD200320,BAK9257,Baking Soda 500g,Snacks,liters,35000.0,43750.0,ml,liters,converted,SNACKS,Snacks,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200321,TOI7698,Toilet Paper 4 Pack,Household,kg,750.0,975.0,kgs,kg,mapped,Household,Household,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200322,NIC8029,Nice Biscuits 100g,Snacks,kg,5000.0,9000.0,kgs,kg,mapped,Snack,Snacks,mapped,5000,9000.0,5000.0,9000.0,valid,False,False
+PRD200323,SPR4727,Sprite 300ml,Beverages,liters,4500.0,4950.0,ml,liters,converted,BEVERAGES,Beverages,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200324,RUL3250,Ruler 30cm,Stationery,pcs,15000.0,27000.0,bottles,pcs,mapped,Statio nery,Stationery,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200325,MAR7932,Marlboro Biscuits,Snacks,pcs,750.0,825.0,pc,pcs,mapped,Snacks,Snacks,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200326,JIK1092,Jik 1L,Household,liters,3000.0,3300.0,Litres,liters,mapped,Household,Household,mapped,3000,"3,300",3000.0,3300.0,valid,False,False
+PRD200327,SUN8414,Sunlight Soap 800g,Household,pcs,3000.0,5400.0,Pieces,pcs,mapped,House hold,Household,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200328,MAI7792,Maize Grains 1kg,Grains & Cereals,kg,3000.0,3750.0,g,kg,converted,Grains,Grains & Cereals,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200329,CAN4025,Candles 6 Pack,Household,pcs,20000.0,23000.0,boxes,pcs,mapped,Household,Household,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200330,MAI8485,Maize Flour 2kg,Household,liters,35000.0,63000.0,ml,liters,converted,Household Items,Household,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200331,KAB9090,Kabwe Detergent 1kg,Household,pcs,35000.0,43750.0,Pieces,pcs,mapped,Houshold,Household,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200332,ALW8019,Always Sanitary Pads,Personal Care,pcs,5000.0,6250.0,PCE,pcs,mapped,PERSONAL CARE,Personal Care,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200333,NIC4852,Nice & Lovely Lotion 200ml,Stationery,pcs,50000.0,55000.0,pc,pcs,mapped,Statio nery,Stationery,mapped,50000,55000.0,50000.0,55000.0,valid,False,True
+PRD200334,BRI9459,Britania Cream Cracker,Household,liters,500.0,600.0,Litres,liters,mapped,Household Items,Household,mapped,500,600.0,500.0,600.0,valid,False,True
+PRD200335,MAR5047,Marlboro Biscuits,Personal Care,pcs,35000.0,52500.0,boxes,pcs,mapped,PERSONAL CARE,Personal Care,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200336,ARR5712,Array Juice 250ml,Beverages,liters,35000.0,43750.0,liters,liters,mapped,Beverage,Beverages,mapped,35000,43750.0,35000.0,43750.0,valid,False,True
+PRD200337,MAI3310,Maize Flour 2kg,Snacks,kg,20000.0,25000.0,Kilograms,kg,mapped,Sncks,Snacks,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200338,MUR4653,Muruchu Cooking Oil 3L,Household,kg,4500.0,5400.0,kg,kg,mapped,Household,Household,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200339,IMP2311,Imperial Leather Soap,Personal Care,kg,750.0,682.36,g,kg,converted,Percare,Personal Care,mapped,750,682.36,750.0,682.36,valid,True,False
+PRD200340,ARR9791,Array Juice 250ml,Personal Care,liters,15000.0,18750.0,ml,liters,converted,Percare,Personal Care,mapped,15000,18750.0,15000.0,18750.0,valid,False,True
+PRD200341,COC5169,Coca-Cola 500ml,Grains & Cereals,liters,35000.0,40250.0,liters,liters,mapped,Grains,Grains & Cereals,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200342,MAI8917,Maize Flour 2kg,Grains & Cereals,kg,4500.0,6750.0,kilogram,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200343,NIC8779,Nice Biscuits 100g,Snacks,pcs,1000.0,1500.0,boxes,pcs,mapped,SNACKS,Snacks,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200344,KAB6937,Kabwe Detergent 1kg,Household,kg,2000.0,2300.0,g,kg,converted,Houshold,Household,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200345,HEA6713,Head & Shoulders 400ml,Grains & Cereals,kg,2500.0,3750.0,kilogram,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,2500,3750.0,2500.0,3750.0,valid,False,True
+PRD200346,SUN8509,Sunlight Soap 800g,Household,liters,35000.0,45500.0,ml,liters,converted,Household,Household,mapped,35000,45500.0,35000.0,45500.0,valid,False,False
+PRD200347,MAR1872,Marlboro Biscuits,Snacks,kg,7500.0,11250.0,kgs,kg,mapped,Snack,Snacks,mapped,7500,11250.0,7500.0,11250.0,valid,False,False
+PRD200348,JIK1870,Jik 1L,Household,pcs,2000.0,2400.0,pcs,pcs,mapped,Household,Household,mapped,2000,2400.0,2000.0,2400.0,valid,False,False
+PRD200349,BEL1660,Bell Lager,Beverages,pcs,35000.0,63000.0,pc,pcs,mapped,Beverages,Beverages,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200350,DET9043,Dettol Antiseptic 250ml,Personal Care,pcs,10000.0,11500.0,pcs,pcs,mapped,PERSONAL CARE,Personal Care,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200351,ROB2760,Roberts Milk 1L,Beverages,liters,35000.0,52500.0,Litres,liters,mapped,Beverages,Beverages,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200352,SIM5950,Sims Chips 150g,Snacks,pcs,3000.0,3600.0,pc,pcs,mapped,SNACKS,Snacks,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200353,ARR5263,Array Juice 250ml,Beverages,kg,1500.0,1875.0,kgs,kg,mapped,Beverage,Beverages,mapped,1500,1875.0,1500.0,1875.0,valid,False,False
+PRD200354,DET8957,Dettol Antiseptic 250ml,Personal Care,kg,1500.0,2700.0,g,kg,converted,PersonalCare,Personal Care,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200355,NIC5696,Nice & Lovely Lotion 200ml,Personal Care,liters,750.0,975.0,Litres,liters,mapped,Percare,Personal Care,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200356,JIK8090,Jik 1L,Household,kg,1000.0,1250.0,KGS,kg,mapped,Houshold,Household,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD200357,BAK7387,Baking Soda 500g,Household,kg,15000.0,19500.0,Kilograms,kg,mapped,HOUSEHOLD,Household,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200358,RUL7345,Ruler 30cm,Stationery,kg,4500.0,8100.0,g,kg,converted,STATIONERY,Stationery,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200359,IMP8841,Imperial Leather Soap,Personal Care,kg,2000.0,2200.0,kg,kg,mapped,PersonalCare,Personal Care,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200360,CAN3105,Candles 6 Pack,Household,kg,35000.0,52500.0,kilogram,kg,mapped,Household,Household,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200361,IMP6447,Imperial Leather Soap,Personal Care,kg,1000.0,1200.0,kg,kg,mapped,Personal care ,Personal Care,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200362,IMP7767,Imperial Leather Soap,Personal Care,liters,3000.0,3450.0,ml,liters,converted,PersonalCare,Personal Care,mapped,3000,3450.0,3000.0,3450.0,valid,False,False
+PRD200363,NIC3546,Nice Biscuits 100g,Snacks,liters,3000.0,4500.0,ml,liters,converted,Snack,Snacks,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200364,EXE3475,Exercise Book 200pg,Stationery,pcs,7500.0,9375.0,piece,pcs,mapped,STATIONERY,Stationery,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200365,KAK9415,Kakira Sugar 1kg,Grains & Cereals,kg,20000.0,23000.0,KGS,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD200366,SOR7920,Sorghum 1kg,Grains & Cereals,liters,3000.0,5400.0,liters,liters,mapped,Grains and Cereals,Grains & Cereals,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200367,ALW7833,Always Sanitary Pads,Personal Care,kg,500.0,600.0,Kilograms,kg,mapped,PersonalCare,Personal Care,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200368,SUP5734,Supermatch Crisps,Snacks,pcs,4500.0,8100.0,piece,pcs,mapped,Snack,Snacks,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200369,TOI1116,Toilet Paper 4 Pack,Household,pcs,4500.0,5400.0,bottles,pcs,mapped,Houshold,Household,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200370,KAK1973,Kakira Sugar 1kg,Grains & Cereals,pcs,35000.0,38500.0,bottles,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200371,BEA7205,Beans 1kg,Grains & Cereals,pcs,2500.0,2750.0,piece,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,2500,2750.0,2500.0,2750.0,valid,False,True
+PRD200372,MAR6047,Marlboro Biscuits,Snacks,pcs,500.0,900.0,boxes,pcs,mapped,Snack,Snacks,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200373,SOR9399,Sorghum 1kg,Grains & Cereals,liters,15000.0,18750.0,liters,liters,mapped,Grains & cereal,Grains & Cereals,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD200374,STA9494,Stabilo Highlighter,Stationery,liters,15000.0,19500.0,Litres,liters,mapped,Stationary,Stationery,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200375,POR4929,Porridge Flour 500g,Grains & Cereals,pcs,5000.0,3051.54,Pieces,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,5000,3051.54,5000.0,3051.54,valid,True,False
+PRD200376,MUR4879,Muruchu Cooking Oil 3L,Household,kg,3000.0,3750.0,KGS,kg,mapped,Household Items,Household,mapped,3000,3750.0,3000.0,3750.0,valid,False,True
+PRD200377,KRE6734,Krest Bitter Lemon,Snacks,liters,1500.0,1950.0,ml,liters,converted,Sncks,Snacks,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD200378,MAI3271,Maize Flour 2kg,Beverages,kg,3000.0,3300.0,KGS,kg,mapped,Bevages,Beverages,mapped,3000,3300.0,3000.0,3300.0,valid,False,False
+PRD200379,RUL5042,Ruler 30cm,Stationery,kg,750.0,900.0,Kilograms,kg,mapped,Stationary,Stationery,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200380,ALW7283,Always Sanitary Pads,Personal Care,liters,2500.0,4500.0,ml,liters,converted,Personal care ,Personal Care,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200381,BIC2549,Bic Pen Blue,Stationery,liters,20000.0,22000.0,ml,liters,converted,Stationery,Stationery,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200382,NIC4309,Nice & Lovely Lotion 200ml,Snacks,kg,2000.0,2600.0,Kilograms,kg,mapped,SNACKS,Snacks,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200383,NES9465,Nescafe 100g,Beverages,pcs,5000.0,5500.0,pc,pcs,mapped,Beverages,Beverages,mapped,5000,"UGX 5,500",5000.0,5500.0,valid,False,False
+PRD200384,EXE3038,Exercise Book 200pg,Stationery,pcs,2000.0,2600.0,bottles,pcs,mapped,Stationery,Stationery,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200385,PEP9220,Pepsi 500ml,Beverages,kg,7500.0,8625.0,Kilograms,kg,mapped,BEVERAGES,Beverages,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200386,VAS3903,Vaseline Petroleum Jelly,Personal Care,kg,50000.0,62500.0,KGS,kg,mapped,Personal Care,Personal Care,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200387,TWI2042,Twins Tea 250g,Personal Care,pcs,4500.0,6750.0,pc,pcs,mapped,Personal Care,Personal Care,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200388,TWI1403,Twins Tea 250g,Snacks,pcs,4500.0,3452.78,pc,pcs,mapped,Sncks,Snacks,mapped,4500,3452.78,4500.0,3452.78,valid,True,False
+PRD200389,WHE9743,Wheat Flour 2kg,Grains & Cereals,liters,10000.0,15000.0,Litres,liters,mapped,Grains & cereal,Grains & Cereals,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200390,MAT9216,Mathematical Set,Stationery,kg,1500.0,2700.0,kg,kg,mapped,Stationery,Stationery,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200391,DET9622,Dettol Antiseptic 250ml,Personal Care,liters,2000.0,3000.0,Litres,liters,mapped,PERSONAL CARE,Personal Care,mapped,2000,"UGX 3,000",2000.0,3000.0,valid,False,False
+PRD200392,TRO9362,Tropical Heat Nuts,Snacks,pcs,5000.0,7500.0,Pieces,pcs,mapped,Sncks,Snacks,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200393,CAN4230,Candles 6 Pack,Household,liters,5000.0,5750.0,Litres,liters,mapped,Household,Household,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200394,NIC8397,Nice Biscuits 100g,Personal Care,liters,2000.0,3600.0,L,liters,mapped,Personal Care,Personal Care,mapped,2000,3600.0,2000.0,3600.0,valid,False,False
+PRD200395,BRI5435,Britania Cream Cracker,Snacks,pcs,20000.0,36000.0,piece,pcs,mapped,Snacks,Snacks,mapped,20000,36000.0,20000.0,36000.0,valid,False,True
+PRD200396,MAR1655,Marlboro Biscuits,Snacks,kg,2000.0,3000.0,KGS,kg,mapped,Snack,Snacks,mapped,2000,3000.0,2000.0,3000.0,valid,False,False
+PRD200397,MAI6691,Maize Grains 1kg,Household,liters,1500.0,1650.0,ml,liters,converted,Household,Household,mapped,1500,1650.0,1500.0,1650.0,valid,False,False
+PRD200398,MAI9245,Maize Flour 2kg,Grains & Cereals,pcs,35000.0,40250.0,bottles,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200399,MAT1429,Mathematical Set,Stationery,kg,500.0,900.0,KGS,kg,mapped,Stationery,Stationery,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200400,EXE7719,Exercise Book 200pg,Beverages,kg,4500.0,5625.0,kgs,kg,mapped,Beverages,Beverages,mapped,4500,5625.0,4500.0,5625.0,valid,False,False
+PRD200401,BRI3966,Britania Cream Cracker,Snacks,liters,4500.0,5625.0,liters,liters,mapped,SNACKS,Snacks,mapped,4500,5625.0,4500.0,5625.0,valid,False,False
+PRD200402,ALW8635,Always Sanitary Pads,Personal Care,pcs,4500.0,6750.0,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200403,STA6932,Stabilo Highlighter,Stationery,liters,4500.0,4950.0,L,liters,mapped,Statio nery,Stationery,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200404,VAS7202,Vaseline Petroleum Jelly,Personal Care,kg,1500.0,2250.0,g,kg,converted,Percare,Personal Care,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200405,BIC2931,Bic Pen Blue,Stationery,pcs,35000.0,45500.0,Pieces,pcs,mapped,STATIONERY,Stationery,mapped,35000,45500.0,35000.0,45500.0,valid,False,False
+PRD200406,MAI2387,Maize Flour 2kg,Grains & Cereals,kg,1500.0,2250.0,kgs,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200407,SOR4419,Sorghum 1kg,Grains & Cereals,pcs,10000.0,13000.0,PCE,pcs,mapped,Grains,Grains & Cereals,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200408,A46322,A4 Paper 500sh,Snacks,pcs,15000.0,19500.0,boxes,pcs,mapped,Sncks,Snacks,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200409,EXE7217,Exercise Book 200pg,Stationery,liters,1500.0,1950.0,ml,liters,converted,Stationery,Stationery,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD200410,MAI8789,Maize Flour 2kg,Grains & Cereals,kg,50000.0,55000.0,KGS,kg,mapped,Grains,Grains & Cereals,mapped,50000,55000.0,50000.0,55000.0,valid,False,False
+PRD200411,COC4373,Coca-Cola 500ml,Beverages,kg,750.0,1125.0,KGS,kg,mapped,Beverages,Beverages,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200412,SUP9288,Supermatch Crisps,Snacks,kg,10000.0,15000.0,kg,kg,mapped,Sncks,Snacks,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200413,MAR2592,Marlboro Biscuits,Snacks,kg,20000.0,25000.0,kg,kg,mapped,Snack,Snacks,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200414,CAN5027,Candles 6 Pack,Household,liters,7500.0,11250.0,L,liters,mapped,HOUSEHOLD,Household,mapped,7500,11250.0,7500.0,11250.0,valid,False,False
+PRD200415,IMP4678,Imperial Leather Soap,Personal Care,kg,10000.0,11000.0,g,kg,converted,PersonalCare,Personal Care,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200416,NIC6259,Nice & Lovely Lotion 200ml,Personal Care,pcs,7500.0,9375.0,piece,pcs,mapped,PersonalCare,Personal Care,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200417,VAS4314,Vaseline Petroleum Jelly,Personal Care,pcs,500.0,600.0,pc,pcs,mapped,Personal Care,Personal Care,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200418,BRI9690,Britania Cream Cracker,Snacks,pcs,20000.0,23000.0,bottles,pcs,mapped,Snacks,Snacks,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD200419,ALW2969,Always Sanitary Pads,Household,kg,1000.0,1800.0,KGS,kg,mapped,House hold,Household,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200420,FAN6407,Fanta Orange 500ml,Beverages,pcs,1500.0,2250.0,pcs,pcs,mapped,Beverages,Beverages,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200421,STA7782,Stabilo Highlighter,Household,kg,5000.0,6000.0,kgs,kg,mapped,Houshold,Household,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200422,SUP6439,Supermatch Crisps,Snacks,liters,4500.0,8100.0,liters,liters,mapped,Snacks,Snacks,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200423,COL7068,Colgate Toothpaste 100ml,Personal Care,liters,3000.0,3900.0,ml,liters,converted,PersonalCare,Personal Care,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200424,COC5785,Coca-Cola 500ml,Beverages,liters,7500.0,9375.0,ml,liters,converted,BEVERAGES,Beverages,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200425,KRE5191,Krest Bitter Lemon,Beverages,liters,35000.0,43750.0,Litres,liters,mapped,BEVERAGES,Beverages,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200426,RIC8067,Rice 1kg,Grains & Cereals,kg,500.0,550.0,Kilograms,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200427,BAK6923,Baking Soda 500g,Household,pcs,35000.0,24113.01,pcs,pcs,mapped,House hold,Household,mapped,35000,24113.01,35000.0,24113.01,valid,True,False
+PRD200428,COL5997,Colgate Toothpaste 100ml,Personal Care,pcs,35000.0,38500.0,boxes,pcs,mapped,PERSONAL CARE,Personal Care,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200429,VAS2585,Vaseline Petroleum Jelly,Personal Care,kg,20000.0,24000.0,kilogram,kg,mapped,PERSONAL CARE,Personal Care,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200430,COC4084,Coca-Cola 500ml,Beverages,liters,7500.0,8250.0,L,liters,mapped,Bevages,Beverages,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200431,POR4486,Porridge Flour 500g,Grains & Cereals,pcs,2000.0,2200.0,pc,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200432,MAI7518,Maize Flour 2kg,Beverages,kg,50000.0,57500.0,kgs,kg,mapped,Bevages,Beverages,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD200433,IMP6271,Imperial Leather Soap,Personal Care,kg,10000.0,11000.0,KGS,kg,mapped,PersonalCare,Personal Care,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200434,SOR2228,Sorghum 1kg,Grains & Cereals,pcs,15000.0,16500.0,PCE,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,15000,16500.0,15000.0,16500.0,valid,False,False
+PRD200435,SUN2681,Sunlight Soap 800g,Household,liters,2000.0,2300.0,Litres,liters,mapped,House hold,Household,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200436,KAB9393,Kabala Groundnuts 200g,Snacks,kg,4500.0,6750.0,kg,kg,mapped,Snacks,Snacks,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200437,IMP6307,Imperial Leather Soap,Personal Care,liters,10000.0,13000.0,ml,liters,converted,PersonalCare,Personal Care,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200438,EXE3153,Exercise Book 200pg,Stationery,pcs,1000.0,1150.0,pc,pcs,mapped,Stationery,Stationery,mapped,1000,1150.0,1000.0,1150.0,valid,False,True
+PRD200439,MAI2128,Maize Grains 1kg,Beverages,pcs,15000.0,17250.0,Pieces,pcs,mapped,Bvages,Beverages,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200440,WHE9801,Wheat Flour 2kg,Grains & Cereals,pcs,500.0,428.94,bottles,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,500,428.94,500.0,428.94,valid,True,False
+PRD200441,TRO5217,Tropical Heat Nuts,Snacks,kg,750.0,825.0,kgs,kg,mapped,Snacks,Snacks,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200442,MUR4483,Muruchu Cooking Oil 3L,Household,kg,2500.0,3750.0,KGS,kg,mapped,Houshold,Household,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200443,TOI6239,Toilet Paper 4 Pack,Household,pcs,15000.0,27000.0,pcs,pcs,mapped,Household Items,Household,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200444,SUN1448,Sunlight Soap 800g,Household,liters,2000.0,2300.0,ml,liters,converted,Household Items,Household,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200445,BAK4699,Baking Soda 500g,Household,pcs,10000.0,13000.0,PCE,pcs,mapped,Household Items,Household,mapped,10000,13000.0,10000.0,13000.0,valid,False,True
+PRD200446,CAN5467,Candles 6 Pack,Household,kg,2000.0,2400.0,g,kg,converted,Household,Household,mapped,2000,"UGX 2,400",2000.0,2400.0,valid,False,False
+PRD200447,A49133,A4 Paper 500sh,Snacks,liters,50000.0,90000.0,ml,liters,converted,SNACKS,Snacks,mapped,50000,90000.0,50000.0,90000.0,valid,False,True
+PRD200448,DET5487,Dettol Antiseptic 250ml,Personal Care,liters,2500.0,2750.0,ml,liters,converted,PERSONAL CARE,Personal Care,mapped,2500,2750.0,2500.0,2750.0,valid,False,False
+PRD200449,VAS1575,Vaseline Petroleum Jelly,Personal Care,kg,1500.0,2250.0,kg,kg,mapped,PersonalCare,Personal Care,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200450,DET9542,Dettol Antiseptic 250ml,Personal Care,liters,1500.0,2700.0,Litres,liters,mapped,Personal Care,Personal Care,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200451,BAK6031,Baking Soda 500g,Grains & Cereals,liters,750.0,975.0,ml,liters,converted,Grains,Grains & Cereals,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200452,MAR7721,Marlboro Biscuits,Stationery,kg,10000.0,6812.54,KGS,kg,mapped,Statio nery,Stationery,mapped,10000,6812.54,10000.0,6812.54,valid,True,False
+PRD200453,MAR1490,Marlboro Biscuits,Snacks,pcs,7500.0,9750.0,PCE,pcs,mapped,Sncks,Snacks,mapped,7500,9750.0,7500.0,9750.0,valid,False,False
+PRD200454,BRI5522,Britania Cream Cracker,Snacks,pcs,15000.0,22500.0,boxes,pcs,mapped,Snack,Snacks,mapped,15000,22500.0,15000.0,22500.0,valid,False,False
+PRD200455,SOR3203,Sorghum 1kg,Grains & Cereals,pcs,500.0,575.0,pcs,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,500,575.0,500.0,575.0,valid,False,True
+PRD200456,BIC7374,Bic Pen Blue,Stationery,pcs,10000.0,11500.0,pc,pcs,mapped,Stationary,Stationery,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200457,COL8578,Colgate Toothpaste 100ml,Personal Care,pcs,4500.0,5175.0,PCE,pcs,mapped,Personal care ,Personal Care,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200458,BAK8173,Baking Soda 500g,Snacks,pcs,35000.0,40250.0,pcs,pcs,mapped,Snack,Snacks,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200459,WHE8654,Wheat Flour 2kg,Stationery,liters,35000.0,42000.0,Litres,liters,mapped,Stationary,Stationery,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200460,DET1111,Dettol Antiseptic 250ml,Personal Care,pcs,2500.0,4500.0,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200461,KAB9449,Kabala Groundnuts 200g,Snacks,pcs,7500.0,9000.0,bottles,pcs,mapped,Snacks,Snacks,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200462,MAR5311,Marlboro Biscuits,Snacks,pcs,750.0,1125.0,PCE,pcs,mapped,Snack,Snacks,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200463,NES7288,Nescafe 100g,Beverages,kg,20000.0,36000.0,kgs,kg,mapped,Bevages,Beverages,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200464,NES7090,Nescafe 100g,Grains & Cereals,liters,5000.0,6000.0,Litres,liters,mapped,Grains and Cereals,Grains & Cereals,mapped,5000,"UGX 6,000",5000.0,6000.0,valid,False,False
+PRD200465,KAK1133,Kakira Sugar 1kg,Beverages,liters,750.0,975.0,liters,liters,mapped,Beverages,Beverages,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200466,EXE9965,Exercise Book 200pg,Stationery,kg,7500.0,8625.0,KGS,kg,mapped,Stationery,Stationery,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200467,PEP9024,Pepsi 500ml,Beverages,pcs,15000.0,10690.04,Pieces,pcs,mapped,Beverages,Beverages,mapped,15000,10690.04,15000.0,10690.04,valid,True,False
+PRD200468,A44002,A4 Paper 500sh,Stationery,pcs,10000.0,15000.0,pc,pcs,mapped,Stationary,Stationery,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200469,NIC1504,Nice & Lovely Lotion 200ml,Personal Care,pcs,4500.0,4950.0,Pieces,pcs,mapped,Personal care ,Personal Care,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200470,TRO7734,Tropical Heat Nuts,Snacks,kg,35000.0,42000.0,g,kg,converted,Sncks,Snacks,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200471,COC5054,Coca-Cola 500ml,Beverages,pcs,2000.0,2500.0,bottles,pcs,mapped,Bevages,Beverages,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200472,TWI2509,Twins Tea 250g,Beverages,kg,20000.0,24000.0,KGS,kg,mapped,Beverage,Beverages,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200473,EXE2739,Exercise Book 200pg,Stationery,liters,10000.0,15000.0,ml,liters,converted,Statio nery,Stationery,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200474,KAB1220,Kabwe Detergent 1kg,Household,kg,2000.0,2200.0,g,kg,converted,Household,Household,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200475,WHE4715,Wheat Flour 2kg,Grains & Cereals,liters,35000.0,43750.0,ml,liters,converted,Grains & cereal,Grains & Cereals,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200476,CAN2392,Candles 6 Pack,Beverages,liters,10000.0,11500.0,Litres,liters,mapped,Bevages,Beverages,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200477,BRI1582,Britania Cream Cracker,Snacks,liters,2500.0,3000.0,L,liters,mapped,Sncks,Snacks,mapped,2500,3000.0,2500.0,3000.0,valid,False,True
+PRD200478,DET5220,Dettol Antiseptic 250ml,Personal Care,liters,3000.0,3750.0,liters,liters,mapped,Percare,Personal Care,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200479,SUN1468,Sunlight Soap 800g,Household,liters,1500.0,1950.0,L,liters,mapped,House hold,Household,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD200480,POR6870,Porridge Flour 500g,Household,pcs,10000.0,13000.0,boxes,pcs,mapped,HOUSEHOLD,Household,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200481,NIC8306,Nice Biscuits 100g,Personal Care,pcs,1000.0,1250.0,pcs,pcs,mapped,PersonalCare,Personal Care,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD200482,VAS9780,Vaseline Petroleum Jelly,Personal Care,pcs,20000.0,25000.0,boxes,pcs,mapped,Personal Care,Personal Care,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200483,BIC5616,Bic Pen Blue,Stationery,kg,3000.0,4500.0,g,kg,converted,Statio nery,Stationery,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200484,ARR2539,Array Juice 250ml,Beverages,kg,2500.0,4500.0,kgs,kg,mapped,Beverages,Beverages,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200485,NIL2181,Nile Beer 500ml,Personal Care,pcs,50000.0,60000.0,boxes,pcs,mapped,PERSONAL CARE,Personal Care,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200486,MUR1540,Muruchu Cooking Oil 3L,Household,liters,750.0,900.0,L,liters,mapped,Houshold,Household,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200487,CAN4949,Candles 6 Pack,Stationery,kg,3000.0,3600.0,Kilograms,kg,mapped,Statio nery,Stationery,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200488,A42369,A4 Paper 500sh,Stationery,kg,5000.0,5750.0,Kilograms,kg,mapped,STATIONERY,Stationery,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200489,KAK1365,Kakira Sugar 1kg,Grains & Cereals,pcs,3000.0,3600.0,pcs,pcs,mapped,Grains,Grains & Cereals,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200490,ARR5553,Array Juice 250ml,Beverages,liters,5000.0,9000.0,L,liters,mapped,Bevages,Beverages,mapped,5000,9000.0,5000.0,9000.0,valid,False,False
+PRD200491,SPR1440,Sprite 300ml,Beverages,liters,1500.0,1650.0,ml,liters,converted,BEVERAGES,Beverages,mapped,1500,1650.0,1500.0,1650.0,valid,False,False
+PRD200492,STA4610,Stabilo Highlighter,Stationery,pcs,10000.0,18000.0,piece,pcs,mapped,Statio nery,Stationery,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200493,MIN5600,Minute Maid 400ml,Beverages,liters,750.0,825.0,liters,liters,mapped,Beverages,Beverages,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200494,SIM1291,Sims Chips 150g,Snacks,pcs,20000.0,25000.0,pc,pcs,mapped,Snacks,Snacks,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200495,ALW4033,Always Sanitary Pads,Personal Care,kg,2000.0,2500.0,kg,kg,mapped,PersonalCare,Personal Care,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200496,VAS1226,Vaseline Petroleum Jelly,Beverages,kg,500.0,750.0,kg,kg,mapped,Bvages,Beverages,mapped,500,750.0,500.0,750.0,valid,False,False
+PRD200497,DET1749,Dettol Antiseptic 250ml,Personal Care,liters,500.0,600.0,L,liters,mapped,PersonalCare,Personal Care,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200498,A42034,A4 Paper 500sh,Stationery,liters,500.0,625.0,Litres,liters,mapped,Stationery,Stationery,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200499,KAB1122,Kabwe Detergent 1kg,Household,liters,500.0,600.0,L,liters,mapped,HOUSEHOLD,Household,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200500,SUP4900,Supermatch Crisps,Snacks,pcs,35000.0,26469.75,Pieces,pcs,mapped,Snack,Snacks,mapped,35000,26469.75,35000.0,26469.75,valid,True,False
+PRD200501,NIC9811,Nice Biscuits 100g,Snacks,pcs,750.0,1125.0,bottles,pcs,mapped,Sncks,Snacks,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200502,KAB7614,Kabwe Detergent 1kg,Snacks,pcs,1500.0,2250.0,pcs,pcs,mapped,Sncks,Snacks,mapped,1500,2250.0,1500.0,2250.0,valid,False,True
+PRD200503,KAB8444,Kabwe Detergent 1kg,Household,liters,3000.0,4500.0,Litres,liters,mapped,Household Items,Household,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200504,COL5212,Colgate Toothpaste 100ml,Household,liters,3000.0,5400.0,liters,liters,mapped,House hold,Household,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200505,BEL7341,Bell Lager,Beverages,liters,750.0,1125.0,Litres,liters,mapped,Beverages,Beverages,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200506,MOU6621,Mountain Gorilla Water 1L,Beverages,pcs,500.0,600.0,bottles,pcs,mapped,Beverages,Beverages,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200507,SUN7802,Sunlight Soap 800g,Beverages,pcs,1500.0,2700.0,boxes,pcs,mapped,Bevages,Beverages,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200508,SOR7755,Sorghum 1kg,Grains & Cereals,kg,2500.0,4500.0,g,kg,converted,Grains & Cereals,Grains & Cereals,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200509,SIM6923,Sims Chips 150g,Snacks,pcs,7500.0,9375.0,bottles,pcs,mapped,Snack,Snacks,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200510,MAT6637,Mathematical Set,Stationery,kg,10000.0,12000.0,kgs,kg,mapped,STATIONERY,Stationery,mapped,10000,12000.0,10000.0,12000.0,valid,False,False
+PRD200511,KRE6553,Krest Bitter Lemon,Beverages,kg,750.0,1350.0,kilogram,kg,mapped,Beverage,Beverages,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200512,BEA9671,Beans 1kg,Grains & Cereals,pcs,3000.0,4500.0,pc,pcs,mapped,Grains,Grains & Cereals,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200513,BEA2152,Beans 1kg,Grains & Cereals,liters,50000.0,65000.0,L,liters,mapped,Grains and Cereals,Grains & Cereals,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD200514,RIC3309,Rice 1kg,Grains & Cereals,pcs,750.0,825.0,piece,pcs,mapped,Grains,Grains & Cereals,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200515,TRO4733,Tropical Heat Nuts,Snacks,pcs,35000.0,45500.0,boxes,pcs,mapped,Sncks,Snacks,mapped,35000,45500.0,35000.0,45500.0,valid,False,False
+PRD200516,DET6612,Dettol Antiseptic 250ml,Personal Care,pcs,1000.0,1500.0,boxes,pcs,mapped,Percare,Personal Care,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200517,RUL6852,Ruler 30cm,Stationery,pcs,2000.0,2400.0,pcs,pcs,mapped,STATIONERY,Stationery,mapped,2000,2400.0,2000.0,2400.0,valid,False,False
+PRD200518,TRO8965,Tropical Heat Nuts,Snacks,kg,3000.0,3900.0,kgs,kg,mapped,Snacks,Snacks,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200519,RUL7544,Ruler 30cm,Stationery,pcs,3000.0,3750.0,piece,pcs,mapped,Statio nery,Stationery,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200520,JIK5798,Jik 1L,Household,liters,3000.0,4500.0,ml,liters,converted,Houshold,Household,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200521,CAN7066,Candles 6 Pack,Household,kg,1000.0,1100.0,Kilograms,kg,mapped,Houshold,Household,mapped,1000,1100.0,1000.0,1100.0,valid,False,False
+PRD200522,DET6739,Dettol Antiseptic 250ml,Personal Care,kg,35000.0,38500.0,kgs,kg,mapped,Personal care ,Personal Care,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200523,RUL4176,Ruler 30cm,Stationery,pcs,750.0,825.0,PCE,pcs,mapped,Stationary,Stationery,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200524,NIC5952,Nice & Lovely Lotion 200ml,Personal Care,liters,4500.0,4027.09,L,liters,mapped,Personal Care,Personal Care,mapped,4500,4027.09,4500.0,4027.09,valid,True,False
+PRD200525,DET4264,Dettol Antiseptic 250ml,Personal Care,pcs,5000.0,6250.0,PCE,pcs,mapped,Personal Care,Personal Care,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200526,CAN9500,Candles 6 Pack,Household,liters,35000.0,45500.0,ml,liters,converted,Houshold,Household,mapped,35000,45500.0,35000.0,45500.0,valid,False,False
+PRD200527,ROB9933,Roberts Milk 1L,Beverages,kg,500.0,575.0,g,kg,converted,Beverage,Beverages,mapped,500,575.0,500.0,575.0,valid,False,False
+PRD200528,SOR5940,Sorghum 1kg,Grains & Cereals,pcs,500.0,625.0,pcs,pcs,mapped,Grains,Grains & Cereals,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200529,HEA4341,Head & Shoulders 400ml,Personal Care,kg,10000.0,18000.0,KGS,kg,mapped,Personal care ,Personal Care,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200530,JIK3213,Jik 1L,Household,kg,4500.0,5625.0,Kilograms,kg,mapped,Houshold,Household,mapped,4500,5625.0,4500.0,5625.0,valid,False,False
+PRD200531,ARR2892,Array Juice 250ml,Beverages,kg,4500.0,5625.0,kgs,kg,mapped,Beverages,Beverages,mapped,4500,"UGX 5,625",4500.0,5625.0,valid,False,False
+PRD200532,BRI7747,Britania Cream Cracker,Snacks,pcs,15000.0,19500.0,PCE,pcs,mapped,Sncks,Snacks,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200533,ARR4829,Array Juice 250ml,Beverages,pcs,7500.0,8250.0,pc,pcs,mapped,Beverage,Beverages,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200534,KAB2212,Kabala Groundnuts 200g,Snacks,kg,7500.0,8250.0,KGS,kg,mapped,Sncks,Snacks,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200535,SPR8516,Sprite 300ml,Beverages,liters,2000.0,3600.0,liters,liters,mapped,BEVERAGES,Beverages,mapped,2000,3600.0,2000.0,3600.0,valid,False,False
+PRD200536,TRO8720,Tropical Heat Nuts,Household,liters,20000.0,24000.0,ml,liters,converted,Household,Household,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200537,KRE6129,Krest Bitter Lemon,Stationery,kg,1500.0,1001.0,Kilograms,kg,mapped,Stationery,Stationery,mapped,1500,UGX1001,1500.0,1001.0,valid,True,False
+PRD200538,NIC8792,Nice & Lovely Lotion 200ml,Personal Care,kg,50000.0,57500.0,kg,kg,mapped,PERSONAL CARE,Personal Care,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD200539,BEL7702,Bell Lager,Personal Care,liters,4500.0,5625.0,liters,liters,mapped,Personal care ,Personal Care,mapped,4500,5625.0,4500.0,5625.0,valid,False,False
+PRD200540,RIC1556,Rice 1kg,Grains & Cereals,liters,10000.0,11000.0,Litres,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200541,MAI1427,Maize Grains 1kg,Grains & Cereals,liters,3000.0,3900.0,Litres,liters,mapped,Grains & cereal,Grains & Cereals,mapped,3000,3900.0,3000.0,3900.0,valid,False,True
+PRD200542,NIC6688,Nice & Lovely Lotion 200ml,Personal Care,kg,1000.0,1100.0,kilogram,kg,mapped,Personal care ,Personal Care,mapped,1000,1100.0,1000.0,1100.0,valid,False,False
+PRD200543,VAS5152,Vaseline Petroleum Jelly,Beverages,kg,2500.0,2750.0,KGS,kg,mapped,Beverages,Beverages,mapped,2500,2750.0,2500.0,2750.0,valid,False,True
+PRD200544,CAN2572,Candles 6 Pack,Household,liters,15000.0,18750.0,L,liters,mapped,Household,Household,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD200545,BEA8028,Beans 1kg,Grains & Cereals,pcs,4500.0,5400.0,pc,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200546,JIK8922,Jik 1L,Household,liters,4500.0,5175.0,ml,liters,converted,HOUSEHOLD,Household,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200547,MIN5949,Minute Maid 400ml,Beverages,kg,4500.0,8100.0,KGS,kg,mapped,Bevages,Beverages,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200548,VAS2977,Vaseline Petroleum Jelly,Personal Care,pcs,4500.0,5400.0,Pieces,pcs,mapped,PERSONAL CARE,Personal Care,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200549,SOR9203,Sorghum 1kg,Beverages,pcs,500.0,650.0,piece,pcs,mapped,Bvages,Beverages,mapped,500,650.0,500.0,650.0,valid,False,False
+PRD200550,DET6438,Dettol Antiseptic 250ml,Stationery,kg,10000.0,12000.0,KGS,kg,mapped,Statio nery,Stationery,mapped,10000,12000.0,10000.0,12000.0,valid,False,False
+PRD200551,PEP2522,Pepsi 500ml,Beverages,liters,4500.0,6750.0,Litres,liters,mapped,BEVERAGES,Beverages,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200552,MOU3870,Mountain Gorilla Water 1L,Beverages,liters,10000.0,11000.0,liters,liters,mapped,Bvages,Beverages,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200553,KAB5239,Kabala Groundnuts 200g,Personal Care,pcs,500.0,900.0,bottles,pcs,mapped,PERSONAL CARE,Personal Care,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200554,MAI2716,Maize Grains 1kg,Grains & Cereals,liters,7500.0,8625.0,ml,liters,converted,Grains&Cereals,Grains & Cereals,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200555,MAR9320,Marlboro Biscuits,Grains & Cereals,kg,2500.0,4500.0,kgs,kg,mapped,Grains,Grains & Cereals,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200556,PEP7746,Pepsi 500ml,Grains & Cereals,kg,35000.0,63000.0,kilogram,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200557,MAT6183,Mathematical Set,Beverages,liters,15000.0,19500.0,L,liters,mapped,Bevages,Beverages,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200558,BIC8361,Bic Pen Blue,Stationery,liters,5000.0,5500.0,liters,liters,mapped,Stationary,Stationery,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200559,SOR9011,Sorghum 1kg,Grains & Cereals,kg,500.0,750.0,KGS,kg,mapped,Grains & cereal,Grains & Cereals,mapped,500,750.0,500.0,750.0,valid,False,False
+PRD200560,EXE1953,Exercise Book 200pg,Stationery,liters,15000.0,18000.0,liters,liters,mapped,Statio nery,Stationery,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD200561,KAB2769,Kabwe Detergent 1kg,Household,kg,5000.0,5750.0,Kilograms,kg,mapped,Household Items,Household,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200562,MUR9630,Muruchu Cooking Oil 3L,Household,kg,1500.0,2250.0,kg,kg,mapped,HOUSEHOLD,Household,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200563,BIC7764,Bic Pen Blue,Household,pcs,15000.0,17250.0,PCE,pcs,mapped,Household Items,Household,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200564,BAK1097,Baking Soda 500g,Household,pcs,10000.0,15000.0,pcs,pcs,mapped,Household Items,Household,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200565,MAI6076,Maize Flour 2kg,Household,kg,20000.0,36000.0,kilogram,kg,mapped,Household,Household,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200566,POR1038,Porridge Flour 500g,Grains & Cereals,kg,2000.0,2300.0,kg,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200567,A45294,A4 Paper 500sh,Stationery,pcs,50000.0,75000.0,boxes,pcs,mapped,Statio nery,Stationery,mapped,50000,75000.0,50000.0,75000.0,valid,False,False
+PRD200568,KIM4195,Kimbo Fat 500g,Snacks,kg,1000.0,1800.0,kg,kg,mapped,Snack,Snacks,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200569,MAT6845,Mathematical Set,Stationery,pcs,4500.0,4950.0,PCE,pcs,mapped,Stationery,Stationery,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200570,ARR5043,Array Juice 250ml,Grains & Cereals,liters,35000.0,38500.0,ml,liters,converted,Grains & Cereals,Grains & Cereals,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200571,IMP5081,Imperial Leather Soap,Personal Care,liters,2000.0,2600.0,L,liters,mapped,Personal care ,Personal Care,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200572,KRE1360,Krest Bitter Lemon,Beverages,pcs,3000.0,3750.0,Pieces,pcs,mapped,BEVERAGES,Beverages,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200573,KAB3675,Kabala Groundnuts 200g,Snacks,kg,35000.0,42000.0,g,kg,converted,Snack,Snacks,mapped,35000,"UGX 42,000",35000.0,42000.0,valid,False,False
+PRD200574,BIC4492,Bic Pen Blue,Stationery,pcs,500.0,550.0,pc,pcs,mapped,Stationery,Stationery,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200575,RIC1282,Rice 1kg,Grains & Cereals,kg,3000.0,3600.0,Kilograms,kg,mapped,Grains,Grains & Cereals,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200576,TRO2863,Tropical Heat Nuts,Snacks,liters,1500.0,1725.0,ml,liters,converted,Snack,Snacks,mapped,1500,1725.0,1500.0,1725.0,valid,False,False
+PRD200577,MOU8459,Mountain Gorilla Water 1L,Beverages,pcs,2000.0,2400.0,bottles,pcs,mapped,BEVERAGES,Beverages,mapped,2000,2400.0,2000.0,2400.0,valid,False,False
+PRD200578,KAB7519,Kabala Groundnuts 200g,Snacks,pcs,750.0,937.5,bottles,pcs,mapped,SNACKS,Snacks,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200579,BIC6542,Bic Pen Blue,Stationery,pcs,500.0,600.0,pcs,pcs,mapped,STATIONERY,Stationery,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200580,KAB4050,Kabwe Detergent 1kg,Household,kg,3000.0,3300.0,kilogram,kg,mapped,House hold,Household,mapped,3000,3300.0,3000.0,3300.0,valid,False,False
+PRD200581,PEP2207,Pepsi 500ml,Beverages,pcs,3000.0,3750.0,pc,pcs,mapped,BEVERAGES,Beverages,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200582,JIK6773,Jik 1L,Household,kg,1000.0,1250.0,Kilograms,kg,mapped,House hold,Household,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD200583,BIC6598,Bic Pen Blue,Stationery,kg,20000.0,23000.0,kg,kg,mapped,Stationery,Stationery,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD200584,STA2884,Stabilo Highlighter,Stationery,liters,4500.0,5175.0,Litres,liters,mapped,Stationary,Stationery,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200585,MAR7706,Marlboro Biscuits,Snacks,pcs,10000.0,12000.0,bottles,pcs,mapped,Sncks,Snacks,mapped,10000,12000.0,10000.0,12000.0,valid,False,False
+PRD200586,RUL6216,Ruler 30cm,Grains & Cereals,liters,4500.0,4950.0,L,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200587,POR4553,Porridge Flour 500g,Grains & Cereals,pcs,10000.0,15000.0,pcs,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200588,BEA7501,Beans 1kg,Grains & Cereals,pcs,5000.0,5500.0,piece,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200589,KAK8563,Kakira Sugar 1kg,Grains & Cereals,liters,2500.0,3250.0,L,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD200590,PEP1543,Pepsi 500ml,Beverages,kg,20000.0,30000.0,KGS,kg,mapped,Beverage,Beverages,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200591,CAN3226,Candles 6 Pack,Household,pcs,10000.0,12500.0,PCE,pcs,mapped,Houshold,Household,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200592,NIC9453,Nice Biscuits 100g,Snacks,liters,3000.0,3750.0,liters,liters,mapped,Sncks,Snacks,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200593,RUL9774,Ruler 30cm,Stationery,kg,500.0,550.0,kilogram,kg,mapped,STATIONERY,Stationery,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200594,MAR3355,Marlboro Biscuits,Snacks,liters,20000.0,22000.0,ml,liters,converted,Snack,Snacks,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200595,BRO7740,Brookside Fresh Milk 500ml,Household,liters,1000.0,1300.0,L,liters,mapped,Household,Household,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD200596,HEA3372,Head & Shoulders 400ml,Personal Care,kg,2500.0,1974.41,kgs,kg,mapped,Personal Care,Personal Care,mapped,2500,1974.41,2500.0,1974.41,valid,True,False
+PRD200597,MAI7931,Maize Flour 2kg,Beverages,liters,5000.0,5750.0,L,liters,mapped,Bvages,Beverages,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200598,KRE8734,Krest Bitter Lemon,Beverages,liters,750.0,862.5,liters,liters,mapped,Bevages,Beverages,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD200599,ALW3118,Always Sanitary Pads,Personal Care,liters,10000.0,7172.65,L,liters,mapped,Percare,Personal Care,mapped,10000,7172.65,10000.0,7172.65,valid,True,False
+PRD200600,KAK4330,Kakira Sugar 1kg,Grains & Cereals,pcs,1000.0,671.99,pcs,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,1000,671.99,1000.0,671.99,valid,True,False
+PRD200601,ALW1094,Always Sanitary Pads,Beverages,pcs,15000.0,18750.0,Pieces,pcs,mapped,BEVERAGES,Beverages,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD200602,RUL4846,Ruler 30cm,Stationery,pcs,5000.0,6000.0,boxes,pcs,mapped,Stationery,Stationery,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200603,JIK6578,Jik 1L,Household,pcs,5000.0,6250.0,pc,pcs,mapped,HOUSEHOLD,Household,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200604,TWI9388,Twins Tea 250g,Beverages,pcs,20000.0,26000.0,bottles,pcs,mapped,Beverages,Beverages,mapped,20000,26000.0,20000.0,26000.0,valid,False,False
+PRD200605,A48234,A4 Paper 500sh,Stationery,pcs,20000.0,30000.0,pc,pcs,mapped,STATIONERY,Stationery,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200606,MAR5321,Marlboro Biscuits,Stationery,pcs,35000.0,43750.0,piece,pcs,mapped,Stationary,Stationery,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200607,CAN5610,Candles 6 Pack,Household,kg,1000.0,920.33,kgs,kg,mapped,HOUSEHOLD,Household,mapped,1000,920.33,1000.0,920.33,valid,True,False
+PRD200608,KRE2217,Krest Bitter Lemon,Beverages,kg,7500.0,8250.0,KGS,kg,mapped,Beverages,Beverages,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200609,MOU8460,Mountain Gorilla Water 1L,Beverages,kg,750.0,900.0,kgs,kg,mapped,Bevages,Beverages,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200610,POR7578,Porridge Flour 500g,Grains & Cereals,pcs,4500.0,5850.0,pc,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,4500,5850.0,4500.0,5850.0,valid,False,False
+PRD200611,NIC4899,Nice & Lovely Lotion 200ml,Personal Care,liters,2000.0,2600.0,L,liters,mapped,PersonalCare,Personal Care,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200612,A48170,A4 Paper 500sh,Snacks,pcs,10000.0,12000.0,piece,pcs,mapped,Snacks,Snacks,mapped,10000,12000.0,10000.0,12000.0,valid,False,False
+PRD200613,KRE1147,Krest Bitter Lemon,Beverages,pcs,20000.0,36000.0,bottles,pcs,mapped,Beverages,Beverages,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200614,A48365,A4 Paper 500sh,Stationery,kg,15000.0,22500.0,kgs,kg,mapped,Stationery,Stationery,mapped,15000,22500.0,15000.0,22500.0,valid,False,False
+PRD200615,KAB2905,Kabwe Detergent 1kg,Household,kg,1500.0,1875.0,KGS,kg,mapped,Household,Household,mapped,1500,1875.0,1500.0,1875.0,valid,False,False
+PRD200616,ARR6046,Array Juice 250ml,Beverages,pcs,2500.0,3250.0,Pieces,pcs,mapped,Beverage,Beverages,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD200617,SUP1570,Supermatch Crisps,Snacks,kg,35000.0,38500.0,KGS,kg,mapped,SNACKS,Snacks,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200618,MIN5556,Minute Maid 400ml,Beverages,kg,50000.0,90000.0,kilogram,kg,mapped,Beverages,Beverages,mapped,50000,90000.0,50000.0,90000.0,valid,False,True
+PRD200619,MAI5227,Maize Flour 2kg,Grains & Cereals,kg,50000.0,75000.0,Kilograms,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,50000,75000.0,50000.0,75000.0,valid,False,False
+PRD200620,BEA3537,Beans 1kg,Grains & Cereals,kg,50000.0,75000.0,kgs,kg,mapped,Grains & cereal,Grains & Cereals,mapped,50000,75000.0,50000.0,75000.0,valid,False,False
+PRD200621,BAK4715,Baking Soda 500g,Household,liters,5000.0,9000.0,ml,liters,converted,Household Items,Household,mapped,5000,9000.0,5000.0,9000.0,valid,False,False
+PRD200622,MUR2203,Muruchu Cooking Oil 3L,Personal Care,liters,50000.0,75000.0,Litres,liters,mapped,Personal Care,Personal Care,mapped,50000,75000.0,50000.0,75000.0,valid,False,False
+PRD200623,POR6924,Porridge Flour 500g,Grains & Cereals,liters,10000.0,12500.0,liters,liters,mapped,Grains & Cereals,Grains & Cereals,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200624,PEP6160,Pepsi 500ml,Beverages,liters,20000.0,23000.0,L,liters,mapped,Bvages,Beverages,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200625,SUP1508,Supermatch Crisps,Snacks,pcs,5000.0,9000.0,pcs,pcs,mapped,Snack,Snacks,mapped,5000,9000.0,5000.0,9000.0,valid,False,False
+PRD200626,PEP1812,Pepsi 500ml,Beverages,liters,10000.0,18000.0,L,liters,mapped,BEVERAGES,Beverages,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200627,COL6709,Colgate Toothpaste 100ml,Personal Care,pcs,50000.0,55000.0,boxes,pcs,mapped,Percare,Personal Care,mapped,50000,55000.0,50000.0,55000.0,valid,False,False
+PRD200628,MAR3392,Marlboro Biscuits,Stationery,pcs,2500.0,3750.0,piece,pcs,mapped,Stationery,Stationery,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200629,MUR5839,Muruchu Cooking Oil 3L,Household,pcs,500.0,575.0,boxes,pcs,mapped,Houshold,Household,mapped,500,575.0,500.0,575.0,valid,False,False
+PRD200630,TOI4298,Toilet Paper 4 Pack,Household,kg,500.0,575.0,KGS,kg,mapped,Household,Household,mapped,500,575.0,500.0,575.0,valid,False,False
+PRD200631,EXE7032,Exercise Book 200pg,Stationery,pcs,2500.0,3000.0,bottles,pcs,mapped,Stationery,Stationery,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200632,FAN1424,Fanta Orange 500ml,Beverages,pcs,750.0,1125.0,PCE,pcs,mapped,Beverages,Beverages,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200633,RIC5072,Rice 1kg,Grains & Cereals,pcs,1500.0,2700.0,pcs,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200634,MAT7222,Mathematical Set,Stationery,kg,35000.0,63000.0,kgs,kg,mapped,Statio nery,Stationery,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200635,CAN2464,Candles 6 Pack,Household,kg,4500.0,6750.0,kgs,kg,mapped,HOUSEHOLD,Household,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200636,POR3383,Porridge Flour 500g,Grains & Cereals,pcs,3000.0,3600.0,Pieces,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200637,MAI6733,Maize Grains 1kg,Grains & Cereals,kg,20000.0,22000.0,kgs,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200638,BIC9248,Bic Pen Blue,Snacks,pcs,2000.0,3000.0,pcs,pcs,mapped,Snacks,Snacks,mapped,2000,3000.0,2000.0,3000.0,valid,False,False
+PRD200639,HEA1500,Head & Shoulders 400ml,Personal Care,pcs,15000.0,19500.0,Pieces,pcs,mapped,PersonalCare,Personal Care,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200640,KAK6086,Kakira Sugar 1kg,Personal Care,pcs,2500.0,2107.76,PCE,pcs,mapped,Personal care ,Personal Care,mapped,2500,2107.76,2500.0,2107.76,valid,True,False
+PRD200641,BIC8763,Bic Pen Blue,Stationery,kg,35000.0,52500.0,KGS,kg,mapped,STATIONERY,Stationery,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200642,HEA8221,Head & Shoulders 400ml,Personal Care,kg,5000.0,5500.0,KGS,kg,mapped,PERSONAL CARE,Personal Care,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200643,EXE5984,Exercise Book 200pg,Snacks,kg,35000.0,21927.6,Kilograms,kg,mapped,Snacks,Snacks,mapped,35000,21927.6,35000.0,21927.6,valid,True,True
+PRD200644,NIL3839,Nile Beer 500ml,Beverages,kg,2000.0,3000.0,Kilograms,kg,mapped,BEVERAGES,Beverages,mapped,2000,3000.0,2000.0,3000.0,valid,False,False
+PRD200645,BIC4160,Bic Pen Blue,Stationery,kg,10000.0,8388.73,Kilograms,kg,mapped,Stationery,Stationery,mapped,10000,8388.73,10000.0,8388.73,valid,True,False
+PRD200646,MAT3185,Mathematical Set,Stationery,pcs,10000.0,18000.0,PCE,pcs,mapped,Statio nery,Stationery,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200647,MAI2737,Maize Grains 1kg,Snacks,pcs,10000.0,13000.0,PCE,pcs,mapped,Sncks,Snacks,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200648,SOR3340,Sorghum 1kg,Personal Care,pcs,20000.0,23000.0,boxes,pcs,mapped,Percare,Personal Care,mapped,20000,"UGX 23,000",20000.0,23000.0,valid,False,True
+PRD200649,MAI1979,Maize Flour 2kg,Grains & Cereals,pcs,20000.0,36000.0,pcs,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200650,IMP4112,Imperial Leather Soap,Grains & Cereals,pcs,50000.0,90000.0,bottles,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200651,IMP3945,Imperial Leather Soap,Personal Care,liters,10000.0,12000.0,L,liters,mapped,Percare,Personal Care,mapped,10000,12000.0,10000.0,12000.0,valid,False,False
+PRD200652,MOU7888,Mountain Gorilla Water 1L,Beverages,kg,50000.0,65000.0,kilogram,kg,mapped,BEVERAGES,Beverages,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD200653,WHE4814,Wheat Flour 2kg,Grains & Cereals,kg,1500.0,2700.0,Kilograms,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200654,BAK9736,Baking Soda 500g,Beverages,liters,20000.0,22000.0,Litres,liters,mapped,Beverage,Beverages,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200655,A48563,A4 Paper 500sh,Stationery,liters,1500.0,2250.0,L,liters,mapped,Stationary,Stationery,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200656,CAN8707,Candles 6 Pack,Household,pcs,1000.0,1250.0,bottles,pcs,mapped,House hold,Household,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD200657,JIK4484,Jik 1L,Household,kg,1000.0,1500.0,kgs,kg,mapped,House hold,Household,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200658,VAS2515,Vaseline Petroleum Jelly,Beverages,kg,500.0,550.0,g,kg,converted,Bevages,Beverages,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200659,BIC5613,Bic Pen Blue,Stationery,liters,7500.0,5595.96,liters,liters,mapped,Stationary,Stationery,mapped,7500,5595.96,7500.0,5595.96,valid,True,True
+PRD200660,RUL4477,Ruler 30cm,Stationery,kg,50000.0,62500.0,g,kg,converted,STATIONERY,Stationery,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200661,DET3777,Dettol Antiseptic 250ml,Personal Care,liters,15000.0,18750.0,ml,liters,converted,Personal care ,Personal Care,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD200662,MIN5504,Minute Maid 400ml,Beverages,pcs,50000.0,60000.0,pc,pcs,mapped,BEVERAGES,Beverages,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200663,A46656,A4 Paper 500sh,Stationery,pcs,500.0,750.0,PCE,pcs,mapped,Stationery,Stationery,mapped,500,750.0,500.0,750.0,valid,False,False
+PRD200664,MAR5293,Marlboro Biscuits,Snacks,liters,1500.0,1725.0,Litres,liters,mapped,Snack,Snacks,mapped,1500,1725.0,1500.0,1725.0,valid,False,False
+PRD200665,ALW8676,Always Sanitary Pads,Snacks,pcs,1000.0,1500.0,piece,pcs,mapped,Snack,Snacks,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200666,ROB5649,Roberts Milk 1L,Beverages,kg,2500.0,4500.0,kg,kg,mapped,BEVERAGES,Beverages,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200667,MAI2272,Maize Grains 1kg,Grains & Cereals,kg,20000.0,36000.0,kgs,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,20000,36000.0,20000.0,36000.0,valid,False,True
+PRD200668,HEA4594,Head & Shoulders 400ml,Personal Care,liters,2500.0,2069.59,ml,liters,converted,Personal care ,Personal Care,mapped,2500,2069.59,2500.0,2069.59,valid,True,False
+PRD200669,NIC4662,Nice & Lovely Lotion 200ml,Personal Care,kg,35000.0,40250.0,Kilograms,kg,mapped,PersonalCare,Personal Care,mapped,35000,"40,250",35000.0,40250.0,valid,False,False
+PRD200670,RUL3903,Ruler 30cm,Beverages,kg,7500.0,8250.0,kilogram,kg,mapped,Bevages,Beverages,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200671,DET5721,Dettol Antiseptic 250ml,Personal Care,kg,500.0,550.0,kg,kg,mapped,Personal Care,Personal Care,mapped,500,550.0,500.0,550.0,valid,False,True
+PRD200672,WHE5110,Wheat Flour 2kg,Grains & Cereals,pcs,20000.0,23000.0,Pieces,pcs,mapped,Grains,Grains & Cereals,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200673,STA2629,Stabilo Highlighter,Stationery,kg,5000.0,6000.0,g,kg,converted,Stationery,Stationery,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200674,COC1494,Coca-Cola 500ml,Beverages,pcs,20000.0,22000.0,PCE,pcs,mapped,Beverages,Beverages,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200675,COL2282,Colgate Toothpaste 100ml,Personal Care,liters,50000.0,57500.0,Litres,liters,mapped,PERSONAL CARE,Personal Care,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD200676,A45787,A4 Paper 500sh,Household,kg,15000.0,16500.0,kilogram,kg,mapped,Houshold,Household,mapped,15000,16500.0,15000.0,16500.0,valid,False,False
+PRD200677,ALW3281,Always Sanitary Pads,Personal Care,pcs,10000.0,12500.0,pcs,pcs,mapped,Personal care ,Personal Care,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200678,ARR7796,Array Juice 250ml,Stationery,liters,35000.0,30586.26,ml,liters,converted,STATIONERY,Stationery,mapped,35000,30586.26,35000.0,30586.26,valid,True,False
+PRD200679,POR3105,Porridge Flour 500g,Grains & Cereals,liters,750.0,937.5,ml,liters,converted,Grains & cereal,Grains & Cereals,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200680,ARR2850,Array Juice 250ml,Beverages,liters,5000.0,7500.0,ml,liters,converted,BEVERAGES,Beverages,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200681,MAI9045,Maize Grains 1kg,Grains & Cereals,pcs,10000.0,11000.0,pcs,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200682,MAI5602,Maize Grains 1kg,Grains & Cereals,pcs,3000.0,3300.0,pc,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,3000,3300.0,3000.0,3300.0,valid,False,False
+PRD200683,KAB8258,Kabwe Detergent 1kg,Household,liters,1500.0,1950.0,liters,liters,mapped,Household,Household,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD200684,BIC2164,Bic Pen Blue,Stationery,pcs,4500.0,6750.0,pc,pcs,mapped,STATIONERY,Stationery,mapped,4500,6750.0,4500.0,6750.0,valid,False,True
+PRD200685,ARR1587,Array Juice 250ml,Beverages,kg,1000.0,1150.0,kg,kg,mapped,Bvages,Beverages,mapped,1000,1150.0,1000.0,1150.0,valid,False,False
+PRD200686,BIC2874,Bic Pen Blue,Grains & Cereals,kg,4500.0,5400.0,g,kg,converted,Grains,Grains & Cereals,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200687,VAS7023,Vaseline Petroleum Jelly,Personal Care,liters,50000.0,60000.0,L,liters,mapped,Personal care ,Personal Care,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200688,MAI5621,Maize Flour 2kg,Grains & Cereals,pcs,20000.0,36000.0,pcs,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200689,MAI1710,Maize Grains 1kg,Grains & Cereals,liters,750.0,900.0,Litres,liters,mapped,Grains & Cereals,Grains & Cereals,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200690,IMP5018,Imperial Leather Soap,Personal Care,kg,5000.0,5750.0,Kilograms,kg,mapped,PersonalCare,Personal Care,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200691,A42819,A4 Paper 500sh,Stationery,liters,1000.0,1500.0,liters,liters,mapped,Stationary,Stationery,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200692,COL2763,Colgate Toothpaste 100ml,Personal Care,pcs,20000.0,23000.0,piece,pcs,mapped,Personal Care,Personal Care,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200693,SUN7223,Sunlight Soap 800g,Household,kg,3000.0,3900.0,Kilograms,kg,mapped,Household Items,Household,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200694,BIC7903,Bic Pen Blue,Stationery,kg,10000.0,11000.0,KGS,kg,mapped,STATIONERY,Stationery,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200695,POR8173,Porridge Flour 500g,Grains & Cereals,kg,2500.0,2875.0,KGS,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD200696,ALW7757,Always Sanitary Pads,Personal Care,kg,5000.0,5500.0,kgs,kg,mapped,PersonalCare,Personal Care,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200697,BIC9055,Bic Pen Blue,Stationery,pcs,50000.0,60000.0,pc,pcs,mapped,Stationary,Stationery,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200698,MAR3249,Marlboro Biscuits,Household,kg,750.0,862.5,kgs,kg,mapped,Houshold,Household,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD200699,KAB5723,Kabwe Detergent 1kg,Household,liters,10000.0,15000.0,ml,liters,converted,House hold,Household,mapped,10000,15000.0,10000.0,15000.0,valid,False,True
+PRD200700,TRO6315,Tropical Heat Nuts,Snacks,liters,4500.0,8100.0,liters,liters,mapped,Snacks,Snacks,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200701,STA9330,Stabilo Highlighter,Stationery,kg,20000.0,26000.0,kg,kg,mapped,Stationary,Stationery,mapped,20000,26000.0,20000.0,26000.0,valid,False,False
+PRD200702,TRO3142,Tropical Heat Nuts,Snacks,pcs,500.0,625.0,piece,pcs,mapped,Snack,Snacks,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200703,MAT2206,Mathematical Set,Stationery,pcs,2500.0,4500.0,pcs,pcs,mapped,STATIONERY,Stationery,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200704,MAI6318,Maize Grains 1kg,Stationery,pcs,5000.0,5750.0,boxes,pcs,mapped,Stationary,Stationery,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD200705,BAK4829,Baking Soda 500g,Household,kg,7500.0,9000.0,Kilograms,kg,mapped,HOUSEHOLD,Household,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200706,KAB2143,Kabwe Detergent 1kg,Grains & Cereals,kg,5000.0,5500.0,KGS,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200707,PEP3723,Pepsi 500ml,Beverages,pcs,4500.0,8100.0,Pieces,pcs,mapped,Bevages,Beverages,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200708,STA4904,Stabilo Highlighter,Stationery,kg,2000.0,2500.0,KGS,kg,mapped,Stationary,Stationery,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200709,MUR7983,Muruchu Cooking Oil 3L,Household,pcs,1500.0,1800.0,boxes,pcs,mapped,Houshold,Household,mapped,1500,1800.0,1500.0,1800.0,valid,False,False
+PRD200710,KAK7392,Kakira Sugar 1kg,Snacks,kg,50000.0,75000.0,g,kg,converted,Snack,Snacks,mapped,50000,75000.0,50000.0,75000.0,valid,False,False
+PRD200711,SUP3089,Supermatch Crisps,Snacks,pcs,3000.0,3300.0,bottles,pcs,mapped,Snacks,Snacks,mapped,3000,3300.0,3000.0,3300.0,valid,False,False
+PRD200712,KIM3310,Kimbo Fat 500g,Household,kg,750.0,543.51,KGS,kg,mapped,Household Items,Household,mapped,750,543.51,750.0,543.51,valid,True,False
+PRD200713,ROB7638,Roberts Milk 1L,Beverages,liters,1000.0,1500.0,liters,liters,mapped,Bvages,Beverages,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200714,BAK6457,Baking Soda 500g,Personal Care,kg,5000.0,7500.0,KGS,kg,mapped,Personal Care,Personal Care,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200715,IMP6184,Imperial Leather Soap,Personal Care,pcs,5000.0,6000.0,pcs,pcs,mapped,PERSONAL CARE,Personal Care,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200716,IMP9507,Imperial Leather Soap,Personal Care,kg,1500.0,1725.0,kilogram,kg,mapped,PERSONAL CARE,Personal Care,mapped,1500,1725.0,1500.0,1725.0,valid,False,False
+PRD200717,KAK6955,Kakira Sugar 1kg,Grains & Cereals,pcs,50000.0,62500.0,pcs,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200718,KAB4738,Kabwe Detergent 1kg,Grains & Cereals,pcs,2000.0,2300.0,bottles,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,2000,2300.0,2000.0,2300.0,valid,False,True
+PRD200719,BEA2883,Beans 1kg,Stationery,kg,1000.0,1300.0,Kilograms,kg,mapped,Stationary,Stationery,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD200720,DET9405,Dettol Antiseptic 250ml,Personal Care,pcs,2500.0,3125.0,boxes,pcs,mapped,PERSONAL CARE,Personal Care,mapped,2500,3125.0,2500.0,3125.0,valid,False,False
+PRD200721,KAK8849,Kakira Sugar 1kg,Grains & Cereals,kg,7500.0,8625.0,g,kg,converted,Grains,Grains & Cereals,mapped,7500,8625.0,7500.0,8625.0,valid,False,True
+PRD200722,MAR3565,Marlboro Biscuits,Snacks,liters,50000.0,65000.0,L,liters,mapped,Snack,Snacks,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD200723,IMP3144,Imperial Leather Soap,Personal Care,pcs,1500.0,1725.0,piece,pcs,mapped,PERSONAL CARE,Personal Care,mapped,1500,1725.0,1500.0,1725.0,valid,False,False
+PRD200724,JIK9352,Jik 1L,Household,pcs,15000.0,27000.0,pc,pcs,mapped,HOUSEHOLD,Household,mapped,15000,UGX27000,15000.0,27000.0,valid,False,False
+PRD200725,BIC8695,Bic Pen Blue,Stationery,pcs,2500.0,3750.0,bottles,pcs,mapped,Stationary,Stationery,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200726,BIC9807,Bic Pen Blue,Stationery,kg,1500.0,1800.0,kgs,kg,mapped,Statio nery,Stationery,mapped,1500,1800.0,1500.0,1800.0,valid,False,False
+PRD200727,MIN2903,Minute Maid 400ml,Stationery,kg,500.0,550.0,kgs,kg,mapped,STATIONERY,Stationery,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200728,DET5347,Dettol Antiseptic 250ml,Personal Care,liters,3000.0,1958.36,L,liters,mapped,Percare,Personal Care,mapped,3000,1958.36,3000.0,1958.36,valid,True,False
+PRD200729,RUL5924,Ruler 30cm,Stationery,kg,35000.0,38500.0,kgs,kg,mapped,STATIONERY,Stationery,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200730,NIC1007,Nice & Lovely Lotion 200ml,Personal Care,liters,4500.0,6750.0,Litres,liters,mapped,PersonalCare,Personal Care,mapped,4500,6750.0,4500.0,6750.0,valid,False,False
+PRD200731,BEA6293,Beans 1kg,Grains & Cereals,pcs,2500.0,3125.0,PCE,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,2500,3125.0,2500.0,3125.0,valid,False,False
+PRD200732,COL8430,Colgate Toothpaste 100ml,Personal Care,pcs,2000.0,2300.0,piece,pcs,mapped,Percare,Personal Care,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200733,DET9912,Dettol Antiseptic 250ml,Grains & Cereals,pcs,5000.0,5500.0,Pieces,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200734,TOI7760,Toilet Paper 4 Pack,Household,liters,5000.0,3754.2,ml,liters,converted,Household,Household,mapped,5000,3754.2,5000.0,3754.2,valid,True,False
+PRD200735,JIK9802,Jik 1L,Household,kg,10000.0,15000.0,kgs,kg,mapped,Houshold,Household,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200736,TWI5031,Twins Tea 250g,Grains & Cereals,liters,15000.0,18000.0,L,liters,mapped,Grains,Grains & Cereals,mapped,15000,18000.0,15000.0,18000.0,valid,False,False
+PRD200737,COL1334,Colgate Toothpaste 100ml,Stationery,kg,500.0,900.0,g,kg,converted,Statio nery,Stationery,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD200738,TWI2683,Twins Tea 250g,Beverages,pcs,35000.0,63000.0,PCE,pcs,mapped,BEVERAGES,Beverages,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200739,VAS9781,Vaseline Petroleum Jelly,Personal Care,pcs,7500.0,8250.0,bottles,pcs,mapped,Percare,Personal Care,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200740,A48641,A4 Paper 500sh,Stationery,kg,50000.0,65000.0,kgs,kg,mapped,STATIONERY,Stationery,mapped,50000,65000.0,50000.0,65000.0,valid,False,True
+PRD200741,TOI3903,Toilet Paper 4 Pack,Household,pcs,35000.0,32051.24,piece,pcs,mapped,Household,Household,mapped,35000,32051.24,35000.0,32051.24,valid,True,False
+PRD200742,MAI9590,Maize Flour 2kg,Stationery,pcs,2500.0,3000.0,Pieces,pcs,mapped,Stationary,Stationery,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200743,SOR3111,Sorghum 1kg,Stationery,liters,500.0,575.0,ml,liters,converted,Stationery,Stationery,mapped,500,575.0,500.0,575.0,valid,False,False
+PRD200744,NIC9547,Nice Biscuits 100g,Snacks,kg,750.0,975.0,KGS,kg,mapped,Sncks,Snacks,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200745,MAR6836,Marlboro Biscuits,Snacks,liters,50000.0,90000.0,liters,liters,mapped,SNACKS,Snacks,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200746,COL5528,Colgate Toothpaste 100ml,Personal Care,liters,1500.0,1650.0,L,liters,mapped,PERSONAL CARE,Personal Care,mapped,1500,1650.0,1500.0,1650.0,valid,False,False
+PRD200747,SPR6463,Sprite 300ml,Beverages,liters,2000.0,2300.0,ml,liters,converted,Beverages,Beverages,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200748,RIC4388,Rice 1kg,Grains & Cereals,pcs,2000.0,2600.0,pcs,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200749,DET5382,Dettol Antiseptic 250ml,Personal Care,pcs,1500.0,2250.0,pcs,pcs,mapped,Percare,Personal Care,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD200750,MAR5328,Marlboro Biscuits,Stationery,liters,2000.0,3600.0,liters,liters,mapped,Statio nery,Stationery,mapped,2000,3600.0,2000.0,3600.0,valid,False,False
+PRD200751,NIC8896,Nice Biscuits 100g,Snacks,pcs,35000.0,26539.61,boxes,pcs,mapped,SNACKS,Snacks,mapped,35000,26539.61,35000.0,26539.61,valid,True,False
+PRD200752,BAK1206,Baking Soda 500g,Grains & Cereals,pcs,750.0,825.0,PCE,pcs,mapped,Grains,Grains & Cereals,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200753,TRO4640,Tropical Heat Nuts,Snacks,pcs,4500.0,5625.0,pcs,pcs,mapped,SNACKS,Snacks,mapped,4500,5625.0,4500.0,5625.0,valid,False,False
+PRD200754,MAT2310,Mathematical Set,Stationery,liters,3000.0,5400.0,ml,liters,converted,Stationery,Stationery,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200755,EXE1612,Exercise Book 200pg,Beverages,kg,4500.0,8100.0,g,kg,converted,Beverage,Beverages,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200756,BIC3061,Bic Pen Blue,Personal Care,pcs,750.0,900.0,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200757,CAN7801,Candles 6 Pack,Household,pcs,750.0,825.0,pc,pcs,mapped,Houshold,Household,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200758,MAT4930,Mathematical Set,Stationery,liters,7500.0,9000.0,L,liters,mapped,STATIONERY,Stationery,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200759,NIC7867,Nice Biscuits 100g,Snacks,kg,7500.0,8625.0,kilogram,kg,mapped,Snacks,Snacks,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200760,KIM1920,Kimbo Fat 500g,Household,kg,5000.0,6000.0,KGS,kg,mapped,Household,Household,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200761,PEP6872,Pepsi 500ml,Beverages,liters,750.0,1350.0,ml,liters,converted,BEVERAGES,Beverages,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200762,NIC7036,Nice Biscuits 100g,Grains & Cereals,pcs,15000.0,18750.0,boxes,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD200763,TWI7578,Twins Tea 250g,Personal Care,kg,15000.0,27000.0,kg,kg,mapped,PersonalCare,Personal Care,mapped,15000,UGX27000,15000.0,27000.0,valid,False,False
+PRD200764,POR7463,Porridge Flour 500g,Grains & Cereals,pcs,1500.0,1725.0,bottles,pcs,mapped,Grains,Grains & Cereals,mapped,1500,1725.0,1500.0,1725.0,valid,False,False
+PRD200765,FAN1116,Fanta Orange 500ml,Beverages,pcs,10000.0,6366.89,bottles,pcs,mapped,BEVERAGES,Beverages,mapped,10000,6366.89,10000.0,6366.89,valid,True,False
+PRD200766,ROB1148,Roberts Milk 1L,Beverages,kg,20000.0,36000.0,kilogram,kg,mapped,Beverages,Beverages,mapped,20000,"UGX 36,000",20000.0,36000.0,valid,False,False
+PRD200767,ARR9169,Array Juice 250ml,Beverages,kg,750.0,937.5,kgs,kg,mapped,BEVERAGES,Beverages,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200768,MIN2609,Minute Maid 400ml,Beverages,liters,4500.0,5400.0,liters,liters,mapped,BEVERAGES,Beverages,mapped,4500,5400.0,4500.0,5400.0,valid,False,False
+PRD200769,MOU6855,Mountain Gorilla Water 1L,Grains & Cereals,pcs,7500.0,8250.0,pc,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200770,EXE1541,Exercise Book 200pg,Stationery,pcs,1500.0,2700.0,piece,pcs,mapped,STATIONERY,Stationery,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200771,MAR9662,Marlboro Biscuits,Grains & Cereals,kg,1500.0,1950.0,g,kg,converted,Grains and Cereals,Grains & Cereals,mapped,1500,1950.0,1500.0,1950.0,valid,False,True
+PRD200772,HEA8928,Head & Shoulders 400ml,Personal Care,kg,10000.0,13000.0,g,kg,converted,PersonalCare,Personal Care,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200773,DET3645,Dettol Antiseptic 250ml,Grains & Cereals,liters,2000.0,2500.0,L,liters,mapped,Grains & Cereals,Grains & Cereals,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200774,NIC4497,Nice Biscuits 100g,Snacks,kg,5000.0,6000.0,Kilograms,kg,mapped,Snack,Snacks,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200775,EXE1656,Exercise Book 200pg,Grains & Cereals,pcs,1500.0,1950.0,pcs,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,1500,1950.0,1500.0,1950.0,valid,False,True
+PRD200776,STA4234,Stabilo Highlighter,Stationery,kg,50000.0,60000.0,kg,kg,mapped,Stationery,Stationery,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD200777,BAK4770,Baking Soda 500g,Stationery,liters,35000.0,42000.0,liters,liters,mapped,Stationery,Stationery,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200778,VAS9274,Vaseline Petroleum Jelly,Personal Care,kg,750.0,937.5,KGS,kg,mapped,Personal Care,Personal Care,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200779,NIC8836,Nice & Lovely Lotion 200ml,Stationery,pcs,20000.0,25000.0,bottles,pcs,mapped,Statio nery,Stationery,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200780,A41742,A4 Paper 500sh,Personal Care,pcs,35000.0,52500.0,piece,pcs,mapped,Personal Care,Personal Care,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200781,MAR6989,Marlboro Biscuits,Snacks,pcs,20000.0,25000.0,Pieces,pcs,mapped,Snacks,Snacks,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD200782,VAS2392,Vaseline Petroleum Jelly,Personal Care,pcs,35000.0,52500.0,pc,pcs,mapped,PERSONAL CARE,Personal Care,mapped,35000,52500.0,35000.0,52500.0,valid,False,False
+PRD200783,KAB3973,Kabwe Detergent 1kg,Household,liters,50000.0,57500.0,liters,liters,mapped,Household Items,Household,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD200784,SPR3939,Sprite 300ml,Beverages,kg,4500.0,4950.0,kilogram,kg,mapped,Bevages,Beverages,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200785,A44774,A4 Paper 500sh,Stationery,kg,750.0,862.5,g,kg,converted,Statio nery,Stationery,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD200786,RUL5558,Ruler 30cm,Stationery,pcs,7500.0,13500.0,pcs,pcs,mapped,Stationary,Stationery,mapped,7500,13500.0,7500.0,13500.0,valid,False,False
+PRD200787,STA9495,Stabilo Highlighter,Stationery,kg,2500.0,3250.0,kgs,kg,mapped,Statio nery,Stationery,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD200788,IMP1718,Imperial Leather Soap,Personal Care,pcs,50000.0,90000.0,Pieces,pcs,mapped,PersonalCare,Personal Care,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200789,HEA9817,Head & Shoulders 400ml,Personal Care,kg,500.0,625.0,kilogram,kg,mapped,Personal Care,Personal Care,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200790,IMP1070,Imperial Leather Soap,Grains & Cereals,liters,1000.0,1800.0,L,liters,mapped,Grains and Cereals,Grains & Cereals,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200791,SUP1244,Supermatch Crisps,Personal Care,pcs,4500.0,8100.0,PCE,pcs,mapped,PERSONAL CARE,Personal Care,mapped,4500,8100.0,4500.0,8100.0,valid,False,True
+PRD200792,BIC2733,Bic Pen Blue,Stationery,pcs,750.0,1350.0,pc,pcs,mapped,Statio nery,Stationery,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200793,BEA3437,Beans 1kg,Snacks,pcs,2000.0,2200.0,Pieces,pcs,mapped,Snacks,Snacks,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200794,DET4771,Dettol Antiseptic 250ml,Personal Care,pcs,2000.0,2300.0,bottles,pcs,mapped,Personal care ,Personal Care,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200795,BEL8910,Bell Lager,Beverages,kg,750.0,862.5,kg,kg,mapped,Bevages,Beverages,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD200796,KAK1316,Kakira Sugar 1kg,Beverages,kg,2500.0,2750.0,KGS,kg,mapped,Beverage,Beverages,mapped,2500,2750.0,2500.0,2750.0,valid,False,False
+PRD200797,STA4970,Stabilo Highlighter,Household,pcs,50000.0,39122.92,boxes,pcs,mapped,HOUSEHOLD,Household,mapped,50000,39122.92,50000.0,39122.92,valid,True,False
+PRD200798,RIC1221,Rice 1kg,Grains & Cereals,kg,2000.0,2400.0,KGS,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,2000,2400.0,2000.0,2400.0,valid,False,True
+PRD200799,TOI9337,Toilet Paper 4 Pack,Household,pcs,1000.0,1150.0,Pieces,pcs,mapped,HOUSEHOLD,Household,mapped,1000,1150.0,1000.0,1150.0,valid,False,False
+PRD200800,BAK4146,Baking Soda 500g,Household,kg,3000.0,3600.0,kgs,kg,mapped,Household Items,Household,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200801,BEA7056,Beans 1kg,Grains & Cereals,pcs,7500.0,9000.0,Pieces,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,7500,9000.0,7500.0,9000.0,valid,False,True
+PRD200802,TWI4346,Twins Tea 250g,Beverages,pcs,3000.0,5400.0,boxes,pcs,mapped,BEVERAGES,Beverages,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200803,KRE1740,Krest Bitter Lemon,Beverages,liters,750.0,862.5,L,liters,mapped,Beverages,Beverages,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD200804,NIC3557,Nice & Lovely Lotion 200ml,Personal Care,kg,3000.0,5400.0,kgs,kg,mapped,Percare,Personal Care,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200805,JIK1679,Jik 1L,Household,pcs,4500.0,8100.0,pcs,pcs,mapped,House hold,Household,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200806,MAT2788,Mathematical Set,Stationery,pcs,50000.0,62500.0,Pieces,pcs,mapped,STATIONERY,Stationery,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200807,POR2136,Porridge Flour 500g,Grains & Cereals,kg,4500.0,5175.0,Kilograms,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200808,IMP5230,Imperial Leather Soap,Beverages,kg,15000.0,19500.0,KGS,kg,mapped,Beverages,Beverages,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200809,MAR3199,Marlboro Biscuits,Snacks,pcs,4500.0,5850.0,piece,pcs,mapped,Sncks,Snacks,mapped,4500,"UGX 5,850",4500.0,5850.0,valid,False,False
+PRD200810,BEL2592,Bell Lager,Beverages,pcs,7500.0,13500.0,PCE,pcs,mapped,Bevages,Beverages,mapped,7500,13500.0,7500.0,13500.0,valid,False,False
+PRD200811,HEA3506,Head & Shoulders 400ml,Personal Care,liters,750.0,1350.0,Litres,liters,mapped,PersonalCare,Personal Care,mapped,750,1350.0,750.0,1350.0,valid,False,False
+PRD200812,IMP4984,Imperial Leather Soap,Stationery,pcs,1500.0,1800.0,piece,pcs,mapped,Statio nery,Stationery,mapped,1500,1800.0,1500.0,1800.0,valid,False,False
+PRD200813,BIC8690,Bic Pen Blue,Stationery,kg,2500.0,3000.0,kilogram,kg,mapped,STATIONERY,Stationery,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200814,CAN4077,Candles 6 Pack,Grains & Cereals,pcs,3000.0,2490.01,Pieces,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,3000,2490.01,3000.0,2490.01,valid,True,False
+PRD200815,PEP7539,Pepsi 500ml,Beverages,kg,35000.0,45500.0,KGS,kg,mapped,Beverage,Beverages,mapped,35000,45500.0,35000.0,45500.0,valid,False,False
+PRD200816,CAN9017,Candles 6 Pack,Household,liters,7500.0,9000.0,L,liters,mapped,Houshold,Household,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200817,IMP7339,Imperial Leather Soap,Personal Care,liters,35000.0,63000.0,Litres,liters,mapped,Personal care ,Personal Care,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200818,DET3695,Dettol Antiseptic 250ml,Personal Care,liters,3000.0,3450.0,ml,liters,converted,Personal Care,Personal Care,mapped,3000,3450.0,3000.0,3450.0,valid,False,False
+PRD200819,KAB2595,Kabala Groundnuts 200g,Snacks,pcs,50000.0,90000.0,pc,pcs,mapped,Snacks,Snacks,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200820,MAI6505,Maize Flour 2kg,Grains & Cereals,kg,4500.0,8100.0,Kilograms,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,4500,UGX8100,4500.0,8100.0,valid,False,False
+PRD200821,VAS6677,Vaseline Petroleum Jelly,Personal Care,liters,15000.0,9603.04,ml,liters,converted,PERSONAL CARE,Personal Care,mapped,15000,9603.04,15000.0,9603.04,valid,True,False
+PRD200822,MIN7505,Minute Maid 400ml,Beverages,liters,750.0,1125.0,L,liters,mapped,Bvages,Beverages,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200823,SUP5478,Supermatch Crisps,Beverages,pcs,2000.0,2600.0,boxes,pcs,mapped,Bvages,Beverages,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200824,BRI3325,Britania Cream Cracker,Snacks,kg,2500.0,3250.0,kgs,kg,mapped,Snack,Snacks,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD200825,MAI8915,Maize Flour 2kg,Stationery,liters,500.0,550.0,ml,liters,converted,STATIONERY,Stationery,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200826,KAK3281,Kakira Sugar 1kg,Grains & Cereals,pcs,15000.0,18000.0,pc,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,15000,18000.0,15000.0,18000.0,valid,False,False
+PRD200827,BIC8166,Bic Pen Blue,Stationery,pcs,50000.0,90000.0,pcs,pcs,mapped,Statio nery,Stationery,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200828,MAI1863,Maize Grains 1kg,Stationery,kg,10000.0,13000.0,Kilograms,kg,mapped,STATIONERY,Stationery,mapped,10000,UGX13000,10000.0,13000.0,valid,False,False
+PRD200829,KAK9664,Kakira Sugar 1kg,Snacks,kg,35000.0,63000.0,g,kg,converted,Snacks,Snacks,mapped,35000,"63,000",35000.0,63000.0,valid,False,False
+PRD200830,KAK5753,Kakira Sugar 1kg,Grains & Cereals,kg,20000.0,36000.0,g,kg,converted,Grains,Grains & Cereals,mapped,20000,UGX36000,20000.0,36000.0,valid,False,False
+PRD200831,SPR6996,Sprite 300ml,Beverages,pcs,15000.0,17250.0,Pieces,pcs,mapped,Beverage,Beverages,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200832,BEL3055,Bell Lager,Personal Care,pcs,3000.0,3900.0,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200833,RUL3769,Ruler 30cm,Stationery,pcs,15000.0,27000.0,piece,pcs,mapped,STATIONERY,Stationery,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200834,TRO4247,Tropical Heat Nuts,Snacks,liters,4500.0,8100.0,L,liters,mapped,Snacks,Snacks,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200835,NES1634,Nescafe 100g,Beverages,pcs,20000.0,23000.0,bottles,pcs,mapped,Beverages,Beverages,mapped,20000,23000.0,20000.0,23000.0,valid,False,False
+PRD200836,BIC3716,Bic Pen Blue,Stationery,kg,5000.0,7500.0,kg,kg,mapped,STATIONERY,Stationery,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD200837,ALW3132,Always Sanitary Pads,Personal Care,liters,50000.0,90000.0,L,liters,mapped,Percare,Personal Care,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200838,COL7471,Colgate Toothpaste 100ml,Grains & Cereals,pcs,10000.0,11000.0,PCE,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200839,MAI7023,Maize Grains 1kg,Grains & Cereals,liters,50000.0,65000.0,Litres,liters,mapped,Grains,Grains & Cereals,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD200840,KAB6278,Kabala Groundnuts 200g,Snacks,pcs,1000.0,1500.0,piece,pcs,mapped,Snacks,Snacks,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200841,SUN5285,Sunlight Soap 800g,Grains & Cereals,pcs,500.0,575.0,pcs,pcs,mapped,Grains,Grains & Cereals,mapped,500,575.0,500.0,575.0,valid,False,False
+PRD200842,EXE1581,Exercise Book 200pg,Stationery,liters,3000.0,3450.0,ml,liters,converted,Stationary,Stationery,mapped,3000,3450.0,3000.0,3450.0,valid,False,False
+PRD200843,MAR8621,Marlboro Biscuits,Snacks,pcs,3000.0,3450.0,piece,pcs,mapped,Sncks,Snacks,mapped,3000,3450.0,3000.0,3450.0,valid,False,False
+PRD200844,NIC6369,Nice & Lovely Lotion 200ml,Grains & Cereals,pcs,1000.0,1300.0,Pieces,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD200845,KAB1761,Kabwe Detergent 1kg,Household,pcs,1000.0,1800.0,Pieces,pcs,mapped,HOUSEHOLD,Household,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200846,SIM3593,Sims Chips 150g,Snacks,kg,4500.0,8100.0,Kilograms,kg,mapped,Sncks,Snacks,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200847,A49465,A4 Paper 500sh,Stationery,pcs,10000.0,11000.0,bottles,pcs,mapped,Stationary,Stationery,mapped,10000,11000.0,10000.0,11000.0,valid,False,False
+PRD200848,MAT2492,Mathematical Set,Household,liters,50000.0,57500.0,liters,liters,mapped,HOUSEHOLD,Household,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD200849,KIM8592,Kimbo Fat 500g,Household,liters,1000.0,1500.0,L,liters,mapped,Household,Household,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200850,NIL6018,Nile Beer 500ml,Beverages,pcs,1000.0,1200.0,boxes,pcs,mapped,BEVERAGES,Beverages,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200851,MAT2644,Mathematical Set,Stationery,liters,1000.0,1300.0,L,liters,mapped,Stationary,Stationery,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD200852,ROB3063,Roberts Milk 1L,Beverages,pcs,3000.0,4500.0,bottles,pcs,mapped,Bvages,Beverages,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200853,BAK5761,Baking Soda 500g,Household,pcs,2500.0,3125.0,pcs,pcs,mapped,Household Items,Household,mapped,2500,3125.0,2500.0,3125.0,valid,False,False
+PRD200854,COL6707,Colgate Toothpaste 100ml,Personal Care,kg,4500.0,4950.0,kgs,kg,mapped,PersonalCare,Personal Care,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200855,BAK5112,Baking Soda 500g,Household,pcs,2500.0,2750.0,boxes,pcs,mapped,HOUSEHOLD,Household,mapped,2500,2750.0,2500.0,2750.0,valid,False,False
+PRD200856,KAB1178,Kabwe Detergent 1kg,Household,kg,15000.0,19500.0,kgs,kg,mapped,Houshold,Household,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD200857,MAR5032,Marlboro Biscuits,Snacks,kg,500.0,625.0,KGS,kg,mapped,Snacks,Snacks,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200858,ALW6485,Always Sanitary Pads,Personal Care,kg,2000.0,2300.0,KGS,kg,mapped,PersonalCare,Personal Care,mapped,2000,2300.0,2000.0,2300.0,valid,False,False
+PRD200859,RUL5219,Ruler 30cm,Grains & Cereals,liters,5000.0,6000.0,liters,liters,mapped,Grains,Grains & Cereals,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200860,KRE7102,Krest Bitter Lemon,Beverages,pcs,7500.0,9000.0,piece,pcs,mapped,Beverages,Beverages,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200861,SUN9769,Sunlight Soap 800g,Household,kg,1000.0,1500.0,Kilograms,kg,mapped,Household Items,Household,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200862,RIC5391,Rice 1kg,Grains & Cereals,pcs,15000.0,17250.0,Pieces,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200863,RIC9790,Rice 1kg,Grains & Cereals,kg,15000.0,27000.0,KGS,kg,mapped,Grains & cereal,Grains & Cereals,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD200864,SIM5047,Sims Chips 150g,Snacks,pcs,2500.0,2875.0,piece,pcs,mapped,Sncks,Snacks,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD200865,MAI5834,Maize Grains 1kg,Grains & Cereals,pcs,500.0,650.0,PCE,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,500,650.0,500.0,650.0,valid,False,False
+PRD200866,KAK5418,Kakira Sugar 1kg,Grains & Cereals,pcs,1500.0,2700.0,PCE,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,1500,2700.0,1500.0,2700.0,valid,False,True
+PRD200867,STA6883,Stabilo Highlighter,Grains & Cereals,kg,3000.0,4500.0,g,kg,converted,Grains and Cereals,Grains & Cereals,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200868,SUP3241,Supermatch Crisps,Snacks,pcs,10000.0,12500.0,PCE,pcs,mapped,Snack,Snacks,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200869,NIC5762,Nice & Lovely Lotion 200ml,Household,liters,1500.0,2700.0,ml,liters,converted,Household Items,Household,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD200870,IMP8066,Imperial Leather Soap,Personal Care,liters,1000.0,1800.0,liters,liters,mapped,Personal care ,Personal Care,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200871,MAT7363,Mathematical Set,Stationery,kg,7500.0,9375.0,Kilograms,kg,mapped,Stationary,Stationery,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD200872,TWI7787,Twins Tea 250g,Beverages,liters,1500.0,1950.0,L,liters,mapped,Beverage,Beverages,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD200873,DET5146,Dettol Antiseptic 250ml,Personal Care,liters,1000.0,1300.0,ml,liters,converted,Personal care ,Personal Care,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD200874,BEA5979,Beans 1kg,Grains & Cereals,liters,5000.0,6000.0,Litres,liters,mapped,Grains,Grains & Cereals,mapped,5000,6000.0,5000.0,6000.0,valid,False,False
+PRD200875,MAT3415,Mathematical Set,Stationery,pcs,4500.0,4036.94,boxes,pcs,mapped,Statio nery,Stationery,mapped,4500,4036.94,4500.0,4036.94,valid,True,False
+PRD200876,SIM4139,Sims Chips 150g,Snacks,kg,20000.0,30000.0,kg,kg,mapped,Sncks,Snacks,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200877,SPR2894,Sprite 300ml,Beverages,kg,500.0,650.0,kgs,kg,mapped,Bvages,Beverages,mapped,500,650.0,500.0,650.0,valid,False,False
+PRD200878,HEA7108,Head & Shoulders 400ml,Personal Care,pcs,10000.0,18000.0,boxes,pcs,mapped,PersonalCare,Personal Care,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200879,VAS3738,Vaseline Petroleum Jelly,Personal Care,liters,2000.0,2500.0,liters,liters,mapped,PERSONAL CARE,Personal Care,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200880,BRI2131,Britania Cream Cracker,Snacks,kg,10000.0,11500.0,Kilograms,kg,mapped,SNACKS,Snacks,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200881,VAS1951,Vaseline Petroleum Jelly,Personal Care,kg,35000.0,63000.0,kgs,kg,mapped,PERSONAL CARE,Personal Care,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200882,WHE4543,Wheat Flour 2kg,Grains & Cereals,kg,500.0,550.0,kilogram,kg,mapped,Grains & cereal,Grains & Cereals,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200883,ROB1263,Roberts Milk 1L,Beverages,kg,2500.0,4500.0,Kilograms,kg,mapped,Bvages,Beverages,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200884,BAK2408,Baking Soda 500g,Household,pcs,20000.0,36000.0,boxes,pcs,mapped,Houshold,Household,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200885,PEP4886,Pepsi 500ml,Beverages,pcs,3000.0,3600.0,piece,pcs,mapped,Beverage,Beverages,mapped,3000,"3,600",3000.0,3600.0,valid,False,False
+PRD200886,TOI5141,Toilet Paper 4 Pack,Household,liters,1000.0,1300.0,Litres,liters,mapped,Household Items,Household,mapped,1000,"1,300",1000.0,1300.0,valid,False,False
+PRD200887,POR9243,Porridge Flour 500g,Grains & Cereals,liters,10000.0,18000.0,L,liters,mapped,Grains and Cereals,Grains & Cereals,mapped,10000,18000.0,10000.0,18000.0,valid,False,False
+PRD200888,KAB6949,Kabala Groundnuts 200g,Snacks,kg,2500.0,3750.0,Kilograms,kg,mapped,Snack,Snacks,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200889,NIC9375,Nice Biscuits 100g,Snacks,kg,7500.0,9000.0,kilogram,kg,mapped,Snacks,Snacks,mapped,7500,9000.0,7500.0,9000.0,valid,False,False
+PRD200890,HEA4534,Head & Shoulders 400ml,Personal Care,liters,2000.0,2600.0,Litres,liters,mapped,PersonalCare,Personal Care,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200891,RUL2185,Ruler 30cm,Stationery,kg,35000.0,40250.0,Kilograms,kg,mapped,STATIONERY,Stationery,mapped,35000,40250.0,35000.0,40250.0,valid,False,False
+PRD200892,KIM7344,Kimbo Fat 500g,Stationery,kg,20000.0,26000.0,Kilograms,kg,mapped,Statio nery,Stationery,mapped,20000,"26,000",20000.0,26000.0,valid,False,False
+PRD200893,MAI1326,Maize Grains 1kg,Grains & Cereals,pcs,2500.0,3250.0,pcs,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD200894,JIK1915,Jik 1L,Household,pcs,2500.0,3125.0,boxes,pcs,mapped,House hold,Household,mapped,2500,3125.0,2500.0,3125.0,valid,False,False
+PRD200895,POR3974,Porridge Flour 500g,Grains & Cereals,pcs,1000.0,1250.0,boxes,pcs,mapped,Grains,Grains & Cereals,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD200896,RIC8610,Rice 1kg,Snacks,kg,20000.0,30000.0,Kilograms,kg,mapped,SNACKS,Snacks,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200897,BRI7362,Britania Cream Cracker,Snacks,kg,7500.0,11250.0,KGS,kg,mapped,Snacks,Snacks,mapped,7500,11250.0,7500.0,11250.0,valid,False,True
+PRD200898,CAN9570,Candles 6 Pack,Household,liters,10000.0,11500.0,ml,liters,converted,HOUSEHOLD,Household,mapped,10000,11500.0,10000.0,11500.0,valid,False,False
+PRD200899,MOU9377,Mountain Gorilla Water 1L,Beverages,pcs,750.0,900.0,boxes,pcs,mapped,Beverages,Beverages,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD200900,TRO8886,Tropical Heat Nuts,Snacks,liters,500.0,750.0,ml,liters,converted,Snacks,Snacks,mapped,500,750.0,500.0,750.0,valid,False,False
+PRD200901,EXE7436,Exercise Book 200pg,Stationery,pcs,15000.0,18000.0,PCE,pcs,mapped,STATIONERY,Stationery,mapped,15000,18000.0,15000.0,18000.0,valid,False,False
+PRD200902,ARR4449,Array Juice 250ml,Beverages,pcs,750.0,937.5,piece,pcs,mapped,Beverage,Beverages,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200903,KAB2930,Kabwe Detergent 1kg,Personal Care,pcs,50000.0,90000.0,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD200904,KAB2370,Kabala Groundnuts 200g,Snacks,pcs,500.0,650.0,pcs,pcs,mapped,Snack,Snacks,mapped,500,650.0,500.0,650.0,valid,False,False
+PRD200905,STA6779,Stabilo Highlighter,Stationery,liters,2000.0,2200.0,Litres,liters,mapped,STATIONERY,Stationery,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200906,IMP1124,Imperial Leather Soap,Personal Care,liters,7500.0,8250.0,liters,liters,mapped,Personal care ,Personal Care,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200907,NES1772,Nescafe 100g,Stationery,pcs,3000.0,3600.0,piece,pcs,mapped,Stationery,Stationery,mapped,3000,3600.0,3000.0,3600.0,valid,False,False
+PRD200908,RIC7718,Rice 1kg,Grains & Cereals,pcs,2000.0,3600.0,pc,pcs,mapped,Grains,Grains & Cereals,mapped,2000,3600.0,2000.0,3600.0,valid,False,False
+PRD200909,DET6703,Dettol Antiseptic 250ml,Personal Care,pcs,2500.0,3000.0,piece,pcs,mapped,PersonalCare,Personal Care,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200910,WHE7969,Wheat Flour 2kg,Grains & Cereals,liters,3000.0,3750.0,Litres,liters,mapped,Grains & cereal,Grains & Cereals,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200911,ARR4195,Array Juice 250ml,Beverages,liters,20000.0,22000.0,L,liters,mapped,Bevages,Beverages,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD200912,KIM4150,Kimbo Fat 500g,Household,pcs,10000.0,12000.0,boxes,pcs,mapped,HOUSEHOLD,Household,mapped,10000,12000.0,10000.0,12000.0,valid,False,False
+PRD200913,STA3109,Stabilo Highlighter,Stationery,kg,35000.0,43750.0,g,kg,converted,Statio nery,Stationery,mapped,35000,43750.0,35000.0,43750.0,valid,False,False
+PRD200914,TOI2795,Toilet Paper 4 Pack,Household,liters,15000.0,16500.0,ml,liters,converted,Household,Household,mapped,15000,16500.0,15000.0,16500.0,valid,False,False
+PRD200915,BRI9206,Britania Cream Cracker,Snacks,liters,10000.0,12500.0,Litres,liters,mapped,SNACKS,Snacks,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200916,MAI3908,Maize Flour 2kg,Grains & Cereals,kg,500.0,550.0,g,kg,converted,Grains & cereal,Grains & Cereals,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200917,A42031,A4 Paper 500sh,Snacks,pcs,3000.0,3450.0,PCE,pcs,mapped,Snacks,Snacks,mapped,3000,3450.0,3000.0,3450.0,valid,False,False
+PRD200918,SIM3513,Sims Chips 150g,Snacks,liters,1000.0,1800.0,Litres,liters,mapped,SNACKS,Snacks,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200919,VAS4223,Vaseline Petroleum Jelly,Personal Care,pcs,3000.0,5400.0,piece,pcs,mapped,PERSONAL CARE,Personal Care,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD200920,STA9717,Stabilo Highlighter,Stationery,pcs,7500.0,11250.0,Pieces,pcs,mapped,STATIONERY,Stationery,mapped,7500,11250.0,7500.0,11250.0,valid,False,False
+PRD200921,DET5928,Dettol Antiseptic 250ml,Snacks,pcs,2500.0,3750.0,bottles,pcs,mapped,Snacks,Snacks,mapped,2500,3750.0,2500.0,3750.0,valid,False,False
+PRD200922,SUP4344,Supermatch Crisps,Snacks,kg,50000.0,55000.0,kilogram,kg,mapped,SNACKS,Snacks,mapped,50000,55000.0,50000.0,55000.0,valid,False,False
+PRD200923,MAI5090,Maize Flour 2kg,Snacks,kg,3000.0,3750.0,KGS,kg,mapped,Snack,Snacks,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD200924,SUN4083,Sunlight Soap 800g,Household,pcs,750.0,1125.0,boxes,pcs,mapped,Household,Household,mapped,750,UGX1125,750.0,1125.0,valid,False,False
+PRD200925,JIK2639,Jik 1L,Household,pcs,50000.0,62500.0,pc,pcs,mapped,HOUSEHOLD,Household,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD200926,JIK7965,Jik 1L,Grains & Cereals,kg,35000.0,38500.0,kgs,kg,mapped,Grains,Grains & Cereals,mapped,35000,UGX38500,35000.0,38500.0,valid,False,False
+PRD200927,JIK8862,Jik 1L,Household,liters,500.0,600.0,ml,liters,converted,House hold,Household,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD200928,KIM7983,Kimbo Fat 500g,Household,kg,20000.0,24000.0,Kilograms,kg,mapped,Houshold,Household,mapped,20000,24000.0,20000.0,24000.0,valid,False,False
+PRD200929,KAB6138,Kabwe Detergent 1kg,Stationery,pcs,1500.0,1650.0,pc,pcs,mapped,Statio nery,Stationery,mapped,1500,1650.0,1500.0,1650.0,valid,False,True
+PRD200930,MAT4127,Mathematical Set,Grains & Cereals,kg,7500.0,8625.0,kgs,kg,mapped,Grains & cereal,Grains & Cereals,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200931,SIM5818,Sims Chips 150g,Household,pcs,7500.0,9750.0,piece,pcs,mapped,Houshold,Household,mapped,7500,9750.0,7500.0,9750.0,valid,False,False
+PRD200932,SUN1810,Sunlight Soap 800g,Beverages,pcs,10000.0,12500.0,PCE,pcs,mapped,Beverage,Beverages,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD200933,WHE5790,Wheat Flour 2kg,Grains & Cereals,kg,3000.0,3450.0,KGS,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,3000,3450.0,3000.0,3450.0,valid,False,False
+PRD200934,DET2784,Dettol Antiseptic 250ml,Personal Care,pcs,35000.0,38500.0,bottles,pcs,mapped,Personal care ,Personal Care,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200935,CAN8642,Candles 6 Pack,Household,pcs,35000.0,42000.0,piece,pcs,mapped,Houshold,Household,mapped,35000,42000.0,35000.0,42000.0,valid,False,False
+PRD200936,SUN3983,Sunlight Soap 800g,Household,liters,35000.0,63000.0,L,liters,mapped,House hold,Household,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200937,KAK9869,Kakira Sugar 1kg,Grains & Cereals,liters,10000.0,13000.0,Litres,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,10000,13000.0,10000.0,13000.0,valid,False,False
+PRD200938,MAT2939,Mathematical Set,Grains & Cereals,pcs,3000.0,3900.0,boxes,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD200939,CAN5371,Candles 6 Pack,Household,kg,15000.0,18750.0,KGS,kg,mapped,House hold,Household,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD200940,FAN4272,Fanta Orange 500ml,Beverages,liters,750.0,825.0,liters,liters,mapped,Beverage,Beverages,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200941,STA5883,Stabilo Highlighter,Snacks,liters,20000.0,36000.0,ml,liters,converted,SNACKS,Snacks,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD200942,MAI9743,Maize Flour 2kg,Stationery,pcs,15000.0,18000.0,pc,pcs,mapped,Statio nery,Stationery,mapped,15000,18000.0,15000.0,18000.0,valid,False,False
+PRD200943,VAS9332,Vaseline Petroleum Jelly,Personal Care,pcs,500.0,575.0,PCE,pcs,mapped,PERSONAL CARE,Personal Care,mapped,500,575.0,500.0,575.0,valid,False,False
+PRD200944,COC4637,Coca-Cola 500ml,Beverages,pcs,750.0,975.0,bottles,pcs,mapped,Bevages,Beverages,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200945,ALW9351,Always Sanitary Pads,Personal Care,kg,5000.0,3557.96,KGS,kg,mapped,Percare,Personal Care,mapped,5000,3557.96,5000.0,3557.96,valid,True,False
+PRD200946,BIC5258,Bic Pen Blue,Stationery,pcs,1000.0,1800.0,piece,pcs,mapped,STATIONERY,Stationery,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200947,DET9963,Dettol Antiseptic 250ml,Personal Care,liters,750.0,937.5,L,liters,mapped,PERSONAL CARE,Personal Care,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200948,KAB7387,Kabwe Detergent 1kg,Personal Care,liters,750.0,825.0,liters,liters,mapped,Percare,Personal Care,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD200949,BEA7487,Beans 1kg,Grains & Cereals,kg,2000.0,2500.0,g,kg,converted,Grains & cereal,Grains & Cereals,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD200950,POR8103,Porridge Flour 500g,Personal Care,kg,35000.0,63000.0,kg,kg,mapped,Personal Care,Personal Care,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD200951,NIC3850,Nice & Lovely Lotion 200ml,Personal Care,kg,7500.0,8625.0,g,kg,converted,PERSONAL CARE,Personal Care,mapped,7500,8625.0,7500.0,8625.0,valid,False,False
+PRD200952,SPR9709,Sprite 300ml,Beverages,pcs,2500.0,2875.0,piece,pcs,mapped,Beverages,Beverages,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD200953,KAB2509,Kabala Groundnuts 200g,Snacks,pcs,7500.0,11250.0,piece,pcs,mapped,Snack,Snacks,mapped,7500,11250.0,7500.0,11250.0,valid,False,False
+PRD200954,POR2530,Porridge Flour 500g,Grains & Cereals,kg,35000.0,38500.0,Kilograms,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,35000,38500.0,35000.0,38500.0,valid,False,False
+PRD200955,KAB5134,Kabwe Detergent 1kg,Household,pcs,1000.0,1500.0,Pieces,pcs,mapped,Houshold,Household,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200956,TWI4488,Twins Tea 250g,Grains & Cereals,liters,5000.0,5500.0,L,liters,mapped,Grains,Grains & Cereals,mapped,5000,5500.0,5000.0,5500.0,valid,False,False
+PRD200957,BEA2990,Beans 1kg,Grains & Cereals,kg,4500.0,4950.0,Kilograms,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,4500,4950.0,4500.0,4950.0,valid,False,False
+PRD200958,BRI5122,Britania Cream Cracker,Snacks,kg,2000.0,2600.0,kg,kg,mapped,Snacks,Snacks,mapped,2000,2600.0,2000.0,2600.0,valid,False,False
+PRD200959,A42552,A4 Paper 500sh,Stationery,kg,2000.0,2200.0,g,kg,converted,Stationery,Stationery,mapped,2000,2200.0,2000.0,2200.0,valid,False,False
+PRD200960,A49006,A4 Paper 500sh,Snacks,kg,10000.0,15000.0,Kilograms,kg,mapped,Snack,Snacks,mapped,10000,15000.0,10000.0,15000.0,valid,False,False
+PRD200961,MAR5801,Marlboro Biscuits,Snacks,kg,3000.0,4500.0,KGS,kg,mapped,Sncks,Snacks,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200962,COL2375,Colgate Toothpaste 100ml,Personal Care,pcs,5000.0,6250.0,bottles,pcs,mapped,Personal care ,Personal Care,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200963,HEA4293,Head & Shoulders 400ml,Personal Care,liters,1000.0,1200.0,liters,liters,mapped,PERSONAL CARE,Personal Care,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200964,JIK3718,Jik 1L,Grains & Cereals,kg,5000.0,9000.0,g,kg,converted,Grains & Cereals,Grains & Cereals,mapped,5000,9000.0,5000.0,9000.0,valid,False,False
+PRD200965,KIM3625,Kimbo Fat 500g,Household,pcs,4500.0,8100.0,piece,pcs,mapped,Household Items,Household,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200966,RUL4374,Ruler 30cm,Stationery,pcs,1000.0,1200.0,bottles,pcs,mapped,Stationary,Stationery,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200967,A42869,A4 Paper 500sh,Stationery,kg,2500.0,4500.0,kg,kg,mapped,Statio nery,Stationery,mapped,2500,4500.0,2500.0,4500.0,valid,False,False
+PRD200968,MUR1336,Muruchu Cooking Oil 3L,Household,kg,5000.0,6250.0,kg,kg,mapped,House hold,Household,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD200969,SIM7669,Sims Chips 150g,Snacks,pcs,3000.0,4500.0,piece,pcs,mapped,Snacks,Snacks,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD200970,POR8743,Porridge Flour 500g,Grains & Cereals,kg,4500.0,5175.0,Kilograms,kg,mapped,Grains,Grains & Cereals,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD200971,ALW3921,Always Sanitary Pads,Personal Care,pcs,4500.0,8100.0,PCE,pcs,mapped,Personal care ,Personal Care,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD200972,RUL5079,Ruler 30cm,Stationery,kg,10000.0,12000.0,g,kg,converted,STATIONERY,Stationery,mapped,10000,12000.0,10000.0,12000.0,valid,False,True
+PRD200973,PEP9692,Pepsi 500ml,Beverages,kg,750.0,1125.0,Kilograms,kg,mapped,Beverage,Beverages,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200974,HEA2327,Head & Shoulders 400ml,Personal Care,liters,1500.0,1800.0,L,liters,mapped,PERSONAL CARE,Personal Care,mapped,1500,1800.0,1500.0,1800.0,valid,False,False
+PRD200975,KAK1406,Kakira Sugar 1kg,Grains & Cereals,kg,20000.0,36000.0,kilogram,kg,mapped,Grains & cereal,Grains & Cereals,mapped,20000,36000.0,20000.0,36000.0,valid,False,True
+PRD200976,RUL2820,Ruler 30cm,Stationery,kg,4500.0,8100.0,kilogram,kg,mapped,STATIONERY,Stationery,mapped,4500,8100.0,4500.0,8100.0,valid,False,True
+PRD200977,COC8744,Coca-Cola 500ml,Stationery,pcs,7500.0,8250.0,bottles,pcs,mapped,Stationary,Stationery,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD200978,HEA3253,Head & Shoulders 400ml,Personal Care,liters,35000.0,40250.0,liters,liters,mapped,Personal care ,Personal Care,mapped,35000,UGX40250,35000.0,40250.0,valid,False,False
+PRD200979,VAS8663,Vaseline Petroleum Jelly,Personal Care,kg,1000.0,1200.0,kgs,kg,mapped,PERSONAL CARE,Personal Care,mapped,1000,1200.0,1000.0,1200.0,valid,False,False
+PRD200980,KAB8231,Kabala Groundnuts 200g,Snacks,pcs,500.0,625.0,bottles,pcs,mapped,Snack,Snacks,mapped,500,625.0,500.0,625.0,valid,False,False
+PRD200981,TOI4977,Toilet Paper 4 Pack,Household,pcs,5000.0,6500.0,bottles,pcs,mapped,Houshold,Household,mapped,5000,6500.0,5000.0,6500.0,valid,False,False
+PRD200982,ARR1529,Array Juice 250ml,Stationery,pcs,750.0,1125.0,Pieces,pcs,mapped,Stationery,Stationery,mapped,750,1125.0,750.0,1125.0,valid,False,False
+PRD200983,KAB5957,Kabwe Detergent 1kg,Grains & Cereals,kg,1500.0,1725.0,kgs,kg,mapped,Grains & cereal,Grains & Cereals,mapped,1500,1725.0,1500.0,1725.0,valid,False,False
+PRD200984,TWI5110,Twins Tea 250g,Beverages,liters,4500.0,4950.0,Litres,liters,mapped,Beverages,Beverages,mapped,4500,4950.0,4500.0,4950.0,valid,False,True
+PRD200985,SPR4395,Sprite 300ml,Beverages,pcs,50000.0,57500.0,pc,pcs,mapped,Bevages,Beverages,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD200986,NIL6416,Nile Beer 500ml,Personal Care,pcs,4500.0,5175.0,PCE,pcs,mapped,Personal care ,Personal Care,mapped,4500,5175.0,4500.0,5175.0,valid,False,True
+PRD200987,BAK1024,Baking Soda 500g,Personal Care,pcs,20000.0,30000.0,pcs,pcs,mapped,PERSONAL CARE,Personal Care,mapped,20000,30000.0,20000.0,30000.0,valid,False,False
+PRD200988,NIC7217,Nice Biscuits 100g,Snacks,kg,1000.0,1800.0,kg,kg,mapped,Snacks,Snacks,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD200989,KAK8973,Kakira Sugar 1kg,Personal Care,liters,15000.0,17250.0,Litres,liters,mapped,Percare,Personal Care,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200990,KAB3910,Kabwe Detergent 1kg,Beverages,pcs,35000.0,52500.0,Pieces,pcs,mapped,BEVERAGES,Beverages,mapped,35000,"UGX 52,500",35000.0,52500.0,valid,False,False
+PRD200991,KAB1743,Kabala Groundnuts 200g,Snacks,liters,750.0,975.0,L,liters,mapped,Sncks,Snacks,mapped,750,975.0,750.0,975.0,valid,False,False
+PRD200992,RIC1063,Rice 1kg,Snacks,liters,2500.0,3000.0,liters,liters,mapped,Snacks,Snacks,mapped,2500,3000.0,2500.0,3000.0,valid,False,False
+PRD200993,KAB3708,Kabwe Detergent 1kg,Household,kg,1000.0,1500.0,g,kg,converted,Houshold,Household,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD200994,MAI3409,Maize Grains 1kg,Snacks,pcs,15000.0,17250.0,pcs,pcs,mapped,Snacks,Snacks,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200995,RUL1071,Ruler 30cm,Stationery,pcs,500.0,550.0,piece,pcs,mapped,Stationary,Stationery,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD200996,COL3925,Colgate Toothpaste 100ml,Personal Care,pcs,20000.0,26000.0,PCE,pcs,mapped,PERSONAL CARE,Personal Care,mapped,20000,26000.0,20000.0,26000.0,valid,False,False
+PRD200997,NIC8625,Nice & Lovely Lotion 200ml,Personal Care,kg,15000.0,17250.0,Kilograms,kg,mapped,Personal care ,Personal Care,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD200998,KAB4857,Kabwe Detergent 1kg,Snacks,pcs,750.0,937.5,boxes,pcs,mapped,SNACKS,Snacks,mapped,750,937.5,750.0,937.5,valid,False,False
+PRD200999,RUL5151,Ruler 30cm,Grains & Cereals,pcs,4500.0,5175.0,pcs,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,4500,5175.0,4500.0,5175.0,valid,False,False
+PRD201000,VAS8347,Vaseline Petroleum Jelly,Personal Care,pcs,2000.0,2200.0,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,2000,"2,200",2000.0,2200.0,valid,False,False
+PRD201001,BRI9509,Britania Cream Cracker,Snacks,kg,750.0,900.0,g,kg,converted,SNACKS,Snacks,mapped,750,900.0,750.0,900.0,valid,False,False
+PRD201002,BAK3482,Baking Soda 500g,Household,kg,7500.0,11250.0,g,kg,converted,Houshold,Household,mapped,7500,11250.0,7500.0,11250.0,valid,False,False
+PRD201003,A45593,A4 Paper 500sh,Stationery,liters,1500.0,1950.0,liters,liters,mapped,Stationary,Stationery,mapped,1500,1950.0,1500.0,1950.0,valid,False,False
+PRD201004,POR4505,Porridge Flour 500g,Household,liters,2500.0,3250.0,liters,liters,mapped,Houshold,Household,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD201005,MAI7100,Maize Flour 2kg,Grains & Cereals,pcs,3000.0,5400.0,pcs,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD201006,SIM3267,Sims Chips 150g,Snacks,pcs,5000.0,5750.0,pc,pcs,mapped,SNACKS,Snacks,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD201007,MAI8364,Maize Grains 1kg,Grains & Cereals,pcs,3000.0,4500.0,bottles,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD201008,STA7024,Stabilo Highlighter,Stationery,liters,7500.0,8250.0,Litres,liters,mapped,Stationery,Stationery,mapped,7500,8250.0,7500.0,8250.0,valid,False,False
+PRD201009,SOR9790,Sorghum 1kg,Personal Care,pcs,20000.0,25000.0,piece,pcs,mapped,Personal Care,Personal Care,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD201010,TOI7581,Toilet Paper 4 Pack,Grains & Cereals,pcs,15000.0,18750.0,PCE,pcs,mapped,Grains,Grains & Cereals,mapped,15000,18750.0,15000.0,18750.0,valid,False,False
+PRD201011,NIC1257,Nice & Lovely Lotion 200ml,Personal Care,liters,2500.0,2875.0,Litres,liters,mapped,Personal care ,Personal Care,mapped,2500,2875.0,2500.0,2875.0,valid,False,False
+PRD201012,TRO9713,Tropical Heat Nuts,Stationery,liters,2000.0,2400.0,Litres,liters,mapped,Stationery,Stationery,mapped,2000,2400.0,2000.0,2400.0,valid,False,False
+PRD201013,NIC6568,Nice Biscuits 100g,Snacks,kg,5000.0,5750.0,Kilograms,kg,mapped,Sncks,Snacks,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD201014,FAN2503,Fanta Orange 500ml,Beverages,pcs,2500.0,3250.0,piece,pcs,mapped,Beverages,Beverages,mapped,2500,3250.0,2500.0,3250.0,valid,False,False
+PRD201015,BRI8199,Britania Cream Cracker,Snacks,pcs,50000.0,62500.0,Pieces,pcs,mapped,Snack,Snacks,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD201016,MAI2794,Maize Flour 2kg,Household,pcs,15000.0,16500.0,pcs,pcs,mapped,Houshold,Household,mapped,15000,16500.0,15000.0,16500.0,valid,False,False
+PRD201017,MAR8257,Marlboro Biscuits,Snacks,kg,1500.0,1131.6,kilogram,kg,mapped,SNACKS,Snacks,mapped,1500,1131.6,1500.0,1131.6,valid,True,False
+PRD201018,IMP3196,Imperial Leather Soap,Personal Care,pcs,7500.0,9750.0,Pieces,pcs,mapped,PersonalCare,Personal Care,mapped,7500,9750.0,7500.0,9750.0,valid,False,True
+PRD201019,NIL2033,Nile Beer 500ml,Beverages,kg,1500.0,1875.0,Kilograms,kg,mapped,Beverages,Beverages,mapped,1500,1875.0,1500.0,1875.0,valid,False,False
+PRD201020,COL7688,Colgate Toothpaste 100ml,Personal Care,kg,1000.0,1150.0,g,kg,converted,Personal care ,Personal Care,mapped,1000,1150.0,1000.0,1150.0,valid,False,False
+PRD201021,COL2193,Colgate Toothpaste 100ml,Beverages,kg,15000.0,18000.0,kg,kg,mapped,Beverages,Beverages,mapped,15000,18000.0,15000.0,18000.0,valid,False,False
+PRD201022,MAR2230,Marlboro Biscuits,Snacks,pcs,15000.0,19500.0,PCE,pcs,mapped,Snack,Snacks,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD201023,TOI2263,Toilet Paper 4 Pack,Household,pcs,50000.0,57500.0,Pieces,pcs,mapped,Household Items,Household,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD201024,NIL5684,Nile Beer 500ml,Beverages,liters,5000.0,6250.0,Litres,liters,mapped,Bvages,Beverages,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD201025,MAI2998,Maize Grains 1kg,Stationery,pcs,3000.0,4500.0,pc,pcs,mapped,STATIONERY,Stationery,mapped,3000,4500.0,3000.0,4500.0,valid,False,False
+PRD201026,BAK4320,Baking Soda 500g,Household,kg,1000.0,1100.0,kg,kg,mapped,Household Items,Household,mapped,1000,1100.0,1000.0,1100.0,valid,False,False
+PRD201027,SUP7429,Supermatch Crisps,Snacks,liters,4500.0,5850.0,L,liters,mapped,Sncks,Snacks,mapped,4500,5850.0,4500.0,5850.0,valid,False,True
+PRD201028,EXE8748,Exercise Book 200pg,Stationery,pcs,3000.0,3900.0,Pieces,pcs,mapped,Stationery,Stationery,mapped,3000,3900.0,3000.0,3900.0,valid,False,False
+PRD201029,HEA9853,Head & Shoulders 400ml,Snacks,pcs,750.0,862.5,pcs,pcs,mapped,Snack,Snacks,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD201030,MAT1793,Mathematical Set,Stationery,pcs,15000.0,17250.0,Pieces,pcs,mapped,Stationery,Stationery,mapped,15000,17250.0,15000.0,17250.0,valid,False,False
+PRD201031,POR2270,Porridge Flour 500g,Grains & Cereals,liters,5000.0,6500.0,Litres,liters,mapped,Grains & cereal,Grains & Cereals,mapped,5000,6500.0,5000.0,6500.0,valid,False,False
+PRD201032,ROB8511,Roberts Milk 1L,Beverages,pcs,5000.0,5750.0,bottles,pcs,mapped,Beverages,Beverages,mapped,5000,5750.0,5000.0,5750.0,valid,False,False
+PRD201033,SPR4158,Sprite 300ml,Grains & Cereals,kg,35000.0,63000.0,kgs,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD201034,NIC7667,Nice Biscuits 100g,Snacks,liters,20000.0,36000.0,liters,liters,mapped,Snack,Snacks,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD201035,CAN4910,Candles 6 Pack,Household,pcs,1500.0,2250.0,boxes,pcs,mapped,Houshold,Household,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD201036,TOI7894,Toilet Paper 4 Pack,Household,pcs,1000.0,1500.0,PCE,pcs,mapped,House hold,Household,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD201037,MAT1721,Mathematical Set,Stationery,liters,20000.0,36000.0,L,liters,mapped,Statio nery,Stationery,mapped,20000,36000.0,20000.0,36000.0,valid,False,False
+PRD201038,POR4285,Porridge Flour 500g,Grains & Cereals,kg,50000.0,60000.0,kilogram,kg,mapped,Grains,Grains & Cereals,mapped,50000,60000.0,50000.0,60000.0,valid,False,False
+PRD201039,SOR5290,Sorghum 1kg,Grains & Cereals,pcs,15000.0,19500.0,pc,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,15000,19500.0,15000.0,19500.0,valid,False,False
+PRD201040,DET1158,Dettol Antiseptic 250ml,Personal Care,pcs,15000.0,19500.0,bottles,pcs,mapped,PersonalCare,Personal Care,mapped,15000,UGX19500,15000.0,19500.0,valid,False,False
+PRD201041,HEA6997,Head & Shoulders 400ml,Personal Care,pcs,2000.0,3600.0,piece,pcs,mapped,Personal care ,Personal Care,mapped,2000,3600.0,2000.0,3600.0,valid,False,False
+PRD201042,MUR3909,Muruchu Cooking Oil 3L,Household,pcs,2500.0,2750.0,pcs,pcs,mapped,Houshold,Household,mapped,2500,"2,750",2500.0,2750.0,valid,False,False
+PRD201043,WHE3766,Wheat Flour 2kg,Grains & Cereals,kg,500.0,900.0,Kilograms,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD201044,A42787,A4 Paper 500sh,Stationery,kg,15000.0,27000.0,kgs,kg,mapped,Stationery,Stationery,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD201045,KAK4597,Kakira Sugar 1kg,Grains & Cereals,kg,1500.0,1800.0,g,kg,converted,Grains & cereal,Grains & Cereals,mapped,1500,1800.0,1500.0,1800.0,valid,False,False
+PRD201046,PEP7160,Pepsi 500ml,Beverages,kg,1500.0,2700.0,Kilograms,kg,mapped,Beverage,Beverages,mapped,1500,2700.0,1500.0,2700.0,valid,False,True
+PRD201047,MUR5303,Muruchu Cooking Oil 3L,Household,pcs,3000.0,5400.0,PCE,pcs,mapped,HOUSEHOLD,Household,mapped,3000,5400.0,3000.0,5400.0,valid,False,False
+PRD201048,KAB2623,Kabwe Detergent 1kg,Household,kg,50000.0,90000.0,Kilograms,kg,mapped,Household,Household,mapped,50000,90000.0,50000.0,90000.0,valid,False,False
+PRD201049,KAK5529,Kakira Sugar 1kg,Grains & Cereals,kg,500.0,600.0,KGS,kg,mapped,Grains & cereal,Grains & Cereals,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD201050,DET8433,Dettol Antiseptic 250ml,Personal Care,liters,2000.0,2500.0,L,liters,mapped,Personal care ,Personal Care,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD201051,DET5840,Dettol Antiseptic 250ml,Personal Care,pcs,1500.0,2700.0,piece,pcs,mapped,PERSONAL CARE,Personal Care,mapped,1500,2700.0,1500.0,2700.0,valid,False,False
+PRD201052,MAT7108,Mathematical Set,Stationery,pcs,15000.0,16500.0,pc,pcs,mapped,Statio nery,Stationery,mapped,15000,16500.0,15000.0,16500.0,valid,False,False
+PRD201053,BAK3839,Baking Soda 500g,Household,pcs,5000.0,4427.05,pcs,pcs,mapped,House hold,Household,mapped,5000,4427.05,5000.0,4427.05,valid,True,False
+PRD201054,BEL1739,Bell Lager,Beverages,kg,4500.0,5175.0,KGS,kg,mapped,Bevages,Beverages,mapped,4500,UGX5175,4500.0,5175.0,valid,False,False
+PRD201055,BAK1760,Baking Soda 500g,Household,liters,50000.0,62500.0,Litres,liters,mapped,Household,Household,mapped,50000,62500.0,50000.0,62500.0,valid,False,False
+PRD201056,SIM7753,Sims Chips 150g,Snacks,pcs,35000.0,63000.0,pcs,pcs,mapped,SNACKS,Snacks,mapped,35000,63000.0,35000.0,63000.0,valid,False,False
+PRD201057,TOI6976,Toilet Paper 4 Pack,Household,kg,750.0,825.0,KGS,kg,mapped,HOUSEHOLD,Household,mapped,750,825.0,750.0,825.0,valid,False,False
+PRD201058,RIC4630,Rice 1kg,Grains & Cereals,liters,1000.0,1150.0,Litres,liters,mapped,Grains & Cereals,Grains & Cereals,mapped,1000,1150.0,1000.0,1150.0,valid,False,False
+PRD201059,COC2595,Coca-Cola 500ml,Beverages,liters,1000.0,1300.0,ml,liters,converted,Beverage,Beverages,mapped,1000,1300.0,1000.0,1300.0,valid,False,False
+PRD201060,NIL4855,Nile Beer 500ml,Grains & Cereals,pcs,7500.0,9750.0,Pieces,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,7500,UGX9750,7500.0,9750.0,valid,False,False
+PRD201061,RUL4947,Ruler 30cm,Stationery,liters,750.0,862.5,liters,liters,mapped,Statio nery,Stationery,mapped,750,862.5,750.0,862.5,valid,False,False
+PRD201062,KRE1373,Krest Bitter Lemon,Household,pcs,3000.0,3750.0,piece,pcs,mapped,Houshold,Household,mapped,3000,3750.0,3000.0,3750.0,valid,False,False
+PRD201063,DET7428,Dettol Antiseptic 250ml,Stationery,kg,500.0,600.0,kilogram,kg,mapped,Statio nery,Stationery,mapped,500,600.0,500.0,600.0,valid,False,False
+PRD201064,KAB2949,Kabwe Detergent 1kg,Household,pcs,15000.0,19500.0,pc,pcs,mapped,Houshold,Household,mapped,15000,"19,500",15000.0,19500.0,valid,False,False
+PRD201065,TWI9523,Twins Tea 250g,Beverages,liters,7500.0,13500.0,L,liters,mapped,Beverages,Beverages,mapped,7500,13500.0,7500.0,13500.0,valid,False,False
+PRD201066,BIC7907,Bic Pen Blue,Stationery,kg,50000.0,57500.0,KGS,kg,mapped,Stationery,Stationery,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD201067,KAK2039,Kakira Sugar 1kg,Snacks,kg,2000.0,1665.27,kgs,kg,mapped,SNACKS,Snacks,mapped,2000,1665.27,2000.0,1665.27,valid,True,False
+PRD201068,COC8591,Coca-Cola 500ml,Beverages,liters,2000.0,2500.0,Litres,liters,mapped,BEVERAGES,Beverages,mapped,2000,2500.0,2000.0,2500.0,valid,False,False
+PRD201069,BIC5619,Bic Pen Blue,Stationery,pcs,4500.0,8100.0,boxes,pcs,mapped,Stationery,Stationery,mapped,4500,8100.0,4500.0,8100.0,valid,False,False
+PRD201070,A48330,A4 Paper 500sh,Household,kg,1000.0,1500.0,kg,kg,mapped,Household,Household,mapped,1000,1500.0,1000.0,1500.0,valid,False,False
+PRD201071,BIC3563,Bic Pen Blue,Stationery,pcs,3000.0,3300.0,Pieces,pcs,mapped,STATIONERY,Stationery,mapped,3000,3300.0,3000.0,3300.0,valid,False,True
+PRD201072,MAI8161,Maize Flour 2kg,Stationery,kg,15000.0,27000.0,kg,kg,mapped,Stationary,Stationery,mapped,15000,27000.0,15000.0,27000.0,valid,False,False
+PRD201073,HEA4591,Head & Shoulders 400ml,Personal Care,kg,500.0,550.0,kgs,kg,mapped,PersonalCare,Personal Care,mapped,500,550.0,500.0,550.0,valid,False,False
+PRD201074,SPR8718,Sprite 300ml,Household,pcs,50000.0,65000.0,PCE,pcs,mapped,Houshold,Household,mapped,50000,65000.0,50000.0,65000.0,valid,False,False
+PRD201075,EXE8817,Exercise Book 200pg,Stationery,kg,5000.0,7500.0,kilogram,kg,mapped,Stationery,Stationery,mapped,5000,7500.0,5000.0,7500.0,valid,False,False
+PRD201076,NIC4874,Nice Biscuits 100g,Snacks,liters,7500.0,9375.0,Litres,liters,mapped,Snack,Snacks,mapped,7500,9375.0,7500.0,9375.0,valid,False,False
+PRD201077,NIL5838,Nile Beer 500ml,Household,pcs,500.0,900.0,boxes,pcs,mapped,Household Items,Household,mapped,500,900.0,500.0,900.0,valid,False,False
+PRD201078,KAB3922,Kabala Groundnuts 200g,Snacks,kg,10000.0,12500.0,KGS,kg,mapped,Snacks,Snacks,mapped,10000,12500.0,10000.0,12500.0,valid,False,False
+PRD201079,COL3587,Colgate Toothpaste 100ml,Personal Care,pcs,1000.0,1800.0,boxes,pcs,mapped,PERSONAL CARE,Personal Care,mapped,1000,1800.0,1000.0,1800.0,valid,False,False
+PRD201080,EXE8890,Exercise Book 200pg,Stationery,pcs,5000.0,6250.0,Pieces,pcs,mapped,STATIONERY,Stationery,mapped,5000,6250.0,5000.0,6250.0,valid,False,False
+PRD201081,SIM3931,Sims Chips 150g,Snacks,liters,35000.0,45500.0,L,liters,mapped,Sncks,Snacks,mapped,35000,45500.0,35000.0,45500.0,valid,False,False
+PRD201082,HEA5979,Head & Shoulders 400ml,Personal Care,pcs,15000.0,11868.68,PCE,pcs,mapped,Percare,Personal Care,mapped,15000,11868.68,15000.0,11868.68,valid,True,False
+PRD201083,RUL8952,Ruler 30cm,Grains & Cereals,kg,10000.0,12000.0,kg,kg,mapped,Grains&Cereals,Grains & Cereals,mapped,10000,UGX12000,10000.0,12000.0,valid,False,False
+PRD201084,TWI7829,Twins Tea 250g,Stationery,pcs,20000.0,25000.0,pcs,pcs,mapped,Stationery,Stationery,mapped,20000,25000.0,20000.0,25000.0,valid,False,False
+PRD201085,IMP2847,Imperial Leather Soap,Personal Care,pcs,20000.0,22000.0,PCE,pcs,mapped,Percare,Personal Care,mapped,20000,22000.0,20000.0,22000.0,valid,False,False
+PRD201086,SIM5660,Sims Chips 150g,Snacks,kg,4500.0,5625.0,kgs,kg,mapped,SNACKS,Snacks,mapped,4500,5625.0,4500.0,5625.0,valid,False,False
+PRD201087,RUL3012,Ruler 30cm,Stationery,pcs,1500.0,2250.0,PCE,pcs,mapped,Stationary,Stationery,mapped,1500,2250.0,1500.0,2250.0,valid,False,False
+PRD201088,BAK2635,Baking Soda 500g,Beverages,pcs,50000.0,57500.0,PCE,pcs,mapped,BEVERAGES,Beverages,mapped,50000,57500.0,50000.0,57500.0,valid,False,False
+PRD201089,CAN8529,Candles 6 Pack,Household,kg,1000.0,1250.0,g,kg,converted,Houshold,Household,mapped,1000,1250.0,1000.0,1250.0,valid,False,False
+PRD201090,KIM3903,Kimbo Fat 500g,Personal Care,kg,10000.0,13000.0,KGS,kg,mapped,Personal Care,Personal Care,mapped,10000,"UGX 13,000",10000.0,13000.0,valid,False,True
+PRD201091,SIM1049,Sims Chips 150g,Personal Care,pcs,10000.0,11500.0,Pieces,pcs,mapped,Personal Care,Personal Care,mapped,10000,"11,500",10000.0,11500.0,valid,False,False
+PRD201092,STA5416,Stabilo Highlighter,Stationery,kg,7500.0,11250.0,kilogram,kg,mapped,STATIONERY,Stationery,mapped,7500,11250.0,7500.0,11250.0,valid,False,False
+PRD201093,BRI7362,Britania Creab Cracker,Snacks,kg,7500.0,11250.0,kilogram,kg,mapped,Sncks,Snacks,mapped,7500,11250.0,7500.0,11250.0,valid,False,True
+PRD201094,BAK4699,Baking Sodau500g,Household,liters,10000.0,13000.0,liters,liters,mapped,Household Items,Household,mapped,10000,13000.0,10000.0,13000.0,valid,False,True
+PRD201095,BAK5452,Baking Soda 500g 500ml,Household,kg,4500.0,5175.0,g,kg,converted,HOUSEHOLD,Household,mapped,4500,5175.0,4500.0,5175.0,valid,False,True
+PRD201096,KAK5418,Kakira Sugar 1kg (Large),Grains & Cereals,liters,1500.0,2700.0,Litres,liters,mapped,Grains & cereal,Grains & Cereals,mapped,1500,2700.0,1500.0,2700.0,valid,False,True
+PRD201097,KAB6138,Kabwe Djtergent 1kg,Stationery,liters,1500.0,1650.0,Litres,liters,mapped,Statio nery,Stationery,mapped,1500,1650.0,1500.0,1650.0,valid,False,True
+PRD201098,SPR6832,Sprite 300ml 500ml,Beverages,kg,50000.0,75000.0,kilogram,kg,mapped,Beverage,Beverages,mapped,50000,75000.0,50000.0,75000.0,valid,False,True
+PRD201099,VAS5152,Vaseline Petroleum Jelly (Large),Beverages,pcs,2500.0,2750.0,boxes,pcs,mapped,Bevages,Beverages,mapped,2500,2750.0,2500.0,2750.0,valid,False,True
+PRD201100,A48641,A4 Paper q00sh,Stationery,pcs,50000.0,65000.0,PCE,pcs,mapped,STATIONERY,Stationery,mapped,50000,65000.0,50000.0,65000.0,valid,False,True
+PRD201101,KAK8849,Kakira Sufar 1kg,Grains & Cereals,pcs,7500.0,8625.0,piece,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,7500,8625.0,7500.0,8625.0,valid,False,True
+PRD201102,HEA6713,Head & Shoulders 400hl,Grains & Cereals,pcs,2500.0,3750.0,Pieces,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,2500,"3,750",2500.0,3750.0,valid,False,True
+PRD201103,EXE3153,Exercise Book 20jpg,Stationery,kg,1000.0,1150.0,g,kg,converted,Stationery,Stationery,mapped,1000,1150.0,1000.0,1150.0,valid,False,True
+PRD201104,BIC3563,Bic Pen Blue 500ml,Stationery,pcs,3000.0,3300.0,boxes,pcs,mapped,Stationery,Stationery,mapped,3000,3300.0,3000.0,3300.0,valid,False,True
+PRD201105,KAB5723,Kabwe Detergent 1kg XL,Household,kg,10000.0,15000.0,g,kg,converted,HOUSEHOLD,Household,mapped,10000,15000.0,10000.0,15000.0,valid,False,True
+PRD201106,BEA7056,Beans 1kg 1kg,Grains & Cereals,pcs,7500.0,9000.0,piece,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,7500,9000.0,7500.0,9000.0,valid,False,True
+PRD201107,ARR9791,Array Juice 250ml XL,Personal Care,pcs,15000.0,18750.0,bottles,pcs,mapped,PersonalCare,Personal Care,mapped,15000,18750.0,15000.0,18750.0,valid,False,True
+PRD201108,BRI5435,Britania Cream Cracker XL,Snacks,pcs,20000.0,36000.0,Pieces,pcs,mapped,Snacks,Snacks,mapped,20000,36000.0,20000.0,36000.0,valid,False,True
+PRD201109,BEA7888,Beans 1fg,Personal Care,kg,4500.0,8100.0,kilogram,kg,mapped,Personal care ,Personal Care,mapped,4500,8100.0,4500.0,8100.0,valid,False,True
+PRD201110,NIL6416,Nile Beer 500ml 500ml,Personal Care,pcs,4500.0,5175.0,pc,pcs,mapped,Personal Care,Personal Care,mapped,4500,5175.0,4500.0,5175.0,valid,False,True
+PRD201111,BAK6463,Baking Soda 500g XL,Grains & Cereals,pcs,500.0,650.0,pcs,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,500,650.0,500.0,650.0,valid,False,True
+PRD201112,SOR3203,Sorzhum 1kg,Grains & Cereals,pcs,500.0,575.0,boxes,pcs,mapped,Grains & cereal,Grains & Cereals,mapped,500,575.0,500.0,575.0,valid,False,True
+PRD201113,VAS9927,Vaseline Petroleum Jegly,Personal Care,pcs,35000.0,63000.0,piece,pcs,mapped,PersonalCare,Personal Care,mapped,35000,63000.0,35000.0,63000.0,valid,False,True
+PRD201114,BIC2164,Bic Pen Blue (Large),Stationery,kg,4500.0,6750.0,Kilograms,kg,mapped,Stationary,Stationery,mapped,4500,6750.0,4500.0,6750.0,valid,False,True
+PRD201115,BRI1582,Britania Cream Cgacker,Snacks,kg,2500.0,3000.0,g,kg,converted,Snacks,Snacks,mapped,2500,3000.0,2500.0,3000.0,valid,False,True
+PRD201116,HEA1137,Head & Shouldersu400ml,Personal Care,pcs,15000.0,18000.0,PCE,pcs,mapped,PERSONAL CARE,Personal Care,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD201117,STA4013,Stabilo Highlighter 500ml,Grains & Cereals,kg,750.0,937.5,kilogram,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,750,937.5,750.0,937.5,valid,False,True
+PRD201118,SUP1244,Supenmatch Crisps,Personal Care,pcs,4500.0,8100.0,bottles,pcs,mapped,PersonalCare,Personal Care,mapped,4500,8100.0,4500.0,8100.0,valid,False,True
+PRD201119,EXE1953,Exercyse Book 200pg,Stationery,liters,15000.0,18000.0,L,liters,mapped,Statio nery,Stationery,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD201120,A49133,A4 Paper 50nsh,Snacks,pcs,50000.0,90000.0,PCE,pcs,mapped,Snack,Snacks,mapped,50000,90000.0,50000.0,90000.0,valid,False,True
+PRD201121,NIC4748,Nice Bdscuits 100g,Beverages,pcs,500.0,900.0,pc,pcs,mapped,Bevages,Beverages,mapped,500,900.0,500.0,900.0,valid,False,True
+PRD201122,BRI3247,Britania Cream Cracker (Large),Snacks,pcs,4500.0,6750.0,PCE,pcs,mapped,SNACKS,Snacks,mapped,4500,6750.0,4500.0,6750.0,valid,False,True
+PRD201123,TWI5110,Twins Tea 2c0g,Beverages,pcs,4500.0,4950.0,bottles,pcs,mapped,BEVERAGES,Beverages,mapped,4500,4950.0,4500.0,4950.0,valid,False,True
+PRD201124,ARR5712,Array Juice 250ml 1kg,Beverages,pcs,35000.0,43750.0,boxes,pcs,mapped,BEVERAGES,Beverages,mapped,35000,43750.0,35000.0,43750.0,valid,False,True
+PRD201125,MAR9662,Marlboro Biscuits 1kg,Grains & Cereals,kg,1500.0,1950.0,kgs,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,1500,1950.0,1500.0,1950.0,valid,False,True
+PRD201126,RUL4199,Ruler 3ncm,Stationery,pcs,2500.0,2875.0,bottles,pcs,mapped,Stationary,Stationery,mapped,2500,2875.0,2500.0,2875.0,valid,False,True
+PRD201127,EXE1656,Exercise Book 200pg (Large),Grains & Cereals,pcs,1500.0,1950.0,bottles,pcs,mapped,Grains&Cereals,Grains & Cereals,mapped,1500,1950.0,1500.0,1950.0,valid,False,True
+PRD201128,EXE1656,Exercise Book 200pg (Large) (Large),Grains & Cereals,liters,1500.0,1950.0,ml,liters,converted,Grains,Grains & Cereals,mapped,1500,1950.0,1500.0,1950.0,valid,False,True
+PRD201129,BEA5139,Beans xkg,Grains & Cereals,kg,15000.0,18000.0,kgs,kg,mapped,Grains & cereal,Grains & Cereals,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD201130,RUL2820,Ruler 30cm 500ml,Stationery,pcs,4500.0,8100.0,PCE,pcs,mapped,STATIONERY,Stationery,mapped,4500,8100.0,4500.0,8100.0,valid,False,True
+PRD201131,KIM3903,Kimbo Fqt 500g,Personal Care,kg,10000.0,13000.0,kilogram,kg,mapped,Percare,Personal Care,mapped,10000,13000.0,10000.0,13000.0,valid,False,True
+PRD201132,RIC1221,Rice 1kg 500ml,Grains & Cereals,pcs,2000.0,2400.0,bottles,pcs,mapped,Grains & Cereals,Grains & Cereals,mapped,2000,2400.0,2000.0,2400.0,valid,False,True
+PRD201133,KAB9690,Kabwe Detergejt 1kg,Stationery,pcs,500.0,650.0,pc,pcs,mapped,STATIONERY,Stationery,mapped,500,650.0,500.0,650.0,valid,False,True
+PRD201134,NIC1127,Nice & Lovely Lotion 200ml 500ml,Personal Care,pcs,1000.0,1200.0,piece,pcs,mapped,Personal care ,Personal Care,mapped,1000,1200.0,1000.0,1200.0,valid,False,True
+PRD201135,BRI9690,Britania Cream Cracker XL,Snacks,pcs,20000.0,23000.0,piece,pcs,mapped,Sncks,Snacks,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD201136,SUP9576,Supermatch Crisvs,Snacks,kg,1500.0,2250.0,g,kg,converted,Snack,Snacks,mapped,1500,2250.0,1500.0,2250.0,valid,False,True
+PRD201137,DET5558,Dettol Antiseptic 25hml,Personal Care,pcs,10000.0,12500.0,pcs,pcs,mapped,Percare,Personal Care,mapped,10000,12500.0,10000.0,12500.0,valid,False,True
+PRD201138,BIC5613,Bic Pen Blqe,Stationery,kg,7500.0,5595.96,kgs,kg,mapped,STATIONERY,Stationery,mapped,7500,5595.96,7500.0,5595.96,valid,True,True
+PRD201139,SOR3340,Syrghum 1kg,Personal Care,kg,20000.0,23000.0,kgs,kg,mapped,Personal Care,Personal Care,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD201140,SUP7429,Supcrmatch Crisps,Snacks,kg,4500.0,5850.0,KGS,kg,mapped,Snack,Snacks,mapped,4500,5850.0,4500.0,5850.0,valid,False,True
+PRD201141,MAI2272,Maize Grains ekg,Grains & Cereals,liters,20000.0,36000.0,Litres,liters,mapped,Grains,Grains & Cereals,mapped,20000,36000.0,20000.0,36000.0,valid,False,True
+PRD201142,KAK2751,Kakvra Sugar 1kg,Grains & Cereals,pcs,10000.0,12500.0,boxes,pcs,mapped,Grains,Grains & Cereals,mapped,10000,12500.0,10000.0,12500.0,valid,False,True
+PRD201143,BIC6598,Bic Pem Blue,Stationery,kg,20000.0,23000.0,kgs,kg,mapped,Statio nery,Stationery,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD201144,PEP7160,Pepli 500ml,Beverages,pcs,1500.0,2700.0,pcs,pcs,mapped,BEVERAGES,Beverages,mapped,1500,2700.0,1500.0,2700.0,valid,False,True
+PRD201145,POR6624,Porridge Flour 500g (Large),Grains & Cereals,liters,15000.0,16500.0,Litres,liters,mapped,Grains,Grains & Cereals,mapped,15000,16500.0,15000.0,16500.0,valid,False,True
+PRD201146,BIC6598,Bic Pex Blue,Stationery,pcs,20000.0,23000.0,piece,pcs,mapped,STATIONERY,Stationery,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD201147,KAB4738,Kabwe Detbrgent 1kg,Grains & Cereals,liters,2000.0,2300.0,Litres,liters,mapped,Grains&Cereals,Grains & Cereals,mapped,2000,2300.0,2000.0,2300.0,valid,False,True
+PRD201148,NIC4748,Nice Biscuits 100g (Large),Beverages,kg,500.0,900.0,g,kg,converted,Bevages,Beverages,mapped,500,900.0,500.0,900.0,valid,False,True
+PRD201149,RUL5079,Ruldr 30cm,Stationery,pcs,10000.0,12000.0,pcs,pcs,mapped,Stationary,Stationery,mapped,10000,12000.0,10000.0,12000.0,valid,False,True
+PRD201150,MAI3097,Maize Flour lkg,Grains & Cereals,kg,20000.0,25000.0,kilogram,kg,mapped,Grains,Grains & Cereals,mapped,20000,25000.0,20000.0,25000.0,valid,False,True
+PRD201151,KAK9415,Kakira Sugar 1kg 1kg,Grains & Cereals,kg,20000.0,23000.0,KGS,kg,mapped,Grains & cereal,Grains & Cereals,mapped,20000,23000.0,20000.0,23000.0,valid,False,True
+PRD201152,KAB7614,Kabwe Detergent 1kg 500ml,Snacks,pcs,1500.0,2250.0,bottles,pcs,mapped,Sncks,Snacks,mapped,1500,2250.0,1500.0,2250.0,valid,False,True
+PRD201153,IMP3196,Imperial Lgather Soap,Personal Care,liters,7500.0,9750.0,L,liters,mapped,PersonalCare,Personal Care,mapped,7500,9750.0,7500.0,9750.0,valid,False,True
+PRD201154,NIC4852,Nice & Lovely Lotiond200ml,Stationery,kg,50000.0,55000.0,kg,kg,mapped,Stationery,Stationery,mapped,50000,55000.0,50000.0,55000.0,valid,False,True
+PRD201155,BEA7205,Beans 1kg 500ml,Grains & Cereals,pcs,2500.0,2750.0,pc,pcs,mapped,Grains and Cereals,Grains & Cereals,mapped,2500,2750.0,2500.0,2750.0,valid,False,True
+PRD201156,MIN5556,Minute Maid 400ml 1kg,Beverages,liters,50000.0,90000.0,ml,liters,converted,Beverage,Beverages,mapped,50000,90000.0,50000.0,90000.0,valid,False,True
+PRD201157,BRI9459,Britvnia Cream Cracker,Household,liters,500.0,600.0,ml,liters,converted,Household Items,Household,mapped,500,600.0,500.0,600.0,valid,False,True
+PRD201158,KAK1406,Kakira Sugar 1kg (Large),Grains & Cereals,kg,20000.0,36000.0,Kilograms,kg,mapped,Grains & Cereals,Grains & Cereals,mapped,20000,36000.0,20000.0,36000.0,valid,False,True
+PRD201159,DET5721,Dettol Antiseptic 250ml XL,Personal Care,liters,500.0,550.0,Litres,liters,mapped,Personal care ,Personal Care,mapped,500,550.0,500.0,550.0,valid,False,True
+PRD201160,MUR4879,Muruihu Cooking Oil 3L,Household,kg,3000.0,3750.0,g,kg,converted,HOUSEHOLD,Household,mapped,3000,3750.0,3000.0,3750.0,valid,False,True
+PRD201161,EXE5984,Exeraise Book 200pg,Snacks,liters,35000.0,21927.6,L,liters,mapped,Snack,Snacks,mapped,35000,21927.6,35000.0,21927.6,valid,True,True
+PRD201162,IMP9595,Imperial Leather Sgap,Personal Care,liters,15000.0,18000.0,liters,liters,mapped,Personal care ,Personal Care,mapped,15000,18000.0,15000.0,18000.0,valid,False,True
+PRD201163,MAI1427,Maice Grains 1kg,Grains & Cereals,kg,3000.0,3900.0,kgs,kg,mapped,Grains and Cereals,Grains & Cereals,mapped,3000,3900.0,3000.0,3900.0,valid,False,True
+PRD201164,BAK8803,Baking Soda 500g 500ml,Household,liters,15000.0,19500.0,ml,liters,converted,Houshold,Household,mapped,15000,19500.0,15000.0,19500.0,valid,False,True

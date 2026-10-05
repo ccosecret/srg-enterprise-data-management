@@ -1,0 +1,27 @@
+{
+  "seed": 20261005,
+  "customers": {
+    "rows": 5000,
+    "duplicate_rows_injected": 1150,
+    "duplicate_pct": 23.0,
+    "fuzzy_name_variants": 631,
+    "phone_variants": 747,
+    "exact_copies": 339,
+    "deleted_nulls": 118,
+    "null_phone": 486,
+    "null_email": 320,
+    "null_district": 0,
+    "null_gender": 747
+  },
+  "products": {
+    "rows": 1200,
+    "null_key_rows": 36,
+    "duplicate_sku_rows": 163
+  },
+  "sales": {
+    "rows": 10000,
+    "negative_qty_rows": 500,
+    "null_payment_ref_rows": 1129,
+    "currency_string_unit_price": 672
+  }
+}

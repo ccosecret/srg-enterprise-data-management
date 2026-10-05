@@ -1,0 +1,1201 @@
+product_id,sku,product_name,category,unit_of_measure,cost_ugx,selling_price_ugx
+PRD200001,BAK5695,Baking Soda 500g,HOUSEHOLD,Pieces,50000,60000.0
+PRD200002,VAS9927,Vaseline Petroleum Jelly,Personal Care,kg,35000,63000.0
+PRD200003,VAS8564,Vaseline Petroleum Jelly,Grains,kg,7500,9375.0
+PRD200004,KRE4475,Krest Bitter Lemon,Bevages,KGS,1000,1150.0
+PRD200005,KRE2031,Krest Bitter Lemon,Bevages,Pieces,1000,1200.0
+PRD200006,KRE9125,Krest Bitter Lemon,Grains,kilogram,500,750.0
+PRD200007,COC9128,Coca-Cola 500ml,Beverage,KGS,35000,63000.0
+PRD200008,MUR9693,Muruchu Cooking Oil 3L,Household,pc,15000,27000.0
+PRD200009,MUR3525,Muruchu Cooking Oil 3L,Snacks,L,5000,5500.0
+PRD200010,KRE8917,Krest Bitter Lemon,Beverages,Kilograms,2000,2300.0
+PRD200011,ARR2859,Array Juice 250ml,Beverage,piece,4500,5175.0
+PRD200012,MOU2223,Mountain Gorilla Water 1L,Bevages,kg,3000,4500.0
+PRD200013,BAK8734,Baking Soda 500g,Houshold,g,7500,8250.0
+PRD200014,TRO2226,Tropical Heat Nuts,SNACKS,boxes,3000,3750.0
+PRD200015,TWI7808,Twins Tea 250g,BEVERAGES,bottles,750,862.5
+PRD200016,COL7631,Colgate Toothpaste 100ml,Personal care ,Litres,20000,24000.0
+PRD200017,NIL8912,Nile Beer 500ml,Bevages,Litres,500,326.93
+PRD200018,MAR3587,Marlboro Biscuits,Snacks,Litres,2000,2200.0
+PRD200019,FAN8519,Fanta Orange 500ml,BEVERAGES,kilogram,5000,6500.0
+PRD200020,IMP2109,Imperial Leather Soap,Personal care ,boxes,35000,40250.0
+PRD200021,MOU4481,Mountain Gorilla Water 1L,Beverages,boxes,3000,5400.0
+PRD200022,BEA9732,Beans 1kg,Grains,Pieces,3000,3900.0
+PRD200023,MAR7921,Marlboro Biscuits,Sncks,liters,2000,3600.0
+PRD200024,BEL3643,Bell Lager,Beverage,Pieces,2000,2600.0
+PRD200025,TWI5330,Twins Tea 250g,Percare,Pieces,1500,1875.0
+PRD200026,TWI2816,Twins Tea 250g,Household,PCE,10000,12500.0
+PRD200027,STA1713,Stabilo Highlighter,Stationery,pcs,1500,2250.0
+PRD200028,IMP8181,Imperial Leather Soap,Personal care ,kg,15000,27000.0
+PRD200029,VAS2899,Vaseline Petroleum Jelly,Beverage,Pieces,3000,3300.0
+PRD200030,COL3142,Colgate Toothpaste 100ml,Personal care ,boxes,2000,2600.0
+PRD200031,IMP8106,Imperial Leather Soap,Stationary,PCE,1000,1300.0
+PRD200032,KAB1458,Kabwe Detergent 1kg,HOUSEHOLD,kg,5000,4060.52
+PRD200033,STA4637,Stabilo Highlighter,Stationery,kilogram,2000,2300.0
+PRD200034,KAK2751,Kakira Sugar 1kg,Grains&Cereals,Kilograms,10000,12500.0
+PRD200035,BAK5652,Baking Soda 500g,Household,boxes,10000,11500.0
+PRD200036,VAS1104,Vaseline Petroleum Jelly,PERSONAL CARE,kilogram,20000,22000.0
+PRD200037,KRE9078,Krest Bitter Lemon,Snacks,piece,15000,27000.0
+PRD200038,BIC2246,Bic Pen Blue,Stationery,g,2500,4500.0
+PRD200039,ALW5815,Always Sanitary Pads,Personal Care,pc,2500,4500.0
+PRD200040,RUL2999,Ruler 30cm,Statio nery,kg,35000,52500.0
+PRD200041,MAI2318,Maize Flour 2kg,Grains and Cereals,PCE,10000,11500.0
+PRD200042,SPR6832,Sprite 300ml,Bevages,pc,50000,75000.0
+PRD200043,KAK9881,Kakira Sugar 1kg,Grains & Cereals,kg,10000,12500.0
+PRD200044,KIM8734,Kimbo Fat 500g,Houshold,piece,7500,8625.0
+PRD200045,MAI6225,Maize Grains 1kg,Grains & Cereals,kgs,10000,15000.0
+PRD200046,IMP9468,Imperial Leather Soap,PersonalCare,kgs,500,367.06
+PRD200047,NES9500,Nescafe 100g,Beverages,pcs,500,750.0
+PRD200048,MUR2198,Muruchu Cooking Oil 3L,Percare,g,500,650.0
+PRD200049,NES2909,Nescafe 100g,Bevages,ml,2500,2875.0
+PRD200050,WHE4170,Wheat Flour 2kg,Grains & Cereals,bottles,500,900.0
+PRD200051,PEP6560,Pepsi 500ml,Bevages,L,35000,42000.0
+PRD200052,SPR3574,Sprite 300ml,Beverages,Kilograms,2000,2400.0
+PRD200053,KAB9443,Kabala Groundnuts 200g,Snacks,boxes,7500,9000.0
+PRD200054,BIC8190,Bic Pen Blue,Statio nery,kg,750,1125.0
+PRD200055,ALW2006,Always Sanitary Pads,House hold,Pieces,5000,6500.0
+PRD200056,COL9795,Colgate Toothpaste 100ml,PersonalCare,Pieces,35000,40250.0
+PRD200057,KIM1879,Kimbo Fat 500g,Household Items,Litres,2500,3125.0
+PRD200058,SOR3965,Sorghum 1kg,Grains & cereal,piece,7500,9375.0
+PRD200059,CAN4080,Candles 6 Pack,Houshold,kgs,35000,40250.0
+PRD200060,SOR4805,Sorghum 1kg,Grains,Litres,2500,2875.0
+PRD200061,NIC7322,Nice Biscuits 100g,Snack,kgs,15000,18750.0
+PRD200062,BRO7113,Brookside Fresh Milk 500ml,Beverage,bottles,5000,6250.0
+PRD200063,MAT2163,Mathematical Set,Stationery,g,1000,708.61
+PRD200064,MIN3846,Minute Maid 400ml,Bevages,ml,20000,23000.0
+PRD200065,COL3584,Colgate Toothpaste 100ml,Percare,liters,20000,36000.0
+PRD200066,SUN7698,Sunlight Soap 800g,Houshold,L,1000,1250.0
+PRD200067,BIC2543,Bic Pen Blue,HOUSEHOLD,Kilograms,4500,8100.0
+PRD200068,TWI4448,Twins Tea 250g,Personal care ,kg,1000,1200.0
+PRD200069,BIC2363,Bic Pen Blue,Stationery,KGS,5000,9000.0
+PRD200070,RUL7393,Ruler 30cm,Statio nery,Pieces,1000,1100.0
+PRD200071,ARR8092,Array Juice 250ml,PERSONAL CARE,bottles,20000,26000.0
+PRD200072,JIK9965,Jik 1L,HOUSEHOLD,Litres,4500,5850.0
+PRD200073,BAK2739,Baking Soda 500g,House hold,pcs,35000,38500.0
+PRD200074,VAS2962,Vaseline Petroleum Jelly,Personal Care,ml,5000,6000.0
+PRD200075,DET2284,Dettol Antiseptic 250ml,PERSONAL CARE,ml,10000,15000.0
+PRD200076,SOR9884,Sorghum 1kg,Grains & cereal,piece,1000,1300.0
+PRD200077,BEL4752,Bell Lager,Beverages,Kilograms,1500,2250.0
+PRD200078,COL8819,Colgate Toothpaste 100ml,PersonalCare,pc,1000,893.67
+PRD200079,MAR1519,Marlboro Biscuits,Snack,bottles,4500,5850.0
+PRD200080,CAN9267,Candles 6 Pack,House hold,g,5000,7500.0
+PRD200081,COL1853,Colgate Toothpaste 100ml,PERSONAL CARE,pcs,2500,4500.0
+PRD200082,HEA6951,Head & Shoulders 400ml,Percare,kgs,7500,9000.0
+PRD200083,RIC1616,Rice 1kg,Grains & cereal,PCE,35000,40250.0
+PRD200084,ALW3839,Always Sanitary Pads,Personal care ,Kilograms,1500,1725.0
+PRD200085,CAN3903,Candles 6 Pack,Household Items,kgs,2500,3750.0
+PRD200086,BIC4785,Bic Pen Blue,Grains & Cereals,kg,500,900.0
+PRD200087,NIL4019,Nile Beer 500ml,PersonalCare,PCE,5000,7500.0
+PRD200088,WHE5631,Wheat Flour 2kg,Bevages,ml,2000,2500.0
+PRD200089,NIC3960,Nice Biscuits 100g,SNACKS,Litres,2500,3125.0
+PRD200090,MAR9616,Marlboro Biscuits,SNACKS,boxes,2000,1897.03
+PRD200091,ARR3634,Array Juice 250ml,Beverage,boxes,50000,62500.0
+PRD200092,IMP6382,Imperial Leather Soap,Personal care ,ml,1000,1500.0
+PRD200093,COL8114,Colgate Toothpaste 100ml,Percare,ml,15000,19500.0
+PRD200094,COL3902,Colgate Toothpaste 100ml,PersonalCare,kg,35000,43750.0
+PRD200095,KAK8115,Kakira Sugar 1kg,Grains&Cereals,kg,4500,5400.0
+PRD200096,HEA1137,Head & Shoulders 400ml,PersonalCare,pcs,15000,18000.0
+PRD200097,BAK8803,Baking Soda 500g,Household Items,L,15000,19500.0
+PRD200098,SUN3589,Sunlight Soap 800g,HOUSEHOLD,KGS,35000,42000.0
+PRD200099,HEA4813,Head & Shoulders 400ml,PersonalCare,liters,5000,7500.0
+PRD200100,KRE2243,Krest Bitter Lemon,PERSONAL CARE,pcs,1500,1875.0
+PRD200101,ALW7921,Always Sanitary Pads,Grains & Cereals,kilogram,2500,3750.0
+PRD200102,VAS7627,Vaseline Petroleum Jelly,PERSONAL CARE,bottles,1000,1200.0
+PRD200103,MAI4406,Maize Flour 2kg,Personal care ,boxes,15000,"UGX 12,474"
+PRD200104,SUN9648,Sunlight Soap 800g,House hold,pc,20000,36000.0
+PRD200105,MAI3097,Maize Flour 2kg,Grains&Cereals,L,20000,25000.0
+PRD200106,MOU1844,Mountain Gorilla Water 1L,Sncks,pcs,2500,2875.0
+PRD200107,SPR9293,Sprite 300ml,Bvages,Litres,1000,1800.0
+PRD200108,NIC1127,Nice & Lovely Lotion 200ml,Personal Care,Kilograms,1000,1200.0
+PRD200109,COL3325,Colgate Toothpaste 100ml,Percare,PCE,750,975.0
+PRD200110,TOI1667,Toilet Paper 4 Pack,Household Items,Pieces,10000,13000.0
+PRD200111,BEA4392,Beans 1kg,Snack,kilogram,35000,63000.0
+PRD200112,MAI7438,Maize Flour 2kg,Grains and Cereals,kgs,4500,3313.64
+PRD200113,BRI6322,Britania Cream Cracker,Sncks,pcs,50000,65000.0
+PRD200114,NIL8234,Nile Beer 500ml,Beverage,Pieces,7500,13500.0
+PRD200115,MAI7456,Maize Grains 1kg,Grains&Cereals,ml,50000,60000.0
+PRD200116,BRI7532,Britania Cream Cracker,Snacks,Kilograms,2000,1201.24
+PRD200117,MAT9185,Mathematical Set,Statio nery,piece,3000,3600.0
+PRD200118,NIC6033,Nice Biscuits 100g,SNACKS,KGS,5000,7500.0
+PRD200119,BEA5139,Beans 1kg,Grains & cereal,Kilograms,15000,18000.0
+PRD200120,KAB6678,Kabwe Detergent 1kg,House hold,kg,500,625.0
+PRD200121,KAK7397,Kakira Sugar 1kg,Grains & cereal,KGS,2000,3600.0
+PRD200122,MAR1100,Marlboro Biscuits,Snacks,kg,10000,18000.0
+PRD200123,STA6811,Stabilo Highlighter,Grains & Cereals,PCE,3000,3750.0
+PRD200124,IMP7105,Imperial Leather Soap,Percare,g,2500,2875.0
+PRD200125,SIM6085,Sims Chips 150g,Snack,bottles,1000,1800.0
+PRD200126,MIN5006,Minute Maid 400ml,Bevages,Litres,500,750.0
+PRD200127,TWI6393,Twins Tea 250g,BEVERAGES,piece,10000,12500.0
+PRD200128,HEA6819,Head & Shoulders 400ml,Personal care ,pc,3000,5400.0
+PRD200129,NIC8521,Nice & Lovely Lotion 200ml,Percare,Kilograms,750,1350.0
+PRD200130,IMP4860,Imperial Leather Soap,Personal Care,kilogram,20000,14276.88
+PRD200131,JIK2838,Jik 1L,House hold,KGS,2500,3000.0
+PRD200132,BRI3247,Britania Cream Cracker,Snack,pc,4500,6750.0
+PRD200133,KAB9018,Kabala Groundnuts 200g,Sncks,pcs,10000,13000.0
+PRD200134,MAI6905,Maize Flour 2kg,Grains&Cereals,L,3000,"3,600"
+PRD200135,KAB1940,Kabwe Detergent 1kg,Houshold,piece,5000,6500.0
+PRD200136,RUL7700,Ruler 30cm,STATIONERY,kg,50000,90000.0
+PRD200137,NIC4748,Nice Biscuits 100g,BEVERAGES,PCE,500,900.0
+PRD200138,SIM9591,Sims Chips 150g,SNACKS,bottles,2500,4500.0
+PRD200139,KIM3485,Kimbo Fat 500g,Houshold,Kilograms,2500,3750.0
+PRD200140,TWI3747,Twins Tea 250g,Beverage,pc,20000,23000.0
+PRD200141,JIK9192,Jik 1L,HOUSEHOLD,L,4500,5175.0
+PRD200142,MAI3047,Maize Flour 2kg,Grains&Cereals,kilogram,4500,4197.32
+PRD200143,ALW9534,Always Sanitary Pads,Personal care ,Pieces,50000,47254.46
+PRD200144,BAK1937,Baking Soda 500g,House hold,liters,3000,3900.0
+PRD200145,SUP9576,Supermatch Crisps,Snack,liters,1500,2250.0
+PRD200146,FAN7949,Fanta Orange 500ml,Bevages,bottles,2000,1803.16
+PRD200147,NIC3428,Nice & Lovely Lotion 200ml,PERSONAL CARE,kgs,35000,52500.0
+PRD200148,A46951,A4 Paper 500sh,Stationery,ml,20000,23000.0
+PRD200149,MAI4991,Maize Grains 1kg,Grains & cereal,Pieces,500,900.0
+PRD200150,DET4322,Dettol Antiseptic 250ml,Personal Care,Litres,20000,25000.0
+PRD200151,RIC5117,Rice 1kg,Grains & cereal,liters,10000,11000.0
+PRD200152,DET6338,Dettol Antiseptic 250ml,Personal care ,liters,20000,30000.0
+PRD200153,KAB2057,Kabwe Detergent 1kg,Grains&Cereals,ml,500,900.0
+PRD200154,SOR3678,Sorghum 1kg,Grains and Cereals,boxes,500,900.0
+PRD200155,TWI6011,Twins Tea 250g,Bevages,Pieces,500,625.0
+PRD200156,COC3649,Coca-Cola 500ml,BEVERAGES,Pieces,20000,26000.0
+PRD200157,EXE4307,Exercise Book 200pg,Stationary,ml,20000,30000.0
+PRD200158,SPR4540,Sprite 300ml,Beverages,pc,750,672.1
+PRD200159,STA5595,Stabilo Highlighter,STATIONERY,kilogram,1000,UGX1150
+PRD200160,ARR7549,Array Juice 250ml,Beverage,liters,2500,2750.0
+PRD200161,BEA1470,Beans 1kg,Beverage,kg,2500,"UGX 4,500"
+PRD200162,BEA2265,Beans 1kg,Grains and Cereals,g,35000,40250.0
+PRD200163,A43167,A4 Paper 500sh,STATIONERY,liters,5000,7500.0
+PRD200164,MAI7552,Maize Flour 2kg,Grains & Cereals,piece,4500,5400.0
+PRD200165,COL9970,Colgate Toothpaste 100ml,Stationery,pc,750,1350.0
+PRD200166,IMP5883,Imperial Leather Soap,Household,kgs,10000,11000.0
+PRD200167,SOR3487,Sorghum 1kg,Grains & Cereals,liters,20000,24000.0
+PRD200168,EXE2134,Exercise Book 200pg,STATIONERY,L,20000,30000.0
+PRD200169,POR6756,Porridge Flour 500g,Grains&Cereals,liters,1500,1950.0
+PRD200170,KRE5001,Krest Bitter Lemon,Sncks,KGS,2500,4500.0
+PRD200171,COL3643,Colgate Toothpaste 100ml,Stationery,kgs,20000,24000.0
+PRD200172,BAK5972,Baking Soda 500g,House hold,piece,20000,25000.0
+PRD200173,NIC4475,Nice & Lovely Lotion 200ml,PERSONAL CARE,piece,50000,62500.0
+PRD200174,WHE2668,Wheat Flour 2kg,Snacks,pc,1000,1500.0
+PRD200175,A42986,A4 Paper 500sh,Stationary,ml,10000,18000.0
+PRD200176,TRO7951,Tropical Heat Nuts,Snack,Kilograms,5000,5750.0
+PRD200177,HEA6656,Head & Shoulders 400ml,Grains & Cereals,bottles,35000,63000.0
+PRD200178,HEA5868,Head & Shoulders 400ml,Percare,kilogram,7500,9375.0
+PRD200179,COL6534,Colgate Toothpaste 100ml,STATIONERY,Litres,4500,6750.0
+PRD200180,CAN5227,Candles 6 Pack,Percare,pc,3000,5400.0
+PRD200181,NIC6622,Nice Biscuits 100g,Beverages,KGS,7500,9750.0
+PRD200182,MAR5165,Marlboro Biscuits,Grains & Cereals,kgs,2000,1883.72
+PRD200183,MAI2052,Maize Grains 1kg,Grains & cereal,pc,3000,4500.0
+PRD200184,VAS8934,Vaseline Petroleum Jelly,Personal care ,kgs,3000,3600.0
+PRD200185,IMP1795,Imperial Leather Soap,Personal Care,pcs,500,600.0
+PRD200186,WHE5305,Wheat Flour 2kg,Grains & Cereals,kilogram,10000,15000.0
+PRD200187,COL7815,Colgate Toothpaste 100ml,Personal Care,Pieces,750,937.5
+PRD200188,BEA1199,Beans 1kg,Household,kilogram,35000,38500.0
+PRD200189,BEA9846,Beans 1kg,Personal care ,kilogram,2500,3000.0
+PRD200190,NIC5784,Nice & Lovely Lotion 200ml,Personal Care,kg,50000,60000.0
+PRD200191,MAT6913,Mathematical Set,STATIONERY,Litres,15000,19500.0
+PRD200192,MAT1267,Mathematical Set,STATIONERY,Litres,750,975.0
+PRD200193,NIC7745,Nice Biscuits 100g,SNACKS,g,20000,36000.0
+PRD200194,NIC8234,Nice Biscuits 100g,Snack,kgs,20000,UGX25000
+PRD200195,MAR6267,Marlboro Biscuits,House hold,PCE,7500,9000.0
+PRD200196,MAR1297,Marlboro Biscuits,Snacks,L,7500,5536.64
+PRD200197,SIM7061,Sims Chips 150g,Sncks,liters,7500,13500.0
+PRD200198,MAT3969,Mathematical Set,Stationary,boxes,2500,3000.0
+PRD200199,BIC6023,Bic Pen Blue,Beverages,g,4500,4163.37
+PRD200200,BIC3224,Bic Pen Blue,Stationary,kilogram,50000,62500.0
+PRD200201,COL2966,Colgate Toothpaste 100ml,PersonalCare,PCE,20000,22000.0
+PRD200202,COL7945,Colgate Toothpaste 100ml,PersonalCare,liters,35000,42000.0
+PRD200203,KIM5065,Kimbo Fat 500g,Grains,bottles,2000,2300.0
+PRD200204,A42899,A4 Paper 500sh,Stationary,Litres,35000,40250.0
+PRD200205,JIK6506,Jik 1L,STATIONERY,Kilograms,5000,6250.0
+PRD200206,DET9199,Dettol Antiseptic 250ml,Snack,pcs,15000,18000.0
+PRD200207,SIM6174,Sims Chips 150g,Statio nery,ml,20000,25000.0
+PRD200208,WHE8353,Wheat Flour 2kg,HOUSEHOLD,piece,500,900.0
+PRD200209,TOI1504,Toilet Paper 4 Pack,HOUSEHOLD,Pieces,5000,UGX5500
+PRD200210,BAK1655,Baking Soda 500g,HOUSEHOLD,boxes,5000,5500.0
+PRD200211,TWI2312,Twins Tea 250g,Beverages,kilogram,1500,1875.0
+PRD200212,RUL9856,Ruler 30cm,Stationery,ml,20000,UGX22000
+PRD200213,A45290,A4 Paper 500sh,Snack,pc,10000,11000.0
+PRD200214,STA9152,Stabilo Highlighter,Statio nery,PCE,50000,65000.0
+PRD200215,FAN3056,Fanta Orange 500ml,Beverage,liters,50000,36165.21
+PRD200216,NIC2151,Nice & Lovely Lotion 200ml,Personal care ,liters,15000,16500.0
+PRD200217,STA4050,Stabilo Highlighter,Stationary,L,5000,5750.0
+PRD200218,RUL5814,Ruler 30cm,STATIONERY,kilogram,500,650.0
+PRD200219,TWI5363,Twins Tea 250g,Beverage,g,3000,4500.0
+PRD200220,COL5791,Colgate Toothpaste 100ml,Personal Care,kilogram,4500,5400.0
+PRD200221,SUP1790,Supermatch Crisps,Snack,Litres,5000,7500.0
+PRD200222,SUP5379,Supermatch Crisps,Snack,g,35000,43750.0
+PRD200223,COL2344,Colgate Toothpaste 100ml,Bvages,kg,15000,17250.0
+PRD200224,ROB9200,Roberts Milk 1L,Beverages,KGS,4500,5850.0
+PRD200225,ARR3802,Array Juice 250ml,Beverage,piece,3000,3600.0
+PRD200226,MAR5300,Marlboro Biscuits,Snack,kg,50000,32225.43
+PRD200227,KAB4580,Kabala Groundnuts 200g,SNACKS,ml,500,550.0
+PRD200228,DET5558,Dettol Antiseptic 250ml,Personal care ,ml,10000,12500.0
+PRD200229,POR6624,Porridge Flour 500g,Grains and Cereals,bottles,15000,16500.0
+PRD200230,JIK2140,Jik 1L,HOUSEHOLD,g,2000,2200.0
+PRD200231,KAK7785,Kakira Sugar 1kg,Grains & cereal,kg,15000,22500.0
+PRD200232,ARR5078,Array Juice 250ml,Beverages,boxes,7500,9375.0
+PRD200233,STA4013,Stabilo Highlighter,Grains,pc,750,937.5
+PRD200234,IMP5945,Imperial Leather Soap,PersonalCare,kgs,35000,63000.0
+PRD200235,SUN7367,Sunlight Soap 800g,BEVERAGES,boxes,750,825.0
+PRD200236,RIC4402,Rice 1kg,Grains,PCE,15000,22500.0
+PRD200237,SIM2955,Sims Chips 150g,SNACKS,piece,35000,52500.0
+PRD200238,BIC5587,Bic Pen Blue,Statio nery,PCE,35000,43750.0
+PRD200239,WHE3935,Wheat Flour 2kg,Grains and Cereals,L,750,1350.0
+PRD200240,NIC4560,Nice Biscuits 100g,Snacks,L,4500,8100.0
+PRD200241,STA7844,Stabilo Highlighter,Statio nery,boxes,4500,6750.0
+PRD200242,IMP5269,Imperial Leather Soap,Percare,kg,35000,52500.0
+PRD200243,MAT6272,Mathematical Set,Stationary,pcs,500,600.0
+PRD200244,HEA6182,Head & Shoulders 400ml,PersonalCare,PCE,15000,17250.0
+PRD200245,SUN3437,Sunlight Soap 800g,Household,Litres,3000,4500.0
+PRD200246,MOU9870,Mountain Gorilla Water 1L,Snacks,pc,15000,22500.0
+PRD200247,WHE2058,Wheat Flour 2kg,Grains and Cereals,ml,1500,1800.0
+PRD200248,BEA7888,Beans 1kg,Personal care ,Pieces,4500,8100.0
+PRD200249,KAB9690,Kabwe Detergent 1kg,STATIONERY,bottles,500,650.0
+PRD200250,STA6324,Stabilo Highlighter,Stationery,piece,4500,8100.0
+PRD200251,KAB2642,Kabala Groundnuts 200g,Sncks,g,2500,3250.0
+PRD200252,MAI6608,Maize Grains 1kg,Grains & Cereals,ml,750,937.5
+PRD200253,ARR2827,Array Juice 250ml,Bvages,bottles,7500,9750.0
+PRD200254,MAT9082,Mathematical Set,Statio nery,kilogram,4500,2837.78
+PRD200255,SIM5422,Sims Chips 150g,Snack,pcs,20000,24000.0
+PRD200256,MUR8480,Muruchu Cooking Oil 3L,Household,Litres,750,975.0
+PRD200257,SOR6158,Sorghum 1kg,Grains & cereal,g,2500,1867.74
+PRD200258,IMP9595,Imperial Leather Soap,PersonalCare,PCE,15000,18000.0
+PRD200259,NES8432,Nescafe 100g,BEVERAGES,pc,3000,3300.0
+PRD200260,STA7866,Stabilo Highlighter,PersonalCare,boxes,3000,3900.0
+PRD200261,KAB4141,Kabala Groundnuts 200g,HOUSEHOLD,ml,35000,52500.0
+PRD200262,BAK1062,Baking Soda 500g,Household,PCE,500,600.0
+PRD200263,SUN2177,Sunlight Soap 800g,Houshold,kgs,4500,4950.0
+PRD200264,MAI4939,Maize Grains 1kg,BEVERAGES,kgs,1000,1800.0
+PRD200265,SUP6087,Supermatch Crisps,Sncks,bottles,15000,27000.0
+PRD200266,PEP2257,Pepsi 500ml,Bevages,Litres,2000,2500.0
+PRD200267,MOU5883,Mountain Gorilla Water 1L,Bevages,kilogram,750,900.0
+PRD200268,KAB4274,Kabwe Detergent 1kg,HOUSEHOLD,liters,20000,25000.0
+PRD200269,RIC2029,Rice 1kg,Grains & Cereals,piece,50000,60000.0
+PRD200270,BAK6463,Baking Soda 500g,Grains & cereal,pc,500,650.0
+PRD200271,MAT1563,Mathematical Set,Stationery,L,4500,5625.0
+PRD200272,MAI7143,Maize Grains 1kg,Grains & Cereals,g,35000,42000.0
+PRD200273,SUN5756,Sunlight Soap 800g,HOUSEHOLD,Litres,1500,2700.0
+PRD200274,MAI3128,Maize Grains 1kg,Grains & Cereals,L,10000,11500.0
+PRD200275,COL8326,Colgate Toothpaste 100ml,Percare,Litres,7500,8625.0
+PRD200276,A41664,A4 Paper 500sh,STATIONERY,kilogram,500,575.0
+PRD200277,BRO7916,Brookside Fresh Milk 500ml,Bevages,kgs,20000,22000.0
+PRD200278,MAR6265,Marlboro Biscuits,Personal Care,pcs,750,1350.0
+PRD200279,JIK9850,Jik 1L,Household Items,piece,35000,40250.0
+PRD200280,HEA9870,Head & Shoulders 400ml,PERSONAL CARE,ml,4500,3630.88
+PRD200281,RUL7366,Ruler 30cm,Grains and Cereals,PCE,20000,25000.0
+PRD200282,BAK5452,Baking Soda 500g,Household Items,bottles,4500,5175.0
+PRD200283,CAN4709,Candles 6 Pack,House hold,ml,2500,3750.0
+PRD200284,SUP5662,Supermatch Crisps,Snacks,KGS,15000,16500.0
+PRD200285,WHE5717,Wheat Flour 2kg,Grains & Cereals,kilogram,500,625.0
+PRD200286,VAS3072,Vaseline Petroleum Jelly,Personal Care,kgs,15000,19500.0
+PRD200287,SUN2102,Sunlight Soap 800g,House hold,Kilograms,2500,4500.0
+PRD200288,SPR7807,Sprite 300ml,Beverage,piece,5000,5750.0
+PRD200289,PEP2328,Pepsi 500ml,Beverages,L,4500,5175.0
+PRD200290,MAI9575,Maize Grains 1kg,PERSONAL CARE,kg,10000,12000.0
+PRD200291,MAI8570,Maize Flour 2kg,Grains and Cereals,kgs,35000,42000.0
+PRD200292,BIC1012,Bic Pen Blue,STATIONERY,boxes,20000,14504.57
+PRD200293,KAB2820,Kabala Groundnuts 200g,Sncks,boxes,3000,3450.0
+PRD200294,KAB6430,Kabwe Detergent 1kg,House hold,ml,20000,24000.0
+PRD200295,RUL4199,Ruler 30cm,Stationary,PCE,2500,"UGX 2,875"
+PRD200296,RUL4507,Ruler 30cm,Grains and Cereals,kgs,2500,3750.0
+PRD200297,COL6362,Colgate Toothpaste 100ml,Household Items,Pieces,2500,3750.0
+PRD200298,VAS9814,Vaseline Petroleum Jelly,Personal Care,pc,35000,40250.0
+PRD200299,NES8157,Nescafe 100g,Bevages,KGS,7500,13500.0
+PRD200300,COC5019,Coca-Cola 500ml,BEVERAGES,Pieces,3000,5400.0
+PRD200301,MAI2036,Maize Flour 2kg,Grains&Cereals,g,1000,1250.0
+PRD200302,WHE8344,Wheat Flour 2kg,Grains and Cereals,PCE,7500,8625.0
+PRD200303,NIC8077,Nice Biscuits 100g,BEVERAGES,PCE,35000,43750.0
+PRD200304,PEP1752,Pepsi 500ml,BEVERAGES,pc,1500,1950.0
+PRD200305,BAK3995,Baking Soda 500g,House hold,boxes,2500,UGX3750
+PRD200306,NIC2429,Nice & Lovely Lotion 200ml,Personal Care,Litres,7500,8250.0
+PRD200307,NES8787,Nescafe 100g,Bvages,liters,50000,65000.0
+PRD200308,NIL7231,Nile Beer 500ml,Bvages,Pieces,2500,3000.0
+PRD200309,NES5065,Nescafe 100g,Beverage,g,10000,7637.88
+PRD200310,STA1413,Stabilo Highlighter,Stationary,L,35000,UGX38500
+PRD200311,NIC9510,Nice Biscuits 100g,Grains and Cereals,PCE,1500,930.53
+PRD200312,NIL2376,Nile Beer 500ml,Beverage,kgs,750,1350.0
+PRD200313,A49036,A4 Paper 500sh,STATIONERY,Kilograms,750,900.0
+PRD200314,BEA3901,Beans 1kg,Statio nery,kgs,3000,3600.0
+PRD200315,BIC5543,Bic Pen Blue,STATIONERY,Litres,5000,6250.0
+PRD200316,NES9168,Nescafe 100g,PersonalCare,L,1000,1800.0
+PRD200317,JIK9638,Jik 1L,Household Items,boxes,35000,"45,500"
+PRD200318,BEA6314,Beans 1kg,Grains and Cereals,kg,4500,5175.0
+PRD200319,JIK4371,Jik 1L,Houshold,L,2000,2400.0
+PRD200320,BAK9257,Baking Soda 500g,SNACKS,ml,35000,43750.0
+PRD200321,TOI7698,Toilet Paper 4 Pack,Household,kgs,750,975.0
+PRD200322,NIC8029,Nice Biscuits 100g,Snack,kgs,5000,9000.0
+PRD200323,SPR4727,Sprite 300ml,BEVERAGES,ml,4500,4950.0
+PRD200324,RUL3250,Ruler 30cm,Statio nery,bottles,15000,27000.0
+PRD200325,MAR7932,Marlboro Biscuits,Snacks,pc,750,825.0
+PRD200326,JIK1092,Jik 1L,Household,Litres,3000,"3,300"
+PRD200327,SUN8414,Sunlight Soap 800g,House hold,Pieces,3000,5400.0
+PRD200328,MAI7792,Maize Grains 1kg,Grains,g,3000,3750.0
+PRD200329,CAN4025,Candles 6 Pack,Household,boxes,20000,23000.0
+PRD200330,MAI8485,Maize Flour 2kg,Household Items,ml,35000,63000.0
+PRD200331,KAB9090,Kabwe Detergent 1kg,Houshold,Pieces,35000,43750.0
+PRD200332,ALW8019,Always Sanitary Pads,PERSONAL CARE,PCE,5000,6250.0
+PRD200333,NIC4852,Nice & Lovely Lotion 200ml,Statio nery,pc,50000,55000.0
+PRD200334,BRI9459,Britania Cream Cracker,Household Items,Litres,500,600.0
+PRD200335,MAR5047,Marlboro Biscuits,PERSONAL CARE,boxes,35000,52500.0
+PRD200336,ARR5712,Array Juice 250ml,Beverage,liters,35000,43750.0
+PRD200337,MAI3310,Maize Flour 2kg,Sncks,Kilograms,20000,25000.0
+PRD200338,MUR4653,Muruchu Cooking Oil 3L,Household,kg,4500,5400.0
+PRD200339,IMP2311,Imperial Leather Soap,Percare,g,750,682.36
+PRD200340,ARR9791,Array Juice 250ml,Percare,ml,15000,18750.0
+PRD200341,COC5169,Coca-Cola 500ml,Grains,liters,35000,40250.0
+PRD200342,MAI8917,Maize Flour 2kg,Grains and Cereals,kilogram,4500,6750.0
+PRD200343,NIC8779,Nice Biscuits 100g,SNACKS,boxes,1000,1500.0
+PRD200344,KAB6937,Kabwe Detergent 1kg,Houshold,g,2000,2300.0
+PRD200345,HEA6713,Head & Shoulders 400ml,Grains & Cereals,kilogram,2500,3750.0
+PRD200346,SUN8509,Sunlight Soap 800g,Household,ml,35000,45500.0
+PRD200347,MAR1872,Marlboro Biscuits,Snack,kgs,7500,11250.0
+PRD200348,JIK1870,Jik 1L,Household,pcs,2000,2400.0
+PRD200349,BEL1660,Bell Lager,Beverages,pc,35000,63000.0
+PRD200350,DET9043,Dettol Antiseptic 250ml,PERSONAL CARE,pcs,10000,11500.0
+PRD200351,ROB2760,Roberts Milk 1L,Beverages,Litres,35000,52500.0
+PRD200352,SIM5950,Sims Chips 150g,SNACKS,pc,3000,3600.0
+PRD200353,ARR5263,Array Juice 250ml,Beverage,kgs,1500,1875.0
+PRD200354,DET8957,Dettol Antiseptic 250ml,PersonalCare,g,1500,2700.0
+PRD200355,NIC5696,Nice & Lovely Lotion 200ml,Percare,Litres,750,975.0
+PRD200356,JIK8090,Jik 1L,Houshold,KGS,1000,1250.0
+PRD200357,BAK7387,Baking Soda 500g,HOUSEHOLD,Kilograms,15000,19500.0
+PRD200358,RUL7345,Ruler 30cm,STATIONERY,g,4500,8100.0
+PRD200359,IMP8841,Imperial Leather Soap,PersonalCare,kg,2000,2200.0
+PRD200360,CAN3105,Candles 6 Pack,Household,kilogram,35000,52500.0
+PRD200361,IMP6447,Imperial Leather Soap,Personal care ,kg,1000,1200.0
+PRD200362,IMP7767,Imperial Leather Soap,PersonalCare,ml,3000,3450.0
+PRD200363,NIC3546,Nice Biscuits 100g,Snack,ml,3000,4500.0
+PRD200364,EXE3475,Exercise Book 200pg,STATIONERY,piece,7500,9375.0
+PRD200365,KAK9415,Kakira Sugar 1kg,Grains&Cereals,KGS,20000,23000.0
+PRD200366,SOR7920,Sorghum 1kg,Grains and Cereals,liters,3000,5400.0
+PRD200367,ALW7833,Always Sanitary Pads,PersonalCare,Kilograms,500,600.0
+PRD200368,SUP5734,Supermatch Crisps,Snack,piece,4500,8100.0
+PRD200369,TOI1116,Toilet Paper 4 Pack,Houshold,bottles,4500,5400.0
+PRD200370,KAK1973,Kakira Sugar 1kg,Grains & Cereals,bottles,35000,38500.0
+PRD200371,BEA7205,Beans 1kg,Grains&Cereals,piece,2500,2750.0
+PRD200372,MAR6047,Marlboro Biscuits,Snack,boxes,500,900.0
+PRD200373,SOR9399,Sorghum 1kg,Grains & cereal,liters,15000,18750.0
+PRD200374,STA9494,Stabilo Highlighter,Stationary,Litres,15000,19500.0
+PRD200375,POR4929,Porridge Flour 500g,Grains & Cereals,Pieces,5000,3051.54
+PRD200376,MUR4879,Muruchu Cooking Oil 3L,Household Items,KGS,3000,3750.0
+PRD200377,KRE6734,Krest Bitter Lemon,Sncks,ml,1500,1950.0
+PRD200378,MAI3271,Maize Flour 2kg,Bevages,KGS,3000,3300.0
+PRD200379,RUL5042,Ruler 30cm,Stationary,Kilograms,750,900.0
+PRD200380,ALW7283,Always Sanitary Pads,Personal care ,ml,2500,4500.0
+PRD200381,BIC2549,Bic Pen Blue,Stationery,ml,20000,22000.0
+PRD200382,NIC4309,Nice & Lovely Lotion 200ml,SNACKS,Kilograms,2000,2600.0
+PRD200383,NES9465,Nescafe 100g,Beverages,pc,5000,"UGX 5,500"
+PRD200384,EXE3038,Exercise Book 200pg,Stationery,bottles,2000,2600.0
+PRD200385,PEP9220,Pepsi 500ml,BEVERAGES,Kilograms,7500,8625.0
+PRD200386,VAS3903,Vaseline Petroleum Jelly,Personal Care,KGS,50000,62500.0
+PRD200387,TWI2042,Twins Tea 250g,Personal Care,pc,4500,6750.0
+PRD200388,TWI1403,Twins Tea 250g,Sncks,pc,4500,3452.78
+PRD200389,WHE9743,Wheat Flour 2kg,Grains & cereal,Litres,10000,15000.0
+PRD200390,MAT9216,Mathematical Set,Stationery,kg,1500,2700.0
+PRD200391,DET9622,Dettol Antiseptic 250ml,PERSONAL CARE,Litres,2000,"UGX 3,000"
+PRD200392,TRO9362,Tropical Heat Nuts,Sncks,Pieces,5000,7500.0
+PRD200393,CAN4230,Candles 6 Pack,Household,Litres,5000,5750.0
+PRD200394,NIC8397,Nice Biscuits 100g,Personal Care,L,2000,3600.0
+PRD200395,BRI5435,Britania Cream Cracker,Snacks,piece,20000,36000.0
+PRD200396,MAR1655,Marlboro Biscuits,Snack,KGS,2000,3000.0
+PRD200397,MAI6691,Maize Grains 1kg,Household,ml,1500,1650.0
+PRD200398,MAI9245,Maize Flour 2kg,Grains and Cereals,bottles,35000,40250.0
+PRD200399,MAT1429,Mathematical Set,Stationery,KGS,500,900.0
+PRD200400,EXE7719,Exercise Book 200pg,Beverages,kgs,4500,5625.0
+PRD200401,BRI3966,Britania Cream Cracker,SNACKS,liters,4500,5625.0
+PRD200402,ALW8635,Always Sanitary Pads,Personal Care,Pieces,4500,6750.0
+PRD200403,STA6932,Stabilo Highlighter,Statio nery,L,4500,4950.0
+PRD200404,VAS7202,Vaseline Petroleum Jelly,Percare,g,1500,2250.0
+PRD200405,BIC2931,Bic Pen Blue,STATIONERY,Pieces,35000,45500.0
+PRD200406,MAI2387,Maize Flour 2kg,Grains&Cereals,kgs,1500,2250.0
+PRD200407,SOR4419,Sorghum 1kg,Grains,PCE,10000,13000.0
+PRD200408,A46322,A4 Paper 500sh,Sncks,boxes,15000,19500.0
+PRD200409,EXE7217,Exercise Book 200pg,Stationery,ml,1500,1950.0
+PRD200410,MAI8789,Maize Flour 2kg,Grains,KGS,50000,55000.0
+PRD200411,COC4373,Coca-Cola 500ml,Beverages,KGS,750,1125.0
+PRD200412,SUP9288,Supermatch Crisps,Sncks,kg,10000,15000.0
+PRD200413,MAR2592,Marlboro Biscuits,Snack,kg,20000,25000.0
+PRD200414,CAN5027,Candles 6 Pack,HOUSEHOLD,L,7500,11250.0
+PRD200415,IMP4678,Imperial Leather Soap,PersonalCare,g,10000,11000.0
+PRD200416,NIC6259,Nice & Lovely Lotion 200ml,PersonalCare,piece,7500,9375.0
+PRD200417,VAS4314,Vaseline Petroleum Jelly,Personal Care,pc,500,600.0
+PRD200418,BRI9690,Britania Cream Cracker,Snacks,bottles,20000,23000.0
+PRD200419,ALW2969,Always Sanitary Pads,House hold,KGS,1000,1800.0
+PRD200420,FAN6407,Fanta Orange 500ml,Beverages,pcs,1500,2250.0
+PRD200421,STA7782,Stabilo Highlighter,Houshold,kgs,5000,6000.0
+PRD200422,SUP6439,Supermatch Crisps,Snacks,liters,4500,8100.0
+PRD200423,COL7068,Colgate Toothpaste 100ml,PersonalCare,ml,3000,3900.0
+PRD200424,COC5785,Coca-Cola 500ml,BEVERAGES,ml,7500,9375.0
+PRD200425,KRE5191,Krest Bitter Lemon,BEVERAGES,Litres,35000,43750.0
+PRD200426,RIC8067,Rice 1kg,Grains & Cereals,Kilograms,500,550.0
+PRD200427,BAK6923,Baking Soda 500g,House hold,pcs,35000,24113.01
+PRD200428,COL5997,Colgate Toothpaste 100ml,PERSONAL CARE,boxes,35000,38500.0
+PRD200429,VAS2585,Vaseline Petroleum Jelly,PERSONAL CARE,kilogram,20000,24000.0
+PRD200430,COC4084,Coca-Cola 500ml,Bevages,L,7500,8250.0
+PRD200431,POR4486,Porridge Flour 500g,Grains & cereal,pc,2000,2200.0
+PRD200432,MAI7518,Maize Flour 2kg,Bevages,kgs,50000,57500.0
+PRD200433,IMP6271,Imperial Leather Soap,PersonalCare,KGS,10000,11000.0
+PRD200434,SOR2228,Sorghum 1kg,Grains&Cereals,PCE,15000,16500.0
+PRD200435,SUN2681,Sunlight Soap 800g,House hold,Litres,2000,2300.0
+PRD200436,KAB9393,Kabala Groundnuts 200g,Snacks,kg,4500,6750.0
+PRD200437,IMP6307,Imperial Leather Soap,PersonalCare,ml,10000,13000.0
+PRD200438,EXE3153,Exercise Book 200pg,Stationery,pc,1000,1150.0
+PRD200439,MAI2128,Maize Grains 1kg,Bvages,Pieces,15000,17250.0
+PRD200440,WHE9801,Wheat Flour 2kg,Grains & cereal,bottles,500,428.94
+PRD200441,TRO5217,Tropical Heat Nuts,Snacks,kgs,750,825.0
+PRD200442,MUR4483,Muruchu Cooking Oil 3L,Houshold,KGS,2500,3750.0
+PRD200443,TOI6239,Toilet Paper 4 Pack,Household Items,pcs,15000,27000.0
+PRD200444,SUN1448,Sunlight Soap 800g,Household Items,ml,2000,2300.0
+PRD200445,BAK4699,Baking Soda 500g,Household Items,PCE,10000,13000.0
+PRD200446,CAN5467,Candles 6 Pack,Household,g,2000,"UGX 2,400"
+PRD200447,A49133,A4 Paper 500sh,SNACKS,ml,50000,90000.0
+PRD200448,DET5487,Dettol Antiseptic 250ml,PERSONAL CARE,ml,2500,2750.0
+PRD200449,VAS1575,Vaseline Petroleum Jelly,PersonalCare,kg,1500,2250.0
+PRD200450,DET9542,Dettol Antiseptic 250ml,Personal Care,Litres,1500,2700.0
+PRD200451,BAK6031,Baking Soda 500g,Grains,ml,750,975.0
+PRD200452,MAR7721,Marlboro Biscuits,Statio nery,KGS,10000,6812.54
+PRD200453,MAR1490,Marlboro Biscuits,Sncks,PCE,7500,9750.0
+PRD200454,BRI5522,Britania Cream Cracker,Snack,boxes,15000,22500.0
+PRD200455,SOR3203,Sorghum 1kg,Grains and Cereals,pcs,500,575.0
+PRD200456,BIC7374,Bic Pen Blue,Stationary,pc,10000,11500.0
+PRD200457,COL8578,Colgate Toothpaste 100ml,Personal care ,PCE,4500,5175.0
+PRD200458,BAK8173,Baking Soda 500g,Snack,pcs,35000,40250.0
+PRD200459,WHE8654,Wheat Flour 2kg,Stationary,Litres,35000,42000.0
+PRD200460,DET1111,Dettol Antiseptic 250ml,Personal Care,Pieces,2500,4500.0
+PRD200461,KAB9449,Kabala Groundnuts 200g,Snacks,bottles,7500,9000.0
+PRD200462,MAR5311,Marlboro Biscuits,Snack,PCE,750,1125.0
+PRD200463,NES7288,Nescafe 100g,Bevages,kgs,20000,36000.0
+PRD200464,NES7090,Nescafe 100g,Grains and Cereals,Litres,5000,"UGX 6,000"
+PRD200465,KAK1133,Kakira Sugar 1kg,Beverages,liters,750,975.0
+PRD200466,EXE9965,Exercise Book 200pg,Stationery,KGS,7500,8625.0
+PRD200467,PEP9024,Pepsi 500ml,Beverages,Pieces,15000,10690.04
+PRD200468,A44002,A4 Paper 500sh,Stationary,pc,10000,15000.0
+PRD200469,NIC1504,Nice & Lovely Lotion 200ml,Personal care ,Pieces,4500,4950.0
+PRD200470,TRO7734,Tropical Heat Nuts,Sncks,g,35000,42000.0
+PRD200471,COC5054,Coca-Cola 500ml,Bevages,bottles,2000,2500.0
+PRD200472,TWI2509,Twins Tea 250g,Beverage,KGS,20000,24000.0
+PRD200473,EXE2739,Exercise Book 200pg,Statio nery,ml,10000,15000.0
+PRD200474,KAB1220,Kabwe Detergent 1kg,Household,g,2000,2200.0
+PRD200475,WHE4715,Wheat Flour 2kg,Grains & cereal,ml,35000,43750.0
+PRD200476,CAN2392,Candles 6 Pack,Bevages,Litres,10000,11500.0
+PRD200477,BRI1582,Britania Cream Cracker,Sncks,L,2500,3000.0
+PRD200478,DET5220,Dettol Antiseptic 250ml,Percare,liters,3000,3750.0
+PRD200479,SUN1468,Sunlight Soap 800g,House hold,L,1500,1950.0
+PRD200480,POR6870,Porridge Flour 500g,HOUSEHOLD,boxes,10000,13000.0
+PRD200481,NIC8306,Nice Biscuits 100g,PersonalCare,pcs,1000,1250.0
+PRD200482,VAS9780,Vaseline Petroleum Jelly,Personal Care,boxes,20000,25000.0
+PRD200483,BIC5616,Bic Pen Blue,Statio nery,g,3000,4500.0
+PRD200484,ARR2539,Array Juice 250ml,Beverages,kgs,2500,4500.0
+PRD200485,NIL2181,Nile Beer 500ml,PERSONAL CARE,boxes,50000,60000.0
+PRD200486,MUR1540,Muruchu Cooking Oil 3L,Houshold,L,750,900.0
+PRD200487,CAN4949,Candles 6 Pack,Statio nery,Kilograms,3000,3600.0
+PRD200488,A42369,A4 Paper 500sh,STATIONERY,Kilograms,5000,5750.0
+PRD200489,KAK1365,Kakira Sugar 1kg,Grains,pcs,3000,3600.0
+PRD200490,ARR5553,Array Juice 250ml,Bevages,L,5000,9000.0
+PRD200491,SPR1440,Sprite 300ml,BEVERAGES,ml,1500,1650.0
+PRD200492,STA4610,Stabilo Highlighter,Statio nery,piece,10000,18000.0
+PRD200493,MIN5600,Minute Maid 400ml,Beverages,liters,750,825.0
+PRD200494,SIM1291,Sims Chips 150g,Snacks,pc,20000,25000.0
+PRD200495,ALW4033,Always Sanitary Pads,PersonalCare,kg,2000,2500.0
+PRD200496,VAS1226,Vaseline Petroleum Jelly,Bvages,kg,500,750.0
+PRD200497,DET1749,Dettol Antiseptic 250ml,PersonalCare,L,500,600.0
+PRD200498,A42034,A4 Paper 500sh,Stationery,Litres,500,625.0
+PRD200499,KAB1122,Kabwe Detergent 1kg,HOUSEHOLD,L,500,600.0
+PRD200500,SUP4900,Supermatch Crisps,Snack,Pieces,35000,26469.75
+PRD200501,NIC9811,Nice Biscuits 100g,Sncks,bottles,750,1125.0
+PRD200502,KAB7614,Kabwe Detergent 1kg,Sncks,pcs,1500,2250.0
+PRD200503,KAB8444,Kabwe Detergent 1kg,Household Items,Litres,3000,4500.0
+PRD200504,COL5212,Colgate Toothpaste 100ml,House hold,liters,3000,5400.0
+PRD200505,BEL7341,Bell Lager,Beverages,Litres,750,1125.0
+PRD200506,MOU6621,Mountain Gorilla Water 1L,Beverages,bottles,500,600.0
+PRD200507,SUN7802,Sunlight Soap 800g,Bevages,boxes,1500,2700.0
+PRD200508,SOR7755,Sorghum 1kg,Grains & Cereals,g,2500,4500.0
+PRD200509,SIM6923,Sims Chips 150g,Snack,bottles,7500,9375.0
+PRD200510,MAT6637,Mathematical Set,STATIONERY,kgs,10000,12000.0
+PRD200511,KRE6553,Krest Bitter Lemon,Beverage,kilogram,750,1350.0
+PRD200512,BEA9671,Beans 1kg,Grains,pc,3000,4500.0
+PRD200513,BEA2152,Beans 1kg,Grains and Cereals,L,50000,65000.0
+PRD200514,RIC3309,Rice 1kg,Grains,piece,750,825.0
+PRD200515,TRO4733,Tropical Heat Nuts,Sncks,boxes,35000,45500.0
+PRD200516,DET6612,Dettol Antiseptic 250ml,Percare,boxes,1000,1500.0
+PRD200517,RUL6852,Ruler 30cm,STATIONERY,pcs,2000,2400.0
+PRD200518,TRO8965,Tropical Heat Nuts,Snacks,kgs,3000,3900.0
+PRD200519,RUL7544,Ruler 30cm,Statio nery,piece,3000,3750.0
+PRD200520,JIK5798,Jik 1L,Houshold,ml,3000,4500.0
+PRD200521,CAN7066,Candles 6 Pack,Houshold,Kilograms,1000,1100.0
+PRD200522,DET6739,Dettol Antiseptic 250ml,Personal care ,kgs,35000,38500.0
+PRD200523,RUL4176,Ruler 30cm,Stationary,PCE,750,825.0
+PRD200524,NIC5952,Nice & Lovely Lotion 200ml,Personal Care,L,4500,4027.09
+PRD200525,DET4264,Dettol Antiseptic 250ml,Personal Care,PCE,5000,6250.0
+PRD200526,CAN9500,Candles 6 Pack,Houshold,ml,35000,45500.0
+PRD200527,ROB9933,Roberts Milk 1L,Beverage,g,500,575.0
+PRD200528,SOR5940,Sorghum 1kg,Grains,pcs,500,625.0
+PRD200529,HEA4341,Head & Shoulders 400ml,Personal care ,KGS,10000,18000.0
+PRD200530,JIK3213,Jik 1L,Houshold,Kilograms,4500,5625.0
+PRD200531,ARR2892,Array Juice 250ml,Beverages,kgs,4500,"UGX 5,625"
+PRD200532,BRI7747,Britania Cream Cracker,Sncks,PCE,15000,19500.0
+PRD200533,ARR4829,Array Juice 250ml,Beverage,pc,7500,8250.0
+PRD200534,KAB2212,Kabala Groundnuts 200g,Sncks,KGS,7500,8250.0
+PRD200535,SPR8516,Sprite 300ml,BEVERAGES,liters,2000,3600.0
+PRD200536,TRO8720,Tropical Heat Nuts,Household,ml,20000,24000.0
+PRD200537,KRE6129,Krest Bitter Lemon,Stationery,Kilograms,1500,UGX1001
+PRD200538,NIC8792,Nice & Lovely Lotion 200ml,PERSONAL CARE,kg,50000,57500.0
+PRD200539,BEL7702,Bell Lager,Personal care ,liters,4500,5625.0
+PRD200540,RIC1556,Rice 1kg,Grains&Cereals,Litres,10000,11000.0
+PRD200541,MAI1427,Maize Grains 1kg,Grains & cereal,Litres,3000,3900.0
+PRD200542,NIC6688,Nice & Lovely Lotion 200ml,Personal care ,kilogram,1000,1100.0
+PRD200543,VAS5152,Vaseline Petroleum Jelly,Beverages,KGS,2500,2750.0
+PRD200544,CAN2572,Candles 6 Pack,Household,L,15000,18750.0
+PRD200545,BEA8028,Beans 1kg,Grains and Cereals,pc,4500,5400.0
+PRD200546,JIK8922,Jik 1L,HOUSEHOLD,ml,4500,5175.0
+PRD200547,MIN5949,Minute Maid 400ml,Bevages,KGS,4500,8100.0
+PRD200548,VAS2977,Vaseline Petroleum Jelly,PERSONAL CARE,Pieces,4500,5400.0
+PRD200549,SOR9203,Sorghum 1kg,Bvages,piece,500,650.0
+PRD200550,DET6438,Dettol Antiseptic 250ml,Statio nery,KGS,10000,12000.0
+PRD200551,PEP2522,Pepsi 500ml,BEVERAGES,Litres,4500,6750.0
+PRD200552,MOU3870,Mountain Gorilla Water 1L,Bvages,liters,10000,11000.0
+PRD200553,KAB5239,Kabala Groundnuts 200g,PERSONAL CARE,bottles,500,900.0
+PRD200554,MAI2716,Maize Grains 1kg,Grains&Cereals,ml,7500,8625.0
+PRD200555,MAR9320,Marlboro Biscuits,Grains,kgs,2500,4500.0
+PRD200556,PEP7746,Pepsi 500ml,Grains&Cereals,kilogram,35000,63000.0
+PRD200557,MAT6183,Mathematical Set,Bevages,L,15000,19500.0
+PRD200558,BIC8361,Bic Pen Blue,Stationary,liters,5000,5500.0
+PRD200559,SOR9011,Sorghum 1kg,Grains & cereal,KGS,500,750.0
+PRD200560,EXE1953,Exercise Book 200pg,Statio nery,liters,15000,18000.0
+PRD200561,KAB2769,Kabwe Detergent 1kg,Household Items,Kilograms,5000,5750.0
+PRD200562,MUR9630,Muruchu Cooking Oil 3L,HOUSEHOLD,kg,1500,2250.0
+PRD200563,BIC7764,Bic Pen Blue,Household Items,PCE,15000,17250.0
+PRD200564,BAK1097,Baking Soda 500g,Household Items,pcs,10000,15000.0
+PRD200565,MAI6076,Maize Flour 2kg,Household,kilogram,20000,36000.0
+PRD200566,POR1038,Porridge Flour 500g,Grains & Cereals,kg,2000,2300.0
+PRD200567,A45294,A4 Paper 500sh,Statio nery,boxes,50000,75000.0
+PRD200568,KIM4195,Kimbo Fat 500g,Snack,kg,1000,1800.0
+PRD200569,MAT6845,Mathematical Set,Stationery,PCE,4500,4950.0
+PRD200570,ARR5043,Array Juice 250ml,Grains & Cereals,ml,35000,38500.0
+PRD200571,IMP5081,Imperial Leather Soap,Personal care ,L,2000,2600.0
+PRD200572,KRE1360,Krest Bitter Lemon,BEVERAGES,Pieces,3000,3750.0
+PRD200573,KAB3675,Kabala Groundnuts 200g,Snack,g,35000,"UGX 42,000"
+PRD200574,BIC4492,Bic Pen Blue,Stationery,pc,500,550.0
+PRD200575,RIC1282,Rice 1kg,Grains,Kilograms,3000,3600.0
+PRD200576,TRO2863,Tropical Heat Nuts,Snack,ml,1500,1725.0
+PRD200577,MOU8459,Mountain Gorilla Water 1L,BEVERAGES,bottles,2000,2400.0
+PRD200578,KAB7519,Kabala Groundnuts 200g,SNACKS,bottles,750,937.5
+PRD200579,BIC6542,Bic Pen Blue,STATIONERY,pcs,500,600.0
+PRD200580,KAB4050,Kabwe Detergent 1kg,House hold,kilogram,3000,3300.0
+PRD200581,PEP2207,Pepsi 500ml,BEVERAGES,pc,3000,3750.0
+PRD200582,JIK6773,Jik 1L,House hold,Kilograms,1000,1250.0
+PRD200583,BIC6598,Bic Pen Blue,Stationery,kg,20000,23000.0
+PRD200584,STA2884,Stabilo Highlighter,Stationary,Litres,4500,5175.0
+PRD200585,MAR7706,Marlboro Biscuits,Sncks,bottles,10000,12000.0
+PRD200586,RUL6216,Ruler 30cm,Grains&Cereals,L,4500,4950.0
+PRD200587,POR4553,Porridge Flour 500g,Grains&Cereals,pcs,10000,15000.0
+PRD200588,BEA7501,Beans 1kg,Grains and Cereals,piece,5000,5500.0
+PRD200589,KAK8563,Kakira Sugar 1kg,Grains&Cereals,L,2500,3250.0
+PRD200590,PEP1543,Pepsi 500ml,Beverage,KGS,20000,30000.0
+PRD200591,CAN3226,Candles 6 Pack,Houshold,PCE,10000,12500.0
+PRD200592,NIC9453,Nice Biscuits 100g,Sncks,liters,3000,3750.0
+PRD200593,RUL9774,Ruler 30cm,STATIONERY,kilogram,500,550.0
+PRD200594,MAR3355,Marlboro Biscuits,Snack,ml,20000,22000.0
+PRD200595,BRO7740,Brookside Fresh Milk 500ml,Household,L,1000,1300.0
+PRD200596,HEA3372,Head & Shoulders 400ml,Personal Care,kgs,2500,1974.41
+PRD200597,MAI7931,Maize Flour 2kg,Bvages,L,5000,5750.0
+PRD200598,KRE8734,Krest Bitter Lemon,Bevages,liters,750,862.5
+PRD200599,ALW3118,Always Sanitary Pads,Percare,L,10000,7172.65
+PRD200600,KAK4330,Kakira Sugar 1kg,Grains & cereal,pcs,1000,671.99
+PRD200601,ALW1094,Always Sanitary Pads,BEVERAGES,Pieces,15000,18750.0
+PRD200602,RUL4846,Ruler 30cm,Stationery,boxes,5000,6000.0
+PRD200603,JIK6578,Jik 1L,HOUSEHOLD,pc,5000,6250.0
+PRD200604,TWI9388,Twins Tea 250g,Beverages,bottles,20000,26000.0
+PRD200605,A48234,A4 Paper 500sh,STATIONERY,pc,20000,30000.0
+PRD200606,MAR5321,Marlboro Biscuits,Stationary,piece,35000,43750.0
+PRD200607,CAN5610,Candles 6 Pack,HOUSEHOLD,kgs,1000,920.33
+PRD200608,KRE2217,Krest Bitter Lemon,Beverages,KGS,7500,8250.0
+PRD200609,MOU8460,Mountain Gorilla Water 1L,Bevages,kgs,750,900.0
+PRD200610,POR7578,Porridge Flour 500g,Grains&Cereals,pc,4500,5850.0
+PRD200611,NIC4899,Nice & Lovely Lotion 200ml,PersonalCare,L,2000,2600.0
+PRD200612,A48170,A4 Paper 500sh,Snacks,piece,10000,12000.0
+PRD200613,KRE1147,Krest Bitter Lemon,Beverages,bottles,20000,36000.0
+PRD200614,A48365,A4 Paper 500sh,Stationery,kgs,15000,22500.0
+PRD200615,KAB2905,Kabwe Detergent 1kg,Household,KGS,1500,1875.0
+PRD200616,ARR6046,Array Juice 250ml,Beverage,Pieces,2500,3250.0
+PRD200617,SUP1570,Supermatch Crisps,SNACKS,KGS,35000,38500.0
+PRD200618,MIN5556,Minute Maid 400ml,Beverages,kilogram,50000,90000.0
+PRD200619,MAI5227,Maize Flour 2kg,Grains & Cereals,Kilograms,50000,75000.0
+PRD200620,BEA3537,Beans 1kg,Grains & cereal,kgs,50000,75000.0
+PRD200621,BAK4715,Baking Soda 500g,Household Items,ml,5000,9000.0
+PRD200622,MUR2203,Muruchu Cooking Oil 3L,Personal Care,Litres,50000,75000.0
+PRD200623,POR6924,Porridge Flour 500g,Grains & Cereals,liters,10000,12500.0
+PRD200624,PEP6160,Pepsi 500ml,Bvages,L,20000,23000.0
+PRD200625,SUP1508,Supermatch Crisps,Snack,pcs,5000,9000.0
+PRD200626,PEP1812,Pepsi 500ml,BEVERAGES,L,10000,18000.0
+PRD200627,COL6709,Colgate Toothpaste 100ml,Percare,boxes,50000,55000.0
+PRD200628,MAR3392,Marlboro Biscuits,Stationery,piece,2500,3750.0
+PRD200629,MUR5839,Muruchu Cooking Oil 3L,Houshold,boxes,500,575.0
+PRD200630,TOI4298,Toilet Paper 4 Pack,Household,KGS,500,575.0
+PRD200631,EXE7032,Exercise Book 200pg,Stationery,bottles,2500,3000.0
+PRD200632,FAN1424,Fanta Orange 500ml,Beverages,PCE,750,1125.0
+PRD200633,RIC5072,Rice 1kg,Grains & cereal,pcs,1500,2700.0
+PRD200634,MAT7222,Mathematical Set,Statio nery,kgs,35000,63000.0
+PRD200635,CAN2464,Candles 6 Pack,HOUSEHOLD,kgs,4500,6750.0
+PRD200636,POR3383,Porridge Flour 500g,Grains & cereal,Pieces,3000,3600.0
+PRD200637,MAI6733,Maize Grains 1kg,Grains & Cereals,kgs,20000,22000.0
+PRD200638,BIC9248,Bic Pen Blue,Snacks,pcs,2000,3000.0
+PRD200639,HEA1500,Head & Shoulders 400ml,PersonalCare,Pieces,15000,19500.0
+PRD200640,KAK6086,Kakira Sugar 1kg,Personal care ,PCE,2500,2107.76
+PRD200641,BIC8763,Bic Pen Blue,STATIONERY,KGS,35000,52500.0
+PRD200642,HEA8221,Head & Shoulders 400ml,PERSONAL CARE,KGS,5000,5500.0
+PRD200643,EXE5984,Exercise Book 200pg,Snacks,Kilograms,35000,21927.6
+PRD200644,NIL3839,Nile Beer 500ml,BEVERAGES,Kilograms,2000,3000.0
+PRD200645,BIC4160,Bic Pen Blue,Stationery,Kilograms,10000,8388.73
+PRD200646,MAT3185,Mathematical Set,Statio nery,PCE,10000,18000.0
+PRD200647,MAI2737,Maize Grains 1kg,Sncks,PCE,10000,13000.0
+PRD200648,SOR3340,Sorghum 1kg,Percare,boxes,20000,"UGX 23,000"
+PRD200649,MAI1979,Maize Flour 2kg,Grains&Cereals,pcs,20000,36000.0
+PRD200650,IMP4112,Imperial Leather Soap,Grains & Cereals,bottles,50000,90000.0
+PRD200651,IMP3945,Imperial Leather Soap,Percare,L,10000,12000.0
+PRD200652,MOU7888,Mountain Gorilla Water 1L,BEVERAGES,kilogram,50000,65000.0
+PRD200653,WHE4814,Wheat Flour 2kg,Grains and Cereals,Kilograms,1500,2700.0
+PRD200654,BAK9736,Baking Soda 500g,Beverage,Litres,20000,22000.0
+PRD200655,A48563,A4 Paper 500sh,Stationary,L,1500,2250.0
+PRD200656,CAN8707,Candles 6 Pack,House hold,bottles,1000,1250.0
+PRD200657,JIK4484,Jik 1L,House hold,kgs,1000,1500.0
+PRD200658,VAS2515,Vaseline Petroleum Jelly,Bevages,g,500,550.0
+PRD200659,BIC5613,Bic Pen Blue,Stationary,liters,7500,5595.96
+PRD200660,RUL4477,Ruler 30cm,STATIONERY,g,50000,62500.0
+PRD200661,DET3777,Dettol Antiseptic 250ml,Personal care ,ml,15000,18750.0
+PRD200662,MIN5504,Minute Maid 400ml,BEVERAGES,pc,50000,60000.0
+PRD200663,A46656,A4 Paper 500sh,Stationery,PCE,500,750.0
+PRD200664,MAR5293,Marlboro Biscuits,Snack,Litres,1500,1725.0
+PRD200665,ALW8676,Always Sanitary Pads,Snack,piece,1000,1500.0
+PRD200666,ROB5649,Roberts Milk 1L,BEVERAGES,kg,2500,4500.0
+PRD200667,MAI2272,Maize Grains 1kg,Grains & Cereals,kgs,20000,36000.0
+PRD200668,HEA4594,Head & Shoulders 400ml,Personal care ,ml,2500,2069.59
+PRD200669,NIC4662,Nice & Lovely Lotion 200ml,PersonalCare,Kilograms,35000,"40,250"
+PRD200670,RUL3903,Ruler 30cm,Bevages,kilogram,7500,8250.0
+PRD200671,DET5721,Dettol Antiseptic 250ml,Personal Care,kg,500,550.0
+PRD200672,WHE5110,Wheat Flour 2kg,Grains,Pieces,20000,23000.0
+PRD200673,STA2629,Stabilo Highlighter,Stationery,g,5000,6000.0
+PRD200674,COC1494,Coca-Cola 500ml,Beverages,PCE,20000,22000.0
+PRD200675,COL2282,Colgate Toothpaste 100ml,PERSONAL CARE,Litres,50000,57500.0
+PRD200676,A45787,A4 Paper 500sh,Houshold,kilogram,15000,16500.0
+PRD200677,ALW3281,Always Sanitary Pads,Personal care ,pcs,10000,12500.0
+PRD200678,ARR7796,Array Juice 250ml,STATIONERY,ml,35000,30586.26
+PRD200679,POR3105,Porridge Flour 500g,Grains & cereal,ml,750,937.5
+PRD200680,ARR2850,Array Juice 250ml,BEVERAGES,ml,5000,7500.0
+PRD200681,MAI9045,Maize Grains 1kg,Grains & cereal,pcs,10000,11000.0
+PRD200682,MAI5602,Maize Grains 1kg,Grains & cereal,pc,3000,3300.0
+PRD200683,KAB8258,Kabwe Detergent 1kg,Household,liters,1500,1950.0
+PRD200684,BIC2164,Bic Pen Blue,STATIONERY,pc,4500,6750.0
+PRD200685,ARR1587,Array Juice 250ml,Bvages,kg,1000,1150.0
+PRD200686,BIC2874,Bic Pen Blue,Grains,g,4500,5400.0
+PRD200687,VAS7023,Vaseline Petroleum Jelly,Personal care ,L,50000,60000.0
+PRD200688,MAI5621,Maize Flour 2kg,Grains&Cereals,pcs,20000,36000.0
+PRD200689,MAI1710,Maize Grains 1kg,Grains & Cereals,Litres,750,900.0
+PRD200690,IMP5018,Imperial Leather Soap,PersonalCare,Kilograms,5000,5750.0
+PRD200691,A42819,A4 Paper 500sh,Stationary,liters,1000,1500.0
+PRD200692,COL2763,Colgate Toothpaste 100ml,Personal Care,piece,20000,23000.0
+PRD200693,SUN7223,Sunlight Soap 800g,Household Items,Kilograms,3000,3900.0
+PRD200694,BIC7903,Bic Pen Blue,STATIONERY,KGS,10000,11000.0
+PRD200695,POR8173,Porridge Flour 500g,Grains and Cereals,KGS,2500,2875.0
+PRD200696,ALW7757,Always Sanitary Pads,PersonalCare,kgs,5000,5500.0
+PRD200697,BIC9055,Bic Pen Blue,Stationary,pc,50000,60000.0
+PRD200698,MAR3249,Marlboro Biscuits,Houshold,kgs,750,862.5
+PRD200699,KAB5723,Kabwe Detergent 1kg,House hold,ml,10000,15000.0
+PRD200700,TRO6315,Tropical Heat Nuts,Snacks,liters,4500,8100.0
+PRD200701,STA9330,Stabilo Highlighter,Stationary,kg,20000,26000.0
+PRD200702,TRO3142,Tropical Heat Nuts,Snack,piece,500,625.0
+PRD200703,MAT2206,Mathematical Set,STATIONERY,pcs,2500,4500.0
+PRD200704,MAI6318,Maize Grains 1kg,Stationary,boxes,5000,5750.0
+PRD200705,BAK4829,Baking Soda 500g,HOUSEHOLD,Kilograms,7500,9000.0
+PRD200706,KAB2143,Kabwe Detergent 1kg,Grains&Cereals,KGS,5000,5500.0
+PRD200707,PEP3723,Pepsi 500ml,Bevages,Pieces,4500,8100.0
+PRD200708,STA4904,Stabilo Highlighter,Stationary,KGS,2000,2500.0
+PRD200709,MUR7983,Muruchu Cooking Oil 3L,Houshold,boxes,1500,1800.0
+PRD200710,KAK7392,Kakira Sugar 1kg,Snack,g,50000,75000.0
+PRD200711,SUP3089,Supermatch Crisps,Snacks,bottles,3000,3300.0
+PRD200712,KIM3310,Kimbo Fat 500g,Household Items,KGS,750,543.51
+PRD200713,ROB7638,Roberts Milk 1L,Bvages,liters,1000,1500.0
+PRD200714,BAK6457,Baking Soda 500g,Personal Care,KGS,5000,7500.0
+PRD200715,IMP6184,Imperial Leather Soap,PERSONAL CARE,pcs,5000,6000.0
+PRD200716,IMP9507,Imperial Leather Soap,PERSONAL CARE,kilogram,1500,1725.0
+PRD200717,KAK6955,Kakira Sugar 1kg,Grains & Cereals,pcs,50000,62500.0
+PRD200718,KAB4738,Kabwe Detergent 1kg,Grains & Cereals,bottles,2000,2300.0
+PRD200719,BEA2883,Beans 1kg,Stationary,Kilograms,1000,1300.0
+PRD200720,DET9405,Dettol Antiseptic 250ml,PERSONAL CARE,boxes,2500,3125.0
+PRD200721,KAK8849,Kakira Sugar 1kg,Grains,g,7500,8625.0
+PRD200722,MAR3565,Marlboro Biscuits,Snack,L,50000,65000.0
+PRD200723,IMP3144,Imperial Leather Soap,PERSONAL CARE,piece,1500,1725.0
+PRD200724,JIK9352,Jik 1L,HOUSEHOLD,pc,15000,UGX27000
+PRD200725,BIC8695,Bic Pen Blue,Stationary,bottles,2500,3750.0
+PRD200726,BIC9807,Bic Pen Blue,Statio nery,kgs,1500,1800.0
+PRD200727,MIN2903,Minute Maid 400ml,STATIONERY,kgs,500,550.0
+PRD200728,DET5347,Dettol Antiseptic 250ml,Percare,L,3000,1958.36
+PRD200729,RUL5924,Ruler 30cm,STATIONERY,kgs,35000,38500.0
+PRD200730,NIC1007,Nice & Lovely Lotion 200ml,PersonalCare,Litres,4500,6750.0
+PRD200731,BEA6293,Beans 1kg,Grains&Cereals,PCE,2500,3125.0
+PRD200732,COL8430,Colgate Toothpaste 100ml,Percare,piece,2000,2300.0
+PRD200733,DET9912,Dettol Antiseptic 250ml,Grains and Cereals,Pieces,5000,5500.0
+PRD200734,TOI7760,Toilet Paper 4 Pack,Household,ml,5000,3754.2
+PRD200735,JIK9802,Jik 1L,Houshold,kgs,10000,15000.0
+PRD200736,TWI5031,Twins Tea 250g,Grains,L,15000,18000.0
+PRD200737,COL1334,Colgate Toothpaste 100ml,Statio nery,g,500,900.0
+PRD200738,TWI2683,Twins Tea 250g,BEVERAGES,PCE,35000,63000.0
+PRD200739,VAS9781,Vaseline Petroleum Jelly,Percare,bottles,7500,8250.0
+PRD200740,A48641,A4 Paper 500sh,STATIONERY,kgs,50000,65000.0
+PRD200741,TOI3903,Toilet Paper 4 Pack,Household,piece,35000,32051.24
+PRD200742,MAI9590,Maize Flour 2kg,Stationary,Pieces,2500,3000.0
+PRD200743,SOR3111,Sorghum 1kg,Stationery,ml,500,575.0
+PRD200744,NIC9547,Nice Biscuits 100g,Sncks,KGS,750,975.0
+PRD200745,MAR6836,Marlboro Biscuits,SNACKS,liters,50000,90000.0
+PRD200746,COL5528,Colgate Toothpaste 100ml,PERSONAL CARE,L,1500,1650.0
+PRD200747,SPR6463,Sprite 300ml,Beverages,ml,2000,2300.0
+PRD200748,RIC4388,Rice 1kg,Grains and Cereals,pcs,2000,2600.0
+PRD200749,DET5382,Dettol Antiseptic 250ml,Percare,pcs,1500,2250.0
+PRD200750,MAR5328,Marlboro Biscuits,Statio nery,liters,2000,3600.0
+PRD200751,NIC8896,Nice Biscuits 100g,SNACKS,boxes,35000,26539.61
+PRD200752,BAK1206,Baking Soda 500g,Grains,PCE,750,825.0
+PRD200753,TRO4640,Tropical Heat Nuts,SNACKS,pcs,4500,5625.0
+PRD200754,MAT2310,Mathematical Set,Stationery,ml,3000,5400.0
+PRD200755,EXE1612,Exercise Book 200pg,Beverage,g,4500,8100.0
+PRD200756,BIC3061,Bic Pen Blue,Personal Care,Pieces,750,900.0
+PRD200757,CAN7801,Candles 6 Pack,Houshold,pc,750,825.0
+PRD200758,MAT4930,Mathematical Set,STATIONERY,L,7500,9000.0
+PRD200759,NIC7867,Nice Biscuits 100g,Snacks,kilogram,7500,8625.0
+PRD200760,KIM1920,Kimbo Fat 500g,Household,KGS,5000,6000.0
+PRD200761,PEP6872,Pepsi 500ml,BEVERAGES,ml,750,1350.0
+PRD200762,NIC7036,Nice Biscuits 100g,Grains&Cereals,boxes,15000,18750.0
+PRD200763,TWI7578,Twins Tea 250g,PersonalCare,kg,15000,UGX27000
+PRD200764,POR7463,Porridge Flour 500g,Grains,bottles,1500,1725.0
+PRD200765,FAN1116,Fanta Orange 500ml,BEVERAGES,bottles,10000,6366.89
+PRD200766,ROB1148,Roberts Milk 1L,Beverages,kilogram,20000,"UGX 36,000"
+PRD200767,ARR9169,Array Juice 250ml,BEVERAGES,kgs,750,937.5
+PRD200768,MIN2609,Minute Maid 400ml,BEVERAGES,liters,4500,5400.0
+PRD200769,MOU6855,Mountain Gorilla Water 1L,Grains and Cereals,pc,7500,8250.0
+PRD200770,EXE1541,Exercise Book 200pg,STATIONERY,piece,1500,2700.0
+PRD200771,MAR9662,Marlboro Biscuits,Grains and Cereals,g,1500,1950.0
+PRD200772,HEA8928,Head & Shoulders 400ml,PersonalCare,g,10000,13000.0
+PRD200773,DET3645,Dettol Antiseptic 250ml,Grains & Cereals,L,2000,2500.0
+PRD200774,NIC4497,Nice Biscuits 100g,Snack,Kilograms,5000,6000.0
+PRD200775,EXE1656,Exercise Book 200pg,Grains & cereal,pcs,1500,1950.0
+PRD200776,STA4234,Stabilo Highlighter,Stationery,kg,50000,60000.0
+PRD200777,BAK4770,Baking Soda 500g,Stationery,liters,35000,42000.0
+PRD200778,VAS9274,Vaseline Petroleum Jelly,Personal Care,KGS,750,937.5
+PRD200779,NIC8836,Nice & Lovely Lotion 200ml,Statio nery,bottles,20000,25000.0
+PRD200780,A41742,A4 Paper 500sh,Personal Care,piece,35000,52500.0
+PRD200781,MAR6989,Marlboro Biscuits,Snacks,Pieces,20000,25000.0
+PRD200782,VAS2392,Vaseline Petroleum Jelly,PERSONAL CARE,pc,35000,52500.0
+PRD200783,KAB3973,Kabwe Detergent 1kg,Household Items,liters,50000,57500.0
+PRD200784,SPR3939,Sprite 300ml,Bevages,kilogram,4500,4950.0
+PRD200785,A44774,A4 Paper 500sh,Statio nery,g,750,862.5
+PRD200786,RUL5558,Ruler 30cm,Stationary,pcs,7500,13500.0
+PRD200787,STA9495,Stabilo Highlighter,Statio nery,kgs,2500,3250.0
+PRD200788,IMP1718,Imperial Leather Soap,PersonalCare,Pieces,50000,90000.0
+PRD200789,HEA9817,Head & Shoulders 400ml,Personal Care,kilogram,500,625.0
+PRD200790,IMP1070,Imperial Leather Soap,Grains and Cereals,L,1000,1800.0
+PRD200791,SUP1244,Supermatch Crisps,PERSONAL CARE,PCE,4500,8100.0
+PRD200792,BIC2733,Bic Pen Blue,Statio nery,pc,750,1350.0
+PRD200793,BEA3437,Beans 1kg,Snacks,Pieces,2000,2200.0
+PRD200794,DET4771,Dettol Antiseptic 250ml,Personal care ,bottles,2000,2300.0
+PRD200795,BEL8910,Bell Lager,Bevages,kg,750,862.5
+PRD200796,KAK1316,Kakira Sugar 1kg,Beverage,KGS,2500,2750.0
+PRD200797,STA4970,Stabilo Highlighter,HOUSEHOLD,boxes,50000,39122.92
+PRD200798,RIC1221,Rice 1kg,Grains & Cereals,KGS,2000,2400.0
+PRD200799,TOI9337,Toilet Paper 4 Pack,HOUSEHOLD,Pieces,1000,1150.0
+PRD200800,BAK4146,Baking Soda 500g,Household Items,kgs,3000,3600.0
+PRD200801,BEA7056,Beans 1kg,Grains&Cereals,Pieces,7500,9000.0
+PRD200802,TWI4346,Twins Tea 250g,BEVERAGES,boxes,3000,5400.0
+PRD200803,KRE1740,Krest Bitter Lemon,Beverages,L,750,862.5
+PRD200804,NIC3557,Nice & Lovely Lotion 200ml,Percare,kgs,3000,5400.0
+PRD200805,JIK1679,Jik 1L,House hold,pcs,4500,8100.0
+PRD200806,MAT2788,Mathematical Set,STATIONERY,Pieces,50000,62500.0
+PRD200807,POR2136,Porridge Flour 500g,Grains and Cereals,Kilograms,4500,5175.0
+PRD200808,IMP5230,Imperial Leather Soap,Beverages,KGS,15000,19500.0
+PRD200809,MAR3199,Marlboro Biscuits,Sncks,piece,4500,"UGX 5,850"
+PRD200810,BEL2592,Bell Lager,Bevages,PCE,7500,13500.0
+PRD200811,HEA3506,Head & Shoulders 400ml,PersonalCare,Litres,750,1350.0
+PRD200812,IMP4984,Imperial Leather Soap,Statio nery,piece,1500,1800.0
+PRD200813,BIC8690,Bic Pen Blue,STATIONERY,kilogram,2500,3000.0
+PRD200814,CAN4077,Candles 6 Pack,Grains&Cereals,Pieces,3000,2490.01
+PRD200815,PEP7539,Pepsi 500ml,Beverage,KGS,35000,45500.0
+PRD200816,CAN9017,Candles 6 Pack,Houshold,L,7500,9000.0
+PRD200817,IMP7339,Imperial Leather Soap,Personal care ,Litres,35000,63000.0
+PRD200818,DET3695,Dettol Antiseptic 250ml,Personal Care,ml,3000,3450.0
+PRD200819,KAB2595,Kabala Groundnuts 200g,Snacks,pc,50000,90000.0
+PRD200820,MAI6505,Maize Flour 2kg,Grains and Cereals,Kilograms,4500,UGX8100
+PRD200821,VAS6677,Vaseline Petroleum Jelly,PERSONAL CARE,ml,15000,9603.04
+PRD200822,MIN7505,Minute Maid 400ml,Bvages,L,750,1125.0
+PRD200823,SUP5478,Supermatch Crisps,Bvages,boxes,2000,2600.0
+PRD200824,BRI3325,Britania Cream Cracker,Snack,kgs,2500,3250.0
+PRD200825,MAI8915,Maize Flour 2kg,STATIONERY,ml,500,550.0
+PRD200826,KAK3281,Kakira Sugar 1kg,Grains&Cereals,pc,15000,18000.0
+PRD200827,BIC8166,Bic Pen Blue,Statio nery,pcs,50000,90000.0
+PRD200828,MAI1863,Maize Grains 1kg,STATIONERY,Kilograms,10000,UGX13000
+PRD200829,KAK9664,Kakira Sugar 1kg,Snacks,g,35000,"63,000"
+PRD200830,KAK5753,Kakira Sugar 1kg,Grains,g,20000,UGX36000
+PRD200831,SPR6996,Sprite 300ml,Beverage,Pieces,15000,17250.0
+PRD200832,BEL3055,Bell Lager,Personal Care,Pieces,3000,3900.0
+PRD200833,RUL3769,Ruler 30cm,STATIONERY,piece,15000,27000.0
+PRD200834,TRO4247,Tropical Heat Nuts,Snacks,L,4500,8100.0
+PRD200835,NES1634,Nescafe 100g,Beverages,bottles,20000,23000.0
+PRD200836,BIC3716,Bic Pen Blue,STATIONERY,kg,5000,7500.0
+PRD200837,ALW3132,Always Sanitary Pads,Percare,L,50000,90000.0
+PRD200838,COL7471,Colgate Toothpaste 100ml,Grains&Cereals,PCE,10000,11000.0
+PRD200839,MAI7023,Maize Grains 1kg,Grains,Litres,50000,65000.0
+PRD200840,KAB6278,Kabala Groundnuts 200g,Snacks,piece,1000,1500.0
+PRD200841,SUN5285,Sunlight Soap 800g,Grains,pcs,500,575.0
+PRD200842,EXE1581,Exercise Book 200pg,Stationary,ml,3000,3450.0
+PRD200843,MAR8621,Marlboro Biscuits,Sncks,piece,3000,3450.0
+PRD200844,NIC6369,Nice & Lovely Lotion 200ml,Grains & cereal,Pieces,1000,1300.0
+PRD200845,KAB1761,Kabwe Detergent 1kg,HOUSEHOLD,Pieces,1000,1800.0
+PRD200846,SIM3593,Sims Chips 150g,Sncks,Kilograms,4500,8100.0
+PRD200847,A49465,A4 Paper 500sh,Stationary,bottles,10000,11000.0
+PRD200848,MAT2492,Mathematical Set,HOUSEHOLD,liters,50000,57500.0
+PRD200849,KIM8592,Kimbo Fat 500g,Household,L,1000,1500.0
+PRD200850,NIL6018,Nile Beer 500ml,BEVERAGES,boxes,1000,1200.0
+PRD200851,MAT2644,Mathematical Set,Stationary,L,1000,1300.0
+PRD200852,ROB3063,Roberts Milk 1L,Bvages,bottles,3000,4500.0
+PRD200853,BAK5761,Baking Soda 500g,Household Items,pcs,2500,3125.0
+PRD200854,COL6707,Colgate Toothpaste 100ml,PersonalCare,kgs,4500,4950.0
+PRD200855,BAK5112,Baking Soda 500g,HOUSEHOLD,boxes,2500,2750.0
+PRD200856,KAB1178,Kabwe Detergent 1kg,Houshold,kgs,15000,19500.0
+PRD200857,MAR5032,Marlboro Biscuits,Snacks,KGS,500,625.0
+PRD200858,ALW6485,Always Sanitary Pads,PersonalCare,KGS,2000,2300.0
+PRD200859,RUL5219,Ruler 30cm,Grains,liters,5000,6000.0
+PRD200860,KRE7102,Krest Bitter Lemon,Beverages,piece,7500,9000.0
+PRD200861,SUN9769,Sunlight Soap 800g,Household Items,Kilograms,1000,1500.0
+PRD200862,RIC5391,Rice 1kg,Grains and Cereals,Pieces,15000,17250.0
+PRD200863,RIC9790,Rice 1kg,Grains & cereal,KGS,15000,27000.0
+PRD200864,SIM5047,Sims Chips 150g,Sncks,piece,2500,2875.0
+PRD200865,MAI5834,Maize Grains 1kg,Grains and Cereals,PCE,500,650.0
+PRD200866,KAK5418,Kakira Sugar 1kg,Grains & Cereals,PCE,1500,2700.0
+PRD200867,STA6883,Stabilo Highlighter,Grains and Cereals,g,3000,4500.0
+PRD200868,SUP3241,Supermatch Crisps,Snack,PCE,10000,12500.0
+PRD200869,NIC5762,Nice & Lovely Lotion 200ml,Household Items,ml,1500,2700.0
+PRD200870,IMP8066,Imperial Leather Soap,Personal care ,liters,1000,1800.0
+PRD200871,MAT7363,Mathematical Set,Stationary,Kilograms,7500,9375.0
+PRD200872,TWI7787,Twins Tea 250g,Beverage,L,1500,1950.0
+PRD200873,DET5146,Dettol Antiseptic 250ml,Personal care ,ml,1000,1300.0
+PRD200874,BEA5979,Beans 1kg,Grains,Litres,5000,6000.0
+PRD200875,MAT3415,Mathematical Set,Statio nery,boxes,4500,4036.94
+PRD200876,SIM4139,Sims Chips 150g,Sncks,kg,20000,30000.0
+PRD200877,SPR2894,Sprite 300ml,Bvages,kgs,500,650.0
+PRD200878,HEA7108,Head & Shoulders 400ml,PersonalCare,boxes,10000,18000.0
+PRD200879,VAS3738,Vaseline Petroleum Jelly,PERSONAL CARE,liters,2000,2500.0
+PRD200880,BRI2131,Britania Cream Cracker,SNACKS,Kilograms,10000,11500.0
+PRD200881,VAS1951,Vaseline Petroleum Jelly,PERSONAL CARE,kgs,35000,63000.0
+PRD200882,WHE4543,Wheat Flour 2kg,Grains & cereal,kilogram,500,550.0
+PRD200883,ROB1263,Roberts Milk 1L,Bvages,Kilograms,2500,4500.0
+PRD200884,BAK2408,Baking Soda 500g,Houshold,boxes,20000,36000.0
+PRD200885,PEP4886,Pepsi 500ml,Beverage,piece,3000,"3,600"
+PRD200886,TOI5141,Toilet Paper 4 Pack,Household Items,Litres,1000,"1,300"
+PRD200887,POR9243,Porridge Flour 500g,Grains and Cereals,L,10000,18000.0
+PRD200888,KAB6949,Kabala Groundnuts 200g,Snack,Kilograms,2500,3750.0
+PRD200889,NIC9375,Nice Biscuits 100g,Snacks,kilogram,7500,9000.0
+PRD200890,HEA4534,Head & Shoulders 400ml,PersonalCare,Litres,2000,2600.0
+PRD200891,RUL2185,Ruler 30cm,STATIONERY,Kilograms,35000,40250.0
+PRD200892,KIM7344,Kimbo Fat 500g,Statio nery,Kilograms,20000,"26,000"
+PRD200893,MAI1326,Maize Grains 1kg,Grains & Cereals,pcs,2500,3250.0
+PRD200894,JIK1915,Jik 1L,House hold,boxes,2500,3125.0
+PRD200895,POR3974,Porridge Flour 500g,Grains,boxes,1000,1250.0
+PRD200896,RIC8610,Rice 1kg,SNACKS,Kilograms,20000,30000.0
+PRD200897,BRI7362,Britania Cream Cracker,Snacks,KGS,7500,11250.0
+PRD200898,CAN9570,Candles 6 Pack,HOUSEHOLD,ml,10000,11500.0
+PRD200899,MOU9377,Mountain Gorilla Water 1L,Beverages,boxes,750,900.0
+PRD200900,TRO8886,Tropical Heat Nuts,Snacks,ml,500,750.0
+PRD200901,EXE7436,Exercise Book 200pg,STATIONERY,PCE,15000,18000.0
+PRD200902,ARR4449,Array Juice 250ml,Beverage,piece,750,937.5
+PRD200903,KAB2930,Kabwe Detergent 1kg,Personal Care,Pieces,50000,90000.0
+PRD200904,KAB2370,Kabala Groundnuts 200g,Snack,pcs,500,650.0
+PRD200905,STA6779,Stabilo Highlighter,STATIONERY,Litres,2000,2200.0
+PRD200906,IMP1124,Imperial Leather Soap,Personal care ,liters,7500,8250.0
+PRD200907,NES1772,Nescafe 100g,Stationery,piece,3000,3600.0
+PRD200908,RIC7718,Rice 1kg,Grains,pc,2000,3600.0
+PRD200909,DET6703,Dettol Antiseptic 250ml,PersonalCare,piece,2500,3000.0
+PRD200910,WHE7969,Wheat Flour 2kg,Grains & cereal,Litres,3000,3750.0
+PRD200911,ARR4195,Array Juice 250ml,Bevages,L,20000,22000.0
+PRD200912,KIM4150,Kimbo Fat 500g,HOUSEHOLD,boxes,10000,12000.0
+PRD200913,STA3109,Stabilo Highlighter,Statio nery,g,35000,43750.0
+PRD200914,TOI2795,Toilet Paper 4 Pack,Household,ml,15000,16500.0
+PRD200915,BRI9206,Britania Cream Cracker,SNACKS,Litres,10000,12500.0
+PRD200916,MAI3908,Maize Flour 2kg,Grains & cereal,g,500,550.0
+PRD200917,A42031,A4 Paper 500sh,Snacks,PCE,3000,3450.0
+PRD200918,SIM3513,Sims Chips 150g,SNACKS,Litres,1000,1800.0
+PRD200919,VAS4223,Vaseline Petroleum Jelly,PERSONAL CARE,piece,3000,5400.0
+PRD200920,STA9717,Stabilo Highlighter,STATIONERY,Pieces,7500,11250.0
+PRD200921,DET5928,Dettol Antiseptic 250ml,Snacks,bottles,2500,3750.0
+PRD200922,SUP4344,Supermatch Crisps,SNACKS,kilogram,50000,55000.0
+PRD200923,MAI5090,Maize Flour 2kg,Snack,KGS,3000,3750.0
+PRD200924,SUN4083,Sunlight Soap 800g,Household,boxes,750,UGX1125
+PRD200925,JIK2639,Jik 1L,HOUSEHOLD,pc,50000,62500.0
+PRD200926,JIK7965,Jik 1L,Grains,kgs,35000,UGX38500
+PRD200927,JIK8862,Jik 1L,House hold,ml,500,600.0
+PRD200928,KIM7983,Kimbo Fat 500g,Houshold,Kilograms,20000,24000.0
+PRD200929,KAB6138,Kabwe Detergent 1kg,Statio nery,pc,1500,1650.0
+PRD200930,MAT4127,Mathematical Set,Grains & cereal,kgs,7500,8625.0
+PRD200931,SIM5818,Sims Chips 150g,Houshold,piece,7500,9750.0
+PRD200932,SUN1810,Sunlight Soap 800g,Beverage,PCE,10000,12500.0
+PRD200933,WHE5790,Wheat Flour 2kg,Grains and Cereals,KGS,3000,3450.0
+PRD200934,DET2784,Dettol Antiseptic 250ml,Personal care ,bottles,35000,38500.0
+PRD200935,CAN8642,Candles 6 Pack,Houshold,piece,35000,42000.0
+PRD200936,SUN3983,Sunlight Soap 800g,House hold,L,35000,63000.0
+PRD200937,KAK9869,Kakira Sugar 1kg,Grains&Cereals,Litres,10000,13000.0
+PRD200938,MAT2939,Mathematical Set,Grains & Cereals,boxes,3000,3900.0
+PRD200939,CAN5371,Candles 6 Pack,House hold,KGS,15000,18750.0
+PRD200940,FAN4272,Fanta Orange 500ml,Beverage,liters,750,825.0
+PRD200941,STA5883,Stabilo Highlighter,SNACKS,ml,20000,36000.0
+PRD200942,MAI9743,Maize Flour 2kg,Statio nery,pc,15000,18000.0
+PRD200943,VAS9332,Vaseline Petroleum Jelly,PERSONAL CARE,PCE,500,575.0
+PRD200944,COC4637,Coca-Cola 500ml,Bevages,bottles,750,975.0
+PRD200945,ALW9351,Always Sanitary Pads,Percare,KGS,5000,3557.96
+PRD200946,BIC5258,Bic Pen Blue,STATIONERY,piece,1000,1800.0
+PRD200947,DET9963,Dettol Antiseptic 250ml,PERSONAL CARE,L,750,937.5
+PRD200948,KAB7387,Kabwe Detergent 1kg,Percare,liters,750,825.0
+PRD200949,BEA7487,Beans 1kg,Grains & cereal,g,2000,2500.0
+PRD200950,POR8103,Porridge Flour 500g,Personal Care,kg,35000,63000.0
+PRD200951,NIC3850,Nice & Lovely Lotion 200ml,PERSONAL CARE,g,7500,8625.0
+PRD200952,SPR9709,Sprite 300ml,Beverages,piece,2500,2875.0
+PRD200953,KAB2509,Kabala Groundnuts 200g,Snack,piece,7500,11250.0
+PRD200954,POR2530,Porridge Flour 500g,Grains&Cereals,Kilograms,35000,38500.0
+PRD200955,KAB5134,Kabwe Detergent 1kg,Houshold,Pieces,1000,1500.0
+PRD200956,TWI4488,Twins Tea 250g,Grains,L,5000,5500.0
+PRD200957,BEA2990,Beans 1kg,Grains & Cereals,Kilograms,4500,4950.0
+PRD200958,BRI5122,Britania Cream Cracker,Snacks,kg,2000,2600.0
+PRD200959,A42552,A4 Paper 500sh,Stationery,g,2000,2200.0
+PRD200960,A49006,A4 Paper 500sh,Snack,Kilograms,10000,15000.0
+PRD200961,MAR5801,Marlboro Biscuits,Sncks,KGS,3000,4500.0
+PRD200962,COL2375,Colgate Toothpaste 100ml,Personal care ,bottles,5000,6250.0
+PRD200963,HEA4293,Head & Shoulders 400ml,PERSONAL CARE,liters,1000,1200.0
+PRD200964,JIK3718,Jik 1L,Grains & Cereals,g,5000,9000.0
+PRD200965,KIM3625,Kimbo Fat 500g,Household Items,piece,4500,8100.0
+PRD200966,RUL4374,Ruler 30cm,Stationary,bottles,1000,1200.0
+PRD200967,A42869,A4 Paper 500sh,Statio nery,kg,2500,4500.0
+PRD200968,MUR1336,Muruchu Cooking Oil 3L,House hold,kg,5000,6250.0
+PRD200969,SIM7669,Sims Chips 150g,Snacks,piece,3000,4500.0
+PRD200970,POR8743,Porridge Flour 500g,Grains,Kilograms,4500,5175.0
+PRD200971,ALW3921,Always Sanitary Pads,Personal care ,PCE,4500,8100.0
+PRD200972,RUL5079,Ruler 30cm,STATIONERY,g,10000,12000.0
+PRD200973,PEP9692,Pepsi 500ml,Beverage,Kilograms,750,1125.0
+PRD200974,HEA2327,Head & Shoulders 400ml,PERSONAL CARE,L,1500,1800.0
+PRD200975,KAK1406,Kakira Sugar 1kg,Grains & cereal,kilogram,20000,36000.0
+PRD200976,RUL2820,Ruler 30cm,STATIONERY,kilogram,4500,8100.0
+PRD200977,COC8744,Coca-Cola 500ml,Stationary,bottles,7500,8250.0
+PRD200978,HEA3253,Head & Shoulders 400ml,Personal care ,liters,35000,UGX40250
+PRD200979,VAS8663,Vaseline Petroleum Jelly,PERSONAL CARE,kgs,1000,1200.0
+PRD200980,KAB8231,Kabala Groundnuts 200g,Snack,bottles,500,625.0
+PRD200981,TOI4977,Toilet Paper 4 Pack,Houshold,bottles,5000,6500.0
+PRD200982,ARR1529,Array Juice 250ml,Stationery,Pieces,750,1125.0
+PRD200983,KAB5957,Kabwe Detergent 1kg,Grains & cereal,kgs,1500,1725.0
+PRD200984,TWI5110,Twins Tea 250g,Beverages,Litres,4500,4950.0
+PRD200985,SPR4395,Sprite 300ml,Bevages,pc,50000,57500.0
+PRD200986,NIL6416,Nile Beer 500ml,Personal care ,PCE,4500,5175.0
+PRD200987,BAK1024,Baking Soda 500g,PERSONAL CARE,pcs,20000,30000.0
+PRD200988,NIC7217,Nice Biscuits 100g,Snacks,kg,1000,1800.0
+PRD200989,KAK8973,Kakira Sugar 1kg,Percare,Litres,15000,17250.0
+PRD200990,KAB3910,Kabwe Detergent 1kg,BEVERAGES,Pieces,35000,"UGX 52,500"
+PRD200991,KAB1743,Kabala Groundnuts 200g,Sncks,L,750,975.0
+PRD200992,RIC1063,Rice 1kg,Snacks,liters,2500,3000.0
+PRD200993,KAB3708,Kabwe Detergent 1kg,Houshold,g,1000,1500.0
+PRD200994,MAI3409,Maize Grains 1kg,Snacks,pcs,15000,17250.0
+PRD200995,RUL1071,Ruler 30cm,Stationary,piece,500,550.0
+PRD200996,COL3925,Colgate Toothpaste 100ml,PERSONAL CARE,PCE,20000,26000.0
+PRD200997,NIC8625,Nice & Lovely Lotion 200ml,Personal care ,Kilograms,15000,17250.0
+PRD200998,KAB4857,Kabwe Detergent 1kg,SNACKS,boxes,750,937.5
+PRD200999,RUL5151,Ruler 30cm,Grains & cereal,pcs,4500,5175.0
+PRD201000,VAS8347,Vaseline Petroleum Jelly,Personal Care,Pieces,2000,"2,200"
+PRD201001,BRI9509,Britania Cream Cracker,SNACKS,g,750,900.0
+PRD201002,BAK3482,Baking Soda 500g,Houshold,g,7500,11250.0
+PRD201003,A45593,A4 Paper 500sh,Stationary,liters,1500,1950.0
+PRD201004,POR4505,Porridge Flour 500g,Houshold,liters,2500,3250.0
+PRD201005,MAI7100,Maize Flour 2kg,Grains & Cereals,pcs,3000,5400.0
+PRD201006,SIM3267,Sims Chips 150g,SNACKS,pc,5000,5750.0
+PRD201007,MAI8364,Maize Grains 1kg,Grains&Cereals,bottles,3000,4500.0
+PRD201008,STA7024,Stabilo Highlighter,Stationery,Litres,7500,8250.0
+PRD201009,SOR9790,Sorghum 1kg,Personal Care,piece,20000,25000.0
+PRD201010,TOI7581,Toilet Paper 4 Pack,Grains,PCE,15000,18750.0
+PRD201011,NIC1257,Nice & Lovely Lotion 200ml,Personal care ,Litres,2500,2875.0
+PRD201012,TRO9713,Tropical Heat Nuts,Stationery,Litres,2000,2400.0
+PRD201013,NIC6568,Nice Biscuits 100g,Sncks,Kilograms,5000,5750.0
+PRD201014,FAN2503,Fanta Orange 500ml,Beverages,piece,2500,3250.0
+PRD201015,BRI8199,Britania Cream Cracker,Snack,Pieces,50000,62500.0
+PRD201016,MAI2794,Maize Flour 2kg,Houshold,pcs,15000,16500.0
+PRD201017,MAR8257,Marlboro Biscuits,SNACKS,kilogram,1500,1131.6
+PRD201018,IMP3196,Imperial Leather Soap,PersonalCare,Pieces,7500,9750.0
+PRD201019,NIL2033,Nile Beer 500ml,Beverages,Kilograms,1500,1875.0
+PRD201020,COL7688,Colgate Toothpaste 100ml,Personal care ,g,1000,1150.0
+PRD201021,COL2193,Colgate Toothpaste 100ml,Beverages,kg,15000,18000.0
+PRD201022,MAR2230,Marlboro Biscuits,Snack,PCE,15000,19500.0
+PRD201023,TOI2263,Toilet Paper 4 Pack,Household Items,Pieces,50000,57500.0
+PRD201024,NIL5684,Nile Beer 500ml,Bvages,Litres,5000,6250.0
+PRD201025,MAI2998,Maize Grains 1kg,STATIONERY,pc,3000,4500.0
+PRD201026,BAK4320,Baking Soda 500g,Household Items,kg,1000,1100.0
+PRD201027,SUP7429,Supermatch Crisps,Sncks,L,4500,5850.0
+PRD201028,EXE8748,Exercise Book 200pg,Stationery,Pieces,3000,3900.0
+PRD201029,HEA9853,Head & Shoulders 400ml,Snack,pcs,750,862.5
+PRD201030,MAT1793,Mathematical Set,Stationery,Pieces,15000,17250.0
+PRD201031,POR2270,Porridge Flour 500g,Grains & cereal,Litres,5000,6500.0
+PRD201032,ROB8511,Roberts Milk 1L,Beverages,bottles,5000,5750.0
+PRD201033,SPR4158,Sprite 300ml,Grains & Cereals,kgs,35000,63000.0
+PRD201034,NIC7667,Nice Biscuits 100g,Snack,liters,20000,36000.0
+PRD201035,CAN4910,Candles 6 Pack,Houshold,boxes,1500,2250.0
+PRD201036,TOI7894,Toilet Paper 4 Pack,House hold,PCE,1000,1500.0
+PRD201037,MAT1721,Mathematical Set,Statio nery,L,20000,36000.0
+PRD201038,POR4285,Porridge Flour 500g,Grains,kilogram,50000,60000.0
+PRD201039,SOR5290,Sorghum 1kg,Grains and Cereals,pc,15000,19500.0
+PRD201040,DET1158,Dettol Antiseptic 250ml,PersonalCare,bottles,15000,UGX19500
+PRD201041,HEA6997,Head & Shoulders 400ml,Personal care ,piece,2000,3600.0
+PRD201042,MUR3909,Muruchu Cooking Oil 3L,Houshold,pcs,2500,"2,750"
+PRD201043,WHE3766,Wheat Flour 2kg,Grains and Cereals,Kilograms,500,900.0
+PRD201044,A42787,A4 Paper 500sh,Stationery,kgs,15000,27000.0
+PRD201045,KAK4597,Kakira Sugar 1kg,Grains & cereal,g,1500,1800.0
+PRD201046,PEP7160,Pepsi 500ml,Beverage,Kilograms,1500,2700.0
+PRD201047,MUR5303,Muruchu Cooking Oil 3L,HOUSEHOLD,PCE,3000,5400.0
+PRD201048,KAB2623,Kabwe Detergent 1kg,Household,Kilograms,50000,90000.0
+PRD201049,KAK5529,Kakira Sugar 1kg,Grains & cereal,KGS,500,600.0
+PRD201050,DET8433,Dettol Antiseptic 250ml,Personal care ,L,2000,2500.0
+PRD201051,DET5840,Dettol Antiseptic 250ml,PERSONAL CARE,piece,1500,2700.0
+PRD201052,MAT7108,Mathematical Set,Statio nery,pc,15000,16500.0
+PRD201053,BAK3839,Baking Soda 500g,House hold,pcs,5000,4427.05
+PRD201054,BEL1739,Bell Lager,Bevages,KGS,4500,UGX5175
+PRD201055,BAK1760,Baking Soda 500g,Household,Litres,50000,62500.0
+PRD201056,SIM7753,Sims Chips 150g,SNACKS,pcs,35000,63000.0
+PRD201057,TOI6976,Toilet Paper 4 Pack,HOUSEHOLD,KGS,750,825.0
+PRD201058,RIC4630,Rice 1kg,Grains & Cereals,Litres,1000,1150.0
+PRD201059,COC2595,Coca-Cola 500ml,Beverage,ml,1000,1300.0
+PRD201060,NIL4855,Nile Beer 500ml,Grains & cereal,Pieces,7500,UGX9750
+PRD201061,RUL4947,Ruler 30cm,Statio nery,liters,750,862.5
+PRD201062,KRE1373,Krest Bitter Lemon,Houshold,piece,3000,3750.0
+PRD201063,DET7428,Dettol Antiseptic 250ml,Statio nery,kilogram,500,600.0
+PRD201064,KAB2949,Kabwe Detergent 1kg,Houshold,pc,15000,"19,500"
+PRD201065,TWI9523,Twins Tea 250g,Beverages,L,7500,13500.0
+PRD201066,BIC7907,Bic Pen Blue,Stationery,KGS,50000,57500.0
+PRD201067,KAK2039,Kakira Sugar 1kg,SNACKS,kgs,2000,1665.27
+PRD201068,COC8591,Coca-Cola 500ml,BEVERAGES,Litres,2000,2500.0
+PRD201069,BIC5619,Bic Pen Blue,Stationery,boxes,4500,8100.0
+PRD201070,A48330,A4 Paper 500sh,Household,kg,1000,1500.0
+PRD201071,BIC3563,Bic Pen Blue,STATIONERY,Pieces,3000,3300.0
+PRD201072,MAI8161,Maize Flour 2kg,Stationary,kg,15000,27000.0
+PRD201073,HEA4591,Head & Shoulders 400ml,PersonalCare,kgs,500,550.0
+PRD201074,SPR8718,Sprite 300ml,Houshold,PCE,50000,65000.0
+PRD201075,EXE8817,Exercise Book 200pg,Stationery,kilogram,5000,7500.0
+PRD201076,NIC4874,Nice Biscuits 100g,Snack,Litres,7500,9375.0
+PRD201077,NIL5838,Nile Beer 500ml,Household Items,boxes,500,900.0
+PRD201078,KAB3922,Kabala Groundnuts 200g,Snacks,KGS,10000,12500.0
+PRD201079,COL3587,Colgate Toothpaste 100ml,PERSONAL CARE,boxes,1000,1800.0
+PRD201080,EXE8890,Exercise Book 200pg,STATIONERY,Pieces,5000,6250.0
+PRD201081,SIM3931,Sims Chips 150g,Sncks,L,35000,45500.0
+PRD201082,HEA5979,Head & Shoulders 400ml,Percare,PCE,15000,11868.68
+PRD201083,RUL8952,Ruler 30cm,Grains&Cereals,kg,10000,UGX12000
+PRD201084,TWI7829,Twins Tea 250g,Stationery,pcs,20000,25000.0
+PRD201085,IMP2847,Imperial Leather Soap,Percare,PCE,20000,22000.0
+PRD201086,SIM5660,Sims Chips 150g,SNACKS,kgs,4500,5625.0
+PRD201087,RUL3012,Ruler 30cm,Stationary,PCE,1500,2250.0
+PRD201088,BAK2635,Baking Soda 500g,BEVERAGES,PCE,50000,57500.0
+PRD201089,CAN8529,Candles 6 Pack,Houshold,g,1000,1250.0
+PRD201090,KIM3903,Kimbo Fat 500g,Personal Care,KGS,10000,"UGX 13,000"
+PRD201091,SIM1049,Sims Chips 150g,Personal Care,Pieces,10000,"11,500"
+PRD201092,STA5416,Stabilo Highlighter,STATIONERY,kilogram,7500,11250.0
+PRD201093,BRI7362,Britania Creab Cracker,Sncks,kilogram,7500,11250.0
+PRD201094,BAK4699,Baking Sodau500g,Household Items,liters,10000,13000.0
+PRD201095,BAK5452,Baking Soda 500g 500ml,HOUSEHOLD,g,4500,5175.0
+PRD201096,KAK5418,Kakira Sugar 1kg (Large),Grains & cereal,Litres,1500,2700.0
+PRD201097,KAB6138,Kabwe Djtergent 1kg,Statio nery,Litres,1500,1650.0
+PRD201098,SPR6832,Sprite 300ml 500ml,Beverage,kilogram,50000,75000.0
+PRD201099,VAS5152,Vaseline Petroleum Jelly (Large),Bevages,boxes,2500,2750.0
+PRD201100,A48641,A4 Paper q00sh,STATIONERY,PCE,50000,65000.0
+PRD201101,KAK8849,Kakira Sufar 1kg,Grains and Cereals,piece,7500,8625.0
+PRD201102,HEA6713,Head & Shoulders 400hl,Grains and Cereals,Pieces,2500,"3,750"
+PRD201103,EXE3153,Exercise Book 20jpg,Stationery,g,1000,1150.0
+PRD201104,BIC3563,Bic Pen Blue 500ml,Stationery,boxes,3000,3300.0
+PRD201105,KAB5723,Kabwe Detergent 1kg XL,HOUSEHOLD,g,10000,15000.0
+PRD201106,BEA7056,Beans 1kg 1kg,Grains & Cereals,piece,7500,9000.0
+PRD201107,ARR9791,Array Juice 250ml XL,PersonalCare,bottles,15000,18750.0
+PRD201108,BRI5435,Britania Cream Cracker XL,Snacks,Pieces,20000,36000.0
+PRD201109,BEA7888,Beans 1fg,Personal care ,kilogram,4500,8100.0
+PRD201110,NIL6416,Nile Beer 500ml 500ml,Personal Care,pc,4500,5175.0
+PRD201111,BAK6463,Baking Soda 500g XL,Grains and Cereals,pcs,500,650.0
+PRD201112,SOR3203,Sorzhum 1kg,Grains & cereal,boxes,500,575.0
+PRD201113,VAS9927,Vaseline Petroleum Jegly,PersonalCare,piece,35000,63000.0
+PRD201114,BIC2164,Bic Pen Blue (Large),Stationary,Kilograms,4500,6750.0
+PRD201115,BRI1582,Britania Cream Cgacker,Snacks,g,2500,3000.0
+PRD201116,HEA1137,Head & Shouldersu400ml,PERSONAL CARE,PCE,15000,18000.0
+PRD201117,STA4013,Stabilo Highlighter 500ml,Grains and Cereals,kilogram,750,937.5
+PRD201118,SUP1244,Supenmatch Crisps,PersonalCare,bottles,4500,8100.0
+PRD201119,EXE1953,Exercyse Book 200pg,Statio nery,L,15000,18000.0
+PRD201120,A49133,A4 Paper 50nsh,Snack,PCE,50000,90000.0
+PRD201121,NIC4748,Nice Bdscuits 100g,Bevages,pc,500,900.0
+PRD201122,BRI3247,Britania Cream Cracker (Large),SNACKS,PCE,4500,6750.0
+PRD201123,TWI5110,Twins Tea 2c0g,BEVERAGES,bottles,4500,4950.0
+PRD201124,ARR5712,Array Juice 250ml 1kg,BEVERAGES,boxes,35000,43750.0
+PRD201125,MAR9662,Marlboro Biscuits 1kg,Grains & Cereals,kgs,1500,1950.0
+PRD201126,RUL4199,Ruler 3ncm,Stationary,bottles,2500,2875.0
+PRD201127,EXE1656,Exercise Book 200pg (Large),Grains&Cereals,bottles,1500,1950.0
+PRD201128,EXE1656,Exercise Book 200pg (Large) (Large),Grains,ml,1500,1950.0
+PRD201129,BEA5139,Beans xkg,Grains & cereal,kgs,15000,18000.0
+PRD201130,RUL2820,Ruler 30cm 500ml,STATIONERY,PCE,4500,8100.0
+PRD201131,KIM3903,Kimbo Fqt 500g,Percare,kilogram,10000,13000.0
+PRD201132,RIC1221,Rice 1kg 500ml,Grains & Cereals,bottles,2000,2400.0
+PRD201133,KAB9690,Kabwe Detergejt 1kg,STATIONERY,pc,500,650.0
+PRD201134,NIC1127,Nice & Lovely Lotion 200ml 500ml,Personal care ,piece,1000,1200.0
+PRD201135,BRI9690,Britania Cream Cracker XL,Sncks,piece,20000,23000.0
+PRD201136,SUP9576,Supermatch Crisvs,Snack,g,1500,2250.0
+PRD201137,DET5558,Dettol Antiseptic 25hml,Percare,pcs,10000,12500.0
+PRD201138,BIC5613,Bic Pen Blqe,STATIONERY,kgs,7500,5595.96
+PRD201139,SOR3340,Syrghum 1kg,Personal Care,kgs,20000,23000.0
+PRD201140,SUP7429,Supcrmatch Crisps,Snack,KGS,4500,5850.0
+PRD201141,MAI2272,Maize Grains ekg,Grains,Litres,20000,36000.0
+PRD201142,KAK2751,Kakvra Sugar 1kg,Grains,boxes,10000,12500.0
+PRD201143,BIC6598,Bic Pem Blue,Statio nery,kgs,20000,23000.0
+PRD201144,PEP7160,Pepli 500ml,BEVERAGES,pcs,1500,2700.0
+PRD201145,POR6624,Porridge Flour 500g (Large),Grains,Litres,15000,16500.0
+PRD201146,BIC6598,Bic Pex Blue,STATIONERY,piece,20000,23000.0
+PRD201147,KAB4738,Kabwe Detbrgent 1kg,Grains&Cereals,Litres,2000,2300.0
+PRD201148,NIC4748,Nice Biscuits 100g (Large),Bevages,g,500,900.0
+PRD201149,RUL5079,Ruldr 30cm,Stationary,pcs,10000,12000.0
+PRD201150,MAI3097,Maize Flour lkg,Grains,kilogram,20000,25000.0
+PRD201151,KAK9415,Kakira Sugar 1kg 1kg,Grains & cereal,KGS,20000,23000.0
+PRD201152,KAB7614,Kabwe Detergent 1kg 500ml,Sncks,bottles,1500,2250.0
+PRD201153,IMP3196,Imperial Lgather Soap,PersonalCare,L,7500,9750.0
+PRD201154,NIC4852,Nice & Lovely Lotiond200ml,Stationery,kg,50000,55000.0
+PRD201155,BEA7205,Beans 1kg 500ml,Grains and Cereals,pc,2500,2750.0
+PRD201156,MIN5556,Minute Maid 400ml 1kg,Beverage,ml,50000,90000.0
+PRD201157,BRI9459,Britvnia Cream Cracker,Household Items,ml,500,600.0
+PRD201158,KAK1406,Kakira Sugar 1kg (Large),Grains & Cereals,Kilograms,20000,36000.0
+PRD201159,DET5721,Dettol Antiseptic 250ml XL,Personal care ,Litres,500,550.0
+PRD201160,MUR4879,Muruihu Cooking Oil 3L,HOUSEHOLD,g,3000,3750.0
+PRD201161,EXE5984,Exeraise Book 200pg,Snack,L,35000,21927.6
+PRD201162,IMP9595,Imperial Leather Sgap,Personal care ,liters,15000,18000.0
+PRD201163,MAI1427,Maice Grains 1kg,Grains and Cereals,kgs,3000,3900.0
+PRD201164,BAK8803,Baking Soda 500g 500ml,Houshold,ml,15000,19500.0
+,,,,,,
+, ,,,,,
+,,,Unknown,,N/A,
+,,,Unknown,,N/A,N/A
+,,,Unknown,,,
+,,,,,,
+,,,,,,N/A
+,,,,,,
+,,,Unknown,,,
+,,,Unknown,,,
+,,,Unknown,,,
+,,,Unknown,,,
+,,,,,,
+, ,,,,,
+,,,,,N/A,N/A
+,,,,,,
+, ,,Unknown,,,
+, ,,,,,
+,,,,,N/A,
+,,,,,,N/A
+, ,,,,,
+, ,,,,,
+, ,,Unknown,,,N/A
+,,,,,,
+, ,,,,N/A,
+,,,Unknown,,N/A,
+, ,,,,,
+,,,,,,
+, ,,Unknown,,,N/A
+, ,,Unknown,,N/A,
+, ,,,,N/A,
+,,,Unknown,,,
+,,,,,,
+, ,,,,,
+,,,,,,
+,,,Unknown,,,

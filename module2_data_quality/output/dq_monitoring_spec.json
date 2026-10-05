@@ -1,0 +1,87 @@
+{
+  "spec_name": "SRG Continuous Data Quality Monitoring",
+  "schedule": "Daily 05:30 EAT after nightly ETL (plus intra-day for payments)",
+  "owner_role": "CDM Admin (IT Manager acts as interim Data Steward lead)",
+  "checks": [
+    {
+      "check_id": "DQC-01",
+      "metric": "Customer duplicate-person rate",
+      "measure": "(matched duplicate rows + open review rows) / total customers",
+      "alert_threshold": "> 1.0% daily; > 2.0% = P1 incident",
+      "escalation_role": "CRM Officer -> Data Governance Council (if > 2% for 3 days)",
+      "remediation_script": "python module2_data_quality/dq_assessment_cleansing.py --stage dedupe && open MDM review queue"
+    },
+    {
+      "check_id": "DQC-02",
+      "metric": "Phone E.164 validity rate",
+      "measure": "rows matching ^\\+2567\\d{8}$ / non-null phones",
+      "alert_threshold": "< 99.0%",
+      "escalation_role": "CRM Officer (entry-point fix) / IT Operations Lead (integration fix)",
+      "remediation_script": "python scripts/dq_check.py --metric phone_validity; re-run standardize_phone() backfill"
+    },
+    {
+      "check_id": "DQC-03",
+      "metric": "District resolution rate",
+      "measure": "rows resolving to official district list / non-null districts",
+      "alert_threshold": "< 99.5% or any new unresolved label pattern > 50 rows/day",
+      "escalation_role": "Data Steward (Marketing Officer)",
+      "remediation_script": "python module2_data_quality/dq_assessment_cleansing.py --stage profile; add alias to DISTRICT_VARIANTS after steward approval"
+    },
+    {
+      "check_id": "DQC-04",
+      "metric": "Core-field completeness (phone, email, district)",
+      "measure": "non-null % per field",
+      "alert_threshold": "phone < 92%; email < 85%; district < 99%",
+      "escalation_role": "CRM Officer -> Store Manager (data capture at POS)",
+      "remediation_script": "python scripts/dq_check.py --metric completeness; launch capture-form fix at offending stores"
+    },
+    {
+      "check_id": "DQC-05",
+      "metric": "Product UOM / category conformance",
+      "measure": "rows in controlled vocabulary / total products",
+      "alert_threshold": "< 99.0% (any new row entering non-conforming)",
+      "escalation_role": "Merchandising Officer",
+      "remediation_script": "python module2_data_quality/dq_assessment_cleansing.py --stage products; block non-conforming item setup in Odoo"
+    },
+    {
+      "check_id": "DQC-06",
+      "metric": "SKU uniqueness violations",
+      "measure": "count of SKUs mapped to >1 active product",
+      "alert_threshold": "> 0 (zero tolerance, nightly)",
+      "escalation_role": "Merchandising Officer -> IT Manager",
+      "remediation_script": "SQL: sku_collision_report.sql; quarantine batch and re-issue SKU"
+    },
+    {
+      "check_id": "DQC-07",
+      "metric": "ETL quarantine rate",
+      "measure": "quarantined rows / rows staged per nightly run",
+      "alert_threshold": "> 0.5% or > 100 rows in one run",
+      "escalation_role": "IT Operations Lead (2 on-call engineers)",
+      "remediation_script": "python module3_etl/srg_etl_pipeline.py --inspect-quarantine; fix source, replay from quarantine"
+    },
+    {
+      "check_id": "DQC-08",
+      "metric": "Mobile-money payment refs pending > 24h",
+      "measure": "count of MoMo/Airtel transactions with NULL payment_ref aged > 24h",
+      "alert_threshold": "> 0 daily; > 50 = P1 (revenue integrity)",
+      "escalation_role": "Finance Reconciliation Officer -> CFO",
+      "remediation_script": "SQL: reconcile_momo_pending.sql (match provider CSV downloads); auto-close or write off with approval"
+    },
+    {
+      "check_id": "DQC-09",
+      "metric": "Future-dated / unparseable registration dates",
+      "measure": "count of rows failing VR-005",
+      "alert_threshold": "> 0 per run",
+      "escalation_role": "CRM Officer",
+      "remediation_script": "python scripts/dq_check.py --metric dates; block offending registration form"
+    },
+    {
+      "check_id": "DQC-10",
+      "metric": "Margin-anomaly products (selling < cost)",
+      "measure": "count of active SKUs with selling_price < cost without promo flag",
+      "alert_threshold": "> 0 weekly review; > 25 rows = escalate",
+      "escalation_role": "Pricing Analyst -> Finance Manager",
+      "remediation_script": "SQL: margin_anomaly_report.sql; business decision - never auto-corrected by ETL"
+    }
+  ]
+}

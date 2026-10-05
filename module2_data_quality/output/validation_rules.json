@@ -1,0 +1,98 @@
+[
+  {
+    "rule_id": "VR-001",
+    "field": "customers.phone_number",
+    "type": "Technical",
+    "condition": "phone_number must match ^(\\+256|0)7[0-9]{8}$ after input-mask normalization",
+    "action_on_failure": "Block save; re-render input with +256 mask; log to dq_violation_log",
+    "severity": "High"
+  },
+  {
+    "rule_id": "VR-002",
+    "field": "customers.district",
+    "type": "Business",
+    "condition": "district must be a member of the official Uganda district reference list (dropdown only, free text disabled)",
+    "action_on_failure": "Block save; force selection from reference list; steward notified for legacy values",
+    "severity": "Medium"
+  },
+  {
+    "rule_id": "VR-003",
+    "field": "customers.email",
+    "type": "Technical",
+    "condition": "email IS NULL OR email ~ ^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,}$",
+    "action_on_failure": "Allow save but quarantine from campaign exports; nightly re-validation",
+    "severity": "Medium"
+  },
+  {
+    "rule_id": "VR-004",
+    "field": "customers.customer_id",
+    "type": "Technical",
+    "condition": "PRIMARY KEY: NOT NULL AND unique across operational + MDM stores",
+    "action_on_failure": "Reject insert; abort load batch; page on-call data engineer",
+    "severity": "Critical"
+  },
+  {
+    "rule_id": "VR-005",
+    "field": "customers.registration_date",
+    "type": "Business",
+    "condition": "registration_date <= CURRENT_DATE AND registration_date >= '2000-01-01' AND stored as ISO-8601",
+    "action_on_failure": "Block save (future/backdated signup); default to CURRENT_DATE on retry",
+    "severity": "High"
+  },
+  {
+    "rule_id": "VR-006",
+    "field": "customers.full_name",
+    "type": "Technical",
+    "condition": "TRIM(full_name) length >= 2 AND full_name ~ '^[A-Za-z .-]+$'",
+    "action_on_failure": "Block save; inline prompt (no single-letter placeholder names)",
+    "severity": "Medium"
+  },
+  {
+    "rule_id": "VR-007",
+    "field": "customers (golden record)",
+    "type": "Business",
+    "condition": "NORMALIZED(phone_number) unique across golden records OR record is in stewardship review queue",
+    "action_on_failure": "Route to MDM matching queue (auto-merge >= 90 score, else steward); block loyalty point posting until resolved",
+    "severity": "Critical"
+  },
+  {
+    "rule_id": "VR-008",
+    "field": "products.sku",
+    "type": "Technical",
+    "condition": "sku NOT NULL AND unique among active products (one SKU = one product name)",
+    "action_on_failure": "Reject insert; raise SKU-collision ticket to merchandising; quarantine batch",
+    "severity": "Critical"
+  },
+  {
+    "rule_id": "VR-009",
+    "field": "products.unit_of_measure",
+    "type": "Business",
+    "condition": "unit_of_measure IN ('kg','pcs','liters') - controlled vocabulary enforced at POS/e-commerce item setup",
+    "action_on_failure": "Block save; show UOM picker; existing violations auto-mapped by cleansing script",
+    "severity": "High"
+  },
+  {
+    "rule_id": "VR-010",
+    "field": "products.category",
+    "type": "Business",
+    "condition": "category IN master merchandise hierarchy (Beverages, Grains & Cereals, Snacks, Household, Personal Care, Stationery)",
+    "action_on_failure": "Block save; enforce hierarchy picker; fuzzy-matched values need steward approval",
+    "severity": "High"
+  },
+  {
+    "rule_id": "VR-011",
+    "field": "products.selling_price_ugx / cost_ugx",
+    "type": "Business",
+    "condition": "selling_price_ugx >= cost_ugx UNLESS promo_flag = TRUE AND promo_approved_by IS NOT NULL",
+    "action_on_failure": "Warn at entry; nightly margin-anomaly report to Pricing Analyst; never auto-correct",
+    "severity": "Medium"
+  },
+  {
+    "rule_id": "VR-012",
+    "field": "sales.payment_ref (Mobile Money)",
+    "type": "Business",
+    "condition": "payment_method IN ('MTN MoMo','Airtel Money') implies payment_ref populated within 24h of capture OR reconciliation_status = 'PENDING'",
+    "action_on_failure": "Permit capture offline (store outages) but quarantine transaction from revenue reports until ref arrives; escalate if aged > 24h",
+    "severity": "High"
+  }
+]
